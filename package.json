@@ -1,0 +1,28 @@
+{
+  "name": "sfpe-australia",
+  "version": "5.0.0",
+  "description": "Official WordPress theme and deployment pipeline for SFPE Australia (The Society of Fire Protection Engineers)",
+  "main": "scripts/deploy.js",
+  "scripts": {
+    "deploy": "node scripts/deploy.js",
+    "verify": "node scripts/verify.js",
+    "purge-cache": "node scripts/purge-cache.js",
+    "audit": "node scripts/audit.js",
+    "seed": "node scripts/seed-site.js",
+    "test": "npm run audit && npm run verify"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sfpe-australia/sfpe-website.git"
+  },
+  "keywords": [
+    "sfpe",
+    "sfpe-australia",
+    "fire-safety-engineering",
+    "fire-protection-engineering",
+    "wordpress-theme"
+  ],
+  "author": "SFPE Australia Chapter",
+  "license": "UNLICENSED",
+  "private": true
+}
