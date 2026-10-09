@@ -15,7 +15,7 @@ get_header(); ?>
         </a>
       </div>
 
-      <div style="background-color: var(--color-surface); border: 1px solid var(--color-border); border-radius: var(--radius-lg); padding: clamp(28px, 3.5vw, 44px); box-shadow: var(--shadow-sm); margin-bottom: 32px;">
+      <div class="content-card">
         <div style="display: flex; gap: 10px; margin-bottom: 16px; flex-wrap: wrap;">
           <span class="webinar-session-badge"><?php echo esc_html($session); ?></span>
           <span class="webinar-partner-pill"><?php echo esc_html($partner); ?></span>

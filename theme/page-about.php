@@ -17,7 +17,7 @@ get_header(); ?>
 <section class="section">
   <div class="container-narrow">
     <!-- Mission & Charter -->
-    <div style="background-color: var(--color-surface); border: 1px solid var(--color-border); border-radius: var(--radius-lg); padding: clamp(28px, 3.2vw, 44px); margin-bottom: 40px; box-shadow: var(--shadow-sm);">
+    <div class="content-card">
       <h2 style="font-size: clamp(22px, 1.8vw, 28px); color: var(--color-ink); margin-bottom: 16px;">Our Mission &amp; Approach</h2>
       <p style="font-size: 15.5px; color: var(--color-ink-muted); line-height: 1.7; margin-bottom: 26px;">
         As the local branch of the world leading professional society for fire protection engineering, SFPE Australia serves as a dedicated knowledge bridge:
@@ -57,7 +57,7 @@ get_header(); ?>
     </div>
 
     <!-- Chapter Executive & Committee Directory -->
-    <div style="background-color: var(--color-surface); border: 1px solid var(--color-border); border-radius: var(--radius-lg); padding: clamp(28px, 3.2vw, 44px); margin-bottom: 40px; box-shadow: var(--shadow-sm);">
+    <div class="content-card">
       <h2 style="font-size: clamp(22px, 1.8vw, 28px); color: var(--color-ink); margin-bottom: 14px;">Executive Committee &amp; Leadership</h2>
       <p style="font-size: 15px; color: var(--color-ink-muted); line-height: 1.65; margin-bottom: 26px;">
         SFPE Australia is governed by an executive committee representing fire safety consultancies, research institutions, and certified practitioners:
@@ -182,7 +182,7 @@ get_header(); ?>
     </div>
 
     <!-- Universities & Research Alliances -->
-    <div style="background-color: var(--color-surface); border: 1px solid var(--color-border); border-radius: var(--radius-lg); padding: clamp(28px, 3.2vw, 44px); box-shadow: var(--shadow-sm);">
+    <div class="content-card">
       <h2 style="font-size: clamp(22px, 1.8vw, 28px); color: var(--color-ink); margin-bottom: 14px;">Higher Education &amp; Research Alliances</h2>
       <p style="font-size: 15px; color: var(--color-ink-muted); line-height: 1.65; margin-bottom: 24px;">
         Strong partnerships with leading universities and research foundations form the foundation of our technical mission. Select an institution below to explore their research programs:

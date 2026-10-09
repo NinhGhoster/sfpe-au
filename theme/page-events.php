@@ -12,8 +12,8 @@ get_header(); ?>
       Official events calendar for the Australian Chapter of the Society of Fire Protection Engineers. Explore our upcoming seminar pipeline, joint society sessions with SFS and AIDGC, and trans-Tasman technical forums.
     </p>
 
-    <div style="background-color: var(--color-surface-alt); border: 1px solid var(--color-border); border-radius: var(--radius-md); padding: 22px 28px; display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 18px;">
-      <div>
+    <div class="cpd-banner">
+      <div class="cpd-banner-content">
         <strong style="color: var(--color-ink); display: block; font-size: 16px;">Continuing Professional Development (CPD)</strong>
         <span style="font-size: 14.5px; color: var(--color-ink-muted);">All SFPE Australia technical sessions qualify for self-reported CPD hours with Engineers Australia (EA) under Type II: Presentations and Seminars.</span>
       </div>
@@ -175,7 +175,7 @@ get_header(); ?>
     </div>
 
     <!-- The Discussant Model Explanation -->
-    <div style="margin-top: clamp(48px, 5vw, 72px); background-color: var(--color-surface); border: 1px solid var(--color-border); border-radius: var(--radius-lg); padding: clamp(28px, 3.2vw, 44px); box-shadow: var(--shadow-sm);">
+    <div class="content-card" style="margin-top: clamp(48px, 5vw, 72px);">
       <h3 style="font-size: clamp(22px, 1.8vw, 28px); color: var(--color-ink); margin-bottom: 14px;">The Discussant Model Explained</h3>
       <p style="font-size: 15.5px; color: var(--color-ink-muted); line-height: 1.65; margin-bottom: 18px;">
         Unlike standard webinars that simply stream international content, each SFPE Australia session employs a structured dual-speaker format:

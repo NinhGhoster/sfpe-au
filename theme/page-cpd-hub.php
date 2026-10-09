@@ -91,7 +91,7 @@ get_header(); ?>
     </div>
 
     <!-- Self-Reporting Guide -->
-    <div style="margin-top: clamp(48px, 5vw, 72px); background-color: var(--color-surface); border: 1px solid var(--color-border); border-radius: var(--radius-lg); padding: clamp(28px, 3.2vw, 44px); box-shadow: var(--shadow-sm);">
+    <div class="content-card" style="margin-top: clamp(48px, 5vw, 72px);">
       <h2 style="font-size: clamp(22px, 1.8vw, 28px); color: var(--color-ink); margin-bottom: 14px;">Engineers Australia CPD Self-Reporting Guidance</h2>
       <p style="font-size: 15.5px; color: var(--color-ink-muted); line-height: 1.65; margin-bottom: 22px;">
         SFPE Australia technical seminars qualify directly toward your 150-hour Engineers Australia CPD requirement over three years.

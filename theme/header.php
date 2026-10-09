@@ -23,8 +23,8 @@
         <span class="top-bar-badge">Australian Chapter</span>
         <span class="top-bar-text">The Society of Fire Protection Engineers (SFPE)</span>
       </div>
-      <div>
-        <a href="https://www.linkedin.com/company/sfpe-au/" target="_blank" rel="noopener" style="color: #CBD5E1; font-size: 13px; display: inline-flex; align-items: center; gap: 4px; padding: 4px 0;">
+      <div class="top-bar-linkedin-wrap">
+        <a href="https://www.linkedin.com/company/sfpe-au/" target="_blank" rel="noopener" class="top-bar-linkedin-link">
           LinkedIn &rarr;
         </a>
       </div>

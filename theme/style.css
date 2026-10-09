@@ -2,11 +2,11 @@
 Theme Name: SFPE Australia
 Theme URI: https://sfpe.org.au
 Description: Official theme for the Australian Chapter of the Society of Fire Protection Engineers (SFPE).
-Author: Ninh
-Author URI: https://sfpe.org.au
-Version: 5.2.1
-Text Domain: sfpe-australia
-*/
+ * Author: Ninh
+ * Author URI: https://sfpe.org.au
+ * Version: 5.3.0
+ * Text Domain: sfpe-australia
+ */
 
 :root {
   --color-navy: #0B132B;
@@ -55,7 +55,13 @@ Text Domain: sfpe-australia
 html, body {
   width: 100%;
   max-width: 100%;
-  overflow-x: hidden;
+  overflow-x: clip;
+}
+
+@supports not (overflow-x: clip) {
+  html, body {
+    overflow-x: hidden;
+  }
 }
 
 html {
@@ -72,7 +78,7 @@ body {
   position: relative;
 }
 
-img, picture, video, canvas, svg {
+img, picture, video, canvas, svg, iframe {
   display: block;
   max-width: 100%;
 }
@@ -160,6 +166,20 @@ a:hover {
   color: #CBD5E1;
 }
 
+.top-bar-linkedin-link {
+  color: #CBD5E1;
+  font-size: 13px;
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 4px 0;
+  transition: color 0.15s ease;
+}
+
+.top-bar-linkedin-link:hover {
+  color: #FFFFFF;
+}
+
 .nav-container {
   display: flex;
   justify-content: space-between;
@@ -176,7 +196,7 @@ a:hover {
   color: #FFFFFF;
   text-decoration: none;
   min-width: 0;
-  flex-shrink: 0;
+  flex-shrink: 1;
 }
 
 .brand-logo-img {
@@ -380,12 +400,14 @@ a:hover {
 }
 
 .hero-title {
-  font-size: clamp(36px, 4vw, 58px);
+  font-size: clamp(26px, 5.5vw, 56px);
   font-weight: 800;
   line-height: 1.15;
-  letter-spacing: -1.2px;
+  letter-spacing: -1px;
   color: #FFFFFF;
   margin-bottom: 24px;
+  overflow-wrap: break-word;
+  word-break: normal;
 }
 
 .hero-title span {
@@ -547,11 +569,12 @@ a:hover {
 }
 
 .section-title {
-  font-size: clamp(30px, 2.7vw, 44px);
-  letter-spacing: -0.8px;
+  font-size: clamp(22px, 3.8vw, 42px);
+  letter-spacing: -0.6px;
   margin-bottom: 16px;
   color: var(--color-ink);
   line-height: 1.2;
+  overflow-wrap: break-word;
 }
 
 .section-desc {
@@ -1307,6 +1330,33 @@ a:hover {
   line-height: 1.6;
 }
 
+/* Content Cards & Responsive Banners */
+.content-card {
+  background-color: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  padding: clamp(20px, 3.2vw, 44px);
+  box-shadow: var(--shadow-sm);
+  margin-bottom: 36px;
+}
+
+.cpd-banner {
+  background-color: var(--color-surface-alt);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  padding: clamp(16px, 2.4vw, 24px) clamp(16px, 2.8vw, 28px);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.cpd-banner-content {
+  flex: 1 1 300px;
+  min-width: 0;
+}
+
 /* CPD Hub & Resource Cards */
 .resource-grid {
   display: grid;
@@ -1648,35 +1698,118 @@ a:hover {
 }
 
 @media (max-width: 640px) {
+  .top-bar-linkedin-wrap {
+    display: none;
+  }
   .top-bar-content {
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 6px;
-    padding: 2px 0;
+    justify-content: center;
+    padding: 4px 0;
   }
   .top-bar-tagline {
+    justify-content: center;
     gap: 6px;
+    flex-wrap: wrap;
+    text-align: center;
+  }
+  .top-bar-badge {
+    font-size: 10px;
+    padding: 2px 8px;
   }
   .top-bar-text {
-    font-size: 12px;
-    line-height: 1.4;
+    font-size: 11.5px;
+    line-height: 1.35;
+    text-align: center;
   }
-}
-
-@media (max-width: 480px) {
   .brand-subtitle {
-    display: none;
+    display: none !important;
   }
   .brand-logo-img {
     height: 36px;
     padding: 3px 6px;
   }
-  .top-bar-badge {
-    font-size: 10px;
-    padding: 2px 7px;
+  .brand-title {
+    font-size: 18px;
+  }
+  .hero-eyebrow {
+    font-size: 11.5px;
+    padding: 6px 12px;
+    max-width: 100%;
+    border-radius: var(--radius-md);
+    line-height: 1.4;
+    text-align: center;
+    justify-content: center;
+  }
+  .content-card {
+    padding: 20px 16px;
+    border-radius: var(--radius-md);
+    margin-bottom: 24px;
+  }
+  .cpd-banner {
+    flex-direction: column;
+    align-items: stretch;
+    padding: 18px 16px;
+  }
+  .cpd-banner .btn {
+    width: 100%;
+    text-align: center;
+  }
+  .form-card {
+    padding: 22px 16px;
+    border-radius: var(--radius-md);
   }
   .partner-pill-badge {
     width: 100%;
     text-align: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero-section {
+    padding: 56px 0 64px;
+  }
+  .hero-card {
+    padding: 20px 16px;
+  }
+  .hero-card-icon {
+    width: 42px;
+    height: 42px;
+    font-size: 20px;
+  }
+  .hero-lead {
+    font-size: 15.5px;
+  }
+  .callout-box {
+    padding: 24px 16px;
+  }
+  .contrib-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 360px) {
+  .container, .container-narrow {
+    padding: 0 12px;
+  }
+  .stat-grid {
+    gap: 8px;
+  }
+  .stat-item {
+    padding: 12px 6px;
+  }
+  .stat-number {
+    font-size: 24px;
+  }
+  .stat-label {
+    font-size: 11px;
+  }
+  .top-bar-badge {
+    font-size: 9.5px;
+    padding: 1px 6px;
+  }
+  .top-bar-text {
+    font-size: 10.5px;
+  }
+  .brand-title {
+    font-size: 16px;
   }
 }
