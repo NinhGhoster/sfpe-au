@@ -8,7 +8,7 @@ This document provides definitive instructions, architectural standards, and str
 
 **SFPE Australia** is the official chartered Australian Chapter of **The Society of Fire Protection Engineers (SFPE)**.
 
-- **Live Staging Website**: [https://sfpe.xo.je/](https://sfpe.xo.je/)
+- **Live Staging Website**: [https://sfpe.org.au/](https://sfpe.org.au/)
 - **Core Strategic Positioning**:
   > *"SFPE Australia is the window between Australian practice and international fire safety engineering research and practice."*
 - **Role in the Ecosystem**:

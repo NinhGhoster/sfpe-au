@@ -128,7 +128,7 @@ function sfpe_handle_contact_submission() {
         // Committee notification recipient
         $to = get_option('admin_email');
         $subject = '[SFPE Australia] New Inquiry: ' . $topic . ' from ' . $name;
-        $body = "New submission via SFPE Australia Website (sfpe.xo.je):\n\n";
+        $body = "New submission via SFPE Australia Website (sfpe.org.au):\n\n";
         $body .= "Name: " . $name . "\n";
         $body .= "Email: " . $email . "\n";
         $body .= "Organization: " . $organization . "\n";

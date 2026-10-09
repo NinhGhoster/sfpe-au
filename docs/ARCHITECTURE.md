@@ -3,8 +3,8 @@
 ## Overview
 The **SFPE Australia** digital platform is an official, custom-engineered WordPress theme built specifically for the Australian Chapter of **The Society of Fire Protection Engineers (SFPE)**.
 
-- **Live Staging URL**: [https://sfpe.xo.je/](https://sfpe.xo.je/)
-- **Theme Name**: `sfpe-theme` (Version 5.0.0)
+- **Live Staging URL**: [https://sfpe.org.au/](https://sfpe.org.au/)
+- **Theme Name**: `sfpe-theme` (Version 5.2.0)
 - **Primary Font Stack**:
   - Headings: `Plus Jakarta Sans`, sans-serif
   - Body: `Public Sans`, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif
@@ -22,7 +22,7 @@ The **SFPE Australia** digital platform is an official, custom-engineered WordPr
 
 ```mermaid
 flowchart TD
-    Site["SFPE Australia (sfpe.xo.je)"]
+    Site["SFPE Australia (sfpe.org.au)"]
     Home["/ (Home)"]
     About["/about/ (About Us)"]
     Webinars["/webinars/ (Webinar Program)"]

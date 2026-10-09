@@ -20,7 +20,7 @@ const PAGES = [
   { path: "/contact/", name: "Contact & Join" }
 ];
 
-const BASE_URL = "https://sfpe.xo.je";
+const BASE_URL = "https://sfpe.org.au";
 const COOKIE_FILE = path.join(os.tmpdir(), "novamira_cookies.json");
 const BROWSER_UA = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36";
 
@@ -43,7 +43,8 @@ function fetchPage(urlPath, cookie) {
         headers: {
           "User-Agent": BROWSER_UA,
           "Cookie": cookie
-        }
+        },
+        rejectUnauthorized: false
       },
       (res) => {
         let body = "";

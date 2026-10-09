@@ -8,7 +8,8 @@ function runPhp(code, description) {
   const result = cp.execSync("novamira run --yes novamira/execute-php --input - --json", {
     input,
     encoding: "utf8",
-    maxBuffer: 10 * 1024 * 1024
+    maxBuffer: 10 * 1024 * 1024,
+    env: { ...process.env, NODE_TLS_REJECT_UNAUTHORIZED: "0" }
   });
   const parsed = JSON.parse(result);
   if (!parsed.ok || !parsed.data.success) {
