@@ -93,6 +93,11 @@ function deployTheme() {
       if (file_exists($path)) $written++;
     }
 
+    // Copy favicon.ico to WordPress web root for direct browser requests
+    if (isset($files['favicon.ico'])) {
+      file_put_contents(ABSPATH . '/favicon.ico', base64_decode($files['favicon.ico']));
+    }
+
     // Ensure theme is active
     if (get_stylesheet() !== 'sfpe-theme') {
       switch_theme('sfpe-theme');
