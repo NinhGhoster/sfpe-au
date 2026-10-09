@@ -31,12 +31,63 @@ get_header(); ?>
         <span style="font-size: 13.5px; color: var(--color-ink-subtle);">Times shown in Australian Eastern Time (AEST/AEDT, Melbourne).</span>
       </div>
       <div class="calendar-actions-group">
-        <a href="https://calendar.google.com/calendar/render?cid=dcc7f5705aadfb7ee6005d2bece1f873f5320485858565a7ff263c1c45d2ef33%40group.calendar.google.com" target="_blank" rel="noopener" class="calendar-btn calendar-btn-primary" title="Add SFPE Australia Calendar to Google Calendar">
-          &#43; Add to Google Calendar
-        </a>
-        <a href="https://calendar.google.com/calendar/ical/dcc7f5705aadfb7ee6005d2bece1f873f5320485858565a7ff263c1c45d2ef33%40group.calendar.google.com/public/basic.ics" class="calendar-btn calendar-btn-secondary" title="Download iCalendar file to sync with Outlook or Apple Calendar">
-          &#128197; Subscribe via iCal (.ics)
-        </a>
+        <!-- Multi-Calendar Dropdown -->
+        <div class="calendar-dropdown-wrap" id="calDropdownWrap">
+          <button type="button" class="calendar-dropdown-btn" id="calDropdownBtn" aria-haspopup="true" aria-expanded="false">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>
+            Add to Calendar
+            <span class="calendar-dropdown-chevron">&#9662;</span>
+          </button>
+          <div class="calendar-dropdown-menu" id="calDropdownMenu" role="menu">
+            <a href="https://calendar.google.com/calendar/render?cid=dcc7f5705aadfb7ee6005d2bece1f873f5320485858565a7ff263c1c45d2ef33%40group.calendar.google.com" target="_blank" rel="noopener" class="calendar-dropdown-item" role="menuitem">
+              <span class="calendar-dropdown-icon">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#1967D2" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>
+              </span>
+              <span class="calendar-dropdown-details">
+                <span class="calendar-dropdown-title">Google Calendar</span>
+                <span class="calendar-dropdown-desc">Web, Android &amp; Google Workspace</span>
+              </span>
+            </a>
+            <a href="webcal://calendar.google.com/calendar/ical/dcc7f5705aadfb7ee6005d2bece1f873f5320485858565a7ff263c1c45d2ef33%40group.calendar.google.com/public/basic.ics" class="calendar-dropdown-item" role="menuitem">
+              <span class="calendar-dropdown-icon">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="#0F172A"><path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.81-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M15.97 6.37c.62-.75 1.04-1.8 0.92-2.85-.9.04-1.99.6-2.63 1.35-.57.65-1.06 1.71-.93 2.73 1.01.08 2.02-.48 2.64-1.23z"/></svg>
+              </span>
+              <span class="calendar-dropdown-details">
+                <span class="calendar-dropdown-title">Apple Calendar</span>
+                <span class="calendar-dropdown-desc">Mac, iPhone &amp; iPad auto-sync</span>
+              </span>
+            </a>
+            <a href="https://outlook.office.com/calendar/0/addcalendar?url=https%3A%2F%2Fcalendar.google.com%2Fcalendar%2Fical%2Fdcc7f5705aadfb7ee6005d2bece1f873f5320485858565a7ff263c1c45d2ef33%40group.calendar.google.com%2Fpublic%2Fbasic.ics&name=SFPE%20Australia%20Events" target="_blank" rel="noopener" class="calendar-dropdown-item" role="menuitem">
+              <span class="calendar-dropdown-icon">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none"><rect x="2" y="2" width="9" height="9" fill="#F25022"/><rect x="13" y="2" width="9" height="9" fill="#7FBA00"/><rect x="2" y="13" width="9" height="9" fill="#00A4EF"/><rect x="13" y="13" width="9" height="9" fill="#FFB900"/></svg>
+              </span>
+              <span class="calendar-dropdown-details">
+                <span class="calendar-dropdown-title">Outlook 365 (Web)</span>
+                <span class="calendar-dropdown-desc">Corporate &amp; university accounts</span>
+              </span>
+            </a>
+            <a href="https://outlook.live.com/calendar/0/addcalendar?url=https%3A%2F%2Fcalendar.google.com%2Fcalendar%2Fical%2Fdcc7f5705aadfb7ee6005d2bece1f873f5320485858565a7ff263c1c45d2ef33%40group.calendar.google.com%2Fpublic%2Fbasic.ics&name=SFPE%20Australia%20Events" target="_blank" rel="noopener" class="calendar-dropdown-item" role="menuitem">
+              <span class="calendar-dropdown-icon">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none"><rect x="2" y="2" width="9" height="9" fill="#F25022"/><rect x="13" y="2" width="9" height="9" fill="#7FBA00"/><rect x="2" y="13" width="9" height="9" fill="#00A4EF"/><rect x="13" y="13" width="9" height="9" fill="#FFB900"/></svg>
+              </span>
+              <span class="calendar-dropdown-details">
+                <span class="calendar-dropdown-title">Outlook.com (Personal)</span>
+                <span class="calendar-dropdown-desc">Personal Microsoft &amp; Live accounts</span>
+              </span>
+            </a>
+            <div class="calendar-dropdown-divider"></div>
+            <a href="https://calendar.google.com/calendar/ical/dcc7f5705aadfb7ee6005d2bece1f873f5320485858565a7ff263c1c45d2ef33%40group.calendar.google.com/public/basic.ics" class="calendar-dropdown-item" role="menuitem">
+              <span class="calendar-dropdown-icon">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#B45309" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+              </span>
+              <span class="calendar-dropdown-details">
+                <span class="calendar-dropdown-title">iCalendar File (.ics)</span>
+                <span class="calendar-dropdown-desc">Universal file for any calendar client</span>
+              </span>
+            </a>
+          </div>
+        </div>
+
         <a href="https://calendar.google.com/calendar/embed?src=dcc7f5705aadfb7ee6005d2bece1f873f5320485858565a7ff263c1c45d2ef33%40group.calendar.google.com&ctz=Australia%2FMelbourne" target="_blank" rel="noopener" class="calendar-btn calendar-btn-secondary" title="Open Calendar in Full Window">
           &#8599; Open Web View
         </a>
@@ -45,6 +96,78 @@ get_header(); ?>
 
     <div class="calendar-embed-container">
       <iframe src="https://calendar.google.com/calendar/embed?src=dcc7f5705aadfb7ee6005d2bece1f873f5320485858565a7ff263c1c45d2ef33%40group.calendar.google.com&ctz=Australia%2FMelbourne" style="border: 0" width="100%" height="600" frameborder="0" scrolling="no"></iframe>
+    </div>
+
+    <!-- Multi-Platform Synchronization Guide -->
+    <div class="cal-sync-section">
+      <div class="cal-sync-header">
+        <h2 class="cal-sync-title">Subscribe &amp; Sync to Your Calendar</h2>
+        <p class="cal-sync-subtitle">Add the SFPE Australia chapter calendar to your calendar application for automatic event updates, webinar reminders, and CPD scheduling.</p>
+      </div>
+
+      <div class="cal-sync-grid">
+        <!-- Google Calendar Card -->
+        <div class="cal-sync-card">
+          <div class="cal-sync-card-top">
+            <span class="cal-sync-badge cal-sync-badge-google">&#9679; Google</span>
+            <h3 class="cal-sync-card-title">Google Calendar</h3>
+            <p class="cal-sync-card-desc">Sync directly with your Google account. All seminar updates, speaker pairings, and schedule announcements reflect automatically in your view.</p>
+          </div>
+          <div class="cal-sync-actions">
+            <a href="https://calendar.google.com/calendar/render?cid=dcc7f5705aadfb7ee6005d2bece1f873f5320485858565a7ff263c1c45d2ef33%40group.calendar.google.com" target="_blank" rel="noopener" class="cal-sync-btn cal-sync-btn-primary">
+              &#43; Add to Google Calendar
+            </a>
+          </div>
+        </div>
+
+        <!-- Apple Calendar Card -->
+        <div class="cal-sync-card">
+          <div class="cal-sync-card-top">
+            <span class="cal-sync-badge cal-sync-badge-apple">&#9679; Apple</span>
+            <h3 class="cal-sync-card-title">Apple Calendar</h3>
+            <p class="cal-sync-card-desc">One-tap subscription for macOS, iOS, and iPadOS devices. Subscribing via webcal creates an internet calendar that syncs automatically across your Apple ecosystem.</p>
+          </div>
+          <div class="cal-sync-actions">
+            <a href="webcal://calendar.google.com/calendar/ical/dcc7f5705aadfb7ee6005d2bece1f873f5320485858565a7ff263c1c45d2ef33%40group.calendar.google.com/public/basic.ics" class="cal-sync-btn cal-sync-btn-primary">
+              &#43; Subscribe on Apple
+            </a>
+          </div>
+        </div>
+
+        <!-- Microsoft Outlook Card -->
+        <div class="cal-sync-card">
+          <div class="cal-sync-card-top">
+            <span class="cal-sync-badge cal-sync-badge-ms">&#9679; Microsoft</span>
+            <h3 class="cal-sync-card-title">Microsoft Outlook</h3>
+            <p class="cal-sync-card-desc">Designed for engineering consultancies and universities utilizing Microsoft 365, as well as personal Outlook.com and Windows desktop installations.</p>
+          </div>
+          <div class="cal-sync-actions">
+            <a href="https://outlook.office.com/calendar/0/addcalendar?url=https%3A%2F%2Fcalendar.google.com%2Fcalendar%2Fical%2Fdcc7f5705aadfb7ee6005d2bece1f873f5320485858565a7ff263c1c45d2ef33%40group.calendar.google.com%2Fpublic%2Fbasic.ics&name=SFPE%20Australia%20Events" target="_blank" rel="noopener" class="cal-sync-btn cal-sync-btn-primary">
+              Outlook 365 (Work/School)
+            </a>
+            <a href="https://outlook.live.com/calendar/0/addcalendar?url=https%3A%2F%2Fcalendar.google.com%2Fcalendar%2Fical%2Fdcc7f5705aadfb7ee6005d2bece1f873f5320485858565a7ff263c1c45d2ef33%40group.calendar.google.com%2Fpublic%2Fbasic.ics&name=SFPE%20Australia%20Events" target="_blank" rel="noopener" class="cal-sync-btn cal-sync-btn-secondary">
+              Outlook.com (Personal)
+            </a>
+          </div>
+        </div>
+
+        <!-- Universal iCal Card -->
+        <div class="cal-sync-card">
+          <div class="cal-sync-card-top">
+            <span class="cal-sync-badge cal-sync-badge-ical">&#9679; Universal</span>
+            <h3 class="cal-sync-card-title">iCalendar (.ics)</h3>
+            <p class="cal-sync-card-desc">Download the universal .ics calendar file for offline import, or copy the live subscription feed URL into Thunderbird or any compatible application.</p>
+          </div>
+          <div class="cal-sync-actions">
+            <a href="https://calendar.google.com/calendar/ical/dcc7f5705aadfb7ee6005d2bece1f873f5320485858565a7ff263c1c45d2ef33%40group.calendar.google.com/public/basic.ics" class="cal-sync-btn cal-sync-btn-primary">
+              Download .ics File
+            </a>
+            <button type="button" class="cal-sync-btn cal-sync-btn-secondary cal-copy-url-btn" id="copyFeedBtn" data-feed-url="https://calendar.google.com/calendar/ical/dcc7f5705aadfb7ee6005d2bece1f873f5320485858565a7ff263c1c45d2ef33%40group.calendar.google.com/public/basic.ics">
+              &#128203; Copy Feed URL
+            </button>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </section>
@@ -148,5 +271,67 @@ get_header(); ?>
     </div>
   </div>
 </section>
+
+<!-- Toast Notification for Copy Feedback -->
+<div id="calCopyToast" class="cal-copy-toast" role="status" aria-live="polite">
+  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#22C55E" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+  Calendar feed URL copied to clipboard!
+</div>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  var dropdownWrap = document.getElementById('calDropdownWrap');
+  var dropdownBtn = document.getElementById('calDropdownBtn');
+  var copyBtn = document.getElementById('copyFeedBtn');
+  var toast = document.getElementById('calCopyToast');
+
+  if (dropdownBtn && dropdownWrap) {
+    dropdownBtn.addEventListener('click', function(e) {
+      e.stopPropagation();
+      var isOpen = dropdownWrap.classList.toggle('open');
+      dropdownBtn.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
+    });
+
+    document.addEventListener('click', function(e) {
+      if (!dropdownWrap.contains(e.target)) {
+        dropdownWrap.classList.remove('open');
+        dropdownBtn.setAttribute('aria-expanded', 'false');
+      }
+    });
+
+    document.addEventListener('keydown', function(e) {
+      if (e.key === 'Escape' && dropdownWrap.classList.contains('open')) {
+        dropdownWrap.classList.remove('open');
+        dropdownBtn.setAttribute('aria-expanded', 'false');
+        dropdownBtn.focus();
+      }
+    });
+  }
+
+  if (copyBtn && toast) {
+    copyBtn.addEventListener('click', function() {
+      var url = copyBtn.getAttribute('data-feed-url');
+      if (navigator.clipboard && navigator.clipboard.writeText) {
+        navigator.clipboard.writeText(url).then(showToast);
+      } else {
+        var tempInput = document.createElement('input');
+        tempInput.value = url;
+        document.body.appendChild(tempInput);
+        tempInput.select();
+        document.execCommand('copy');
+        document.body.removeChild(tempInput);
+        showToast();
+      }
+    });
+
+    function showToast() {
+      toast.classList.add('show');
+      setTimeout(function() {
+        toast.classList.remove('show');
+      }, 3000);
+    }
+  }
+});
+</script>
 
 <?php get_footer(); ?>

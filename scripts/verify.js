@@ -85,6 +85,10 @@ async function verifyAll() {
           pageSpecificCheck = false;
           console.log(`       - Error: Missing Google Calendar embed in /events/`);
         }
+        if (!res.body.includes("webcal://") || !res.body.includes("outlook.office.com")) {
+          pageSpecificCheck = false;
+          console.log(`       - Error: Missing multi-calendar support links (Apple webcal / Outlook 365) in /events/`);
+        }
       }
       if (page.path === "/about/") {
         if (!res.body.includes("uq-logo.svg") || !res.body.includes("rmit-logo.svg")) {
