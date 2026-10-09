@@ -48,9 +48,8 @@ function deployTheme() {
     process.exit(1);
   }
 
-  // Collect theme files
   const rootFiles = fs.readdirSync(THEME_DIR).filter((f) => {
-    return f.endsWith(".php") || f.endsWith(".css");
+    return f.endsWith(".php") || f.endsWith(".css") || f.endsWith(".ico") || f.endsWith(".png");
   });
 
   const imagesDir = path.join(THEME_DIR, "images");

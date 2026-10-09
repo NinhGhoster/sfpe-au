@@ -8,7 +8,7 @@
     <div class="footer-grid">
       <div>
         <div style="display: flex; align-items: center; gap: 12px; margin-bottom: 18px;">
-          <img src="<?php echo esc_url(get_template_directory_uri() . '/images/sfpe-australia-logo.png'); ?>" alt="SFPE Australia Chapter Logo" style="height: 42px; width: auto; background-color: #FFFFFF; padding: 4px 8px; border-radius: 4px;">
+          <img src="<?php echo esc_url(get_template_directory_uri() . '/images/sfpe-australia-logo.png'); ?>" alt="SFPE Australia Chapter Logo" class="footer-brand-logo" width="750" height="465">
           <div style="display: flex; flex-direction: column;">
             <span style="font-size: 19px; font-weight: 800; color: #FFFFFF; line-height: 1.15;">SFPE Australia</span>
             <span style="font-size: 11px; color: #94A3B8; text-transform: uppercase; font-weight: 600;">Society of Fire Protection Engineers</span>

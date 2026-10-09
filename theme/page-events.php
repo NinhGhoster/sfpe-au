@@ -85,6 +85,15 @@ get_header(); ?>
                 <span class="calendar-dropdown-desc">Universal file for any calendar client</span>
               </span>
             </a>
+            <button type="button" class="calendar-dropdown-item calendar-dropdown-copy-btn" id="copyFeedBtn" data-feed-url="https://calendar.google.com/calendar/ical/dcc7f5705aadfb7ee6005d2bece1f873f5320485858565a7ff263c1c45d2ef33%40group.calendar.google.com/public/basic.ics" role="menuitem">
+              <span class="calendar-dropdown-icon">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#0072BB" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+              </span>
+              <span class="calendar-dropdown-details">
+                <span class="calendar-dropdown-title">Copy Feed URL</span>
+                <span class="calendar-dropdown-desc">Copy iCal subscription URL</span>
+              </span>
+            </button>
           </div>
         </div>
 
@@ -96,78 +105,6 @@ get_header(); ?>
 
     <div class="calendar-embed-container">
       <iframe src="https://calendar.google.com/calendar/embed?src=dcc7f5705aadfb7ee6005d2bece1f873f5320485858565a7ff263c1c45d2ef33%40group.calendar.google.com&ctz=Australia%2FMelbourne" style="border: 0" width="100%" height="600" frameborder="0" scrolling="no"></iframe>
-    </div>
-
-    <!-- Multi-Platform Synchronization Guide -->
-    <div class="cal-sync-section">
-      <div class="cal-sync-header">
-        <h2 class="cal-sync-title">Subscribe &amp; Sync to Your Calendar</h2>
-        <p class="cal-sync-subtitle">Add the SFPE Australia chapter calendar to your calendar application for automatic event updates, webinar reminders, and CPD scheduling.</p>
-      </div>
-
-      <div class="cal-sync-grid">
-        <!-- Google Calendar Card -->
-        <div class="cal-sync-card">
-          <div class="cal-sync-card-top">
-            <span class="cal-sync-badge cal-sync-badge-google">&#9679; Google</span>
-            <h3 class="cal-sync-card-title">Google Calendar</h3>
-            <p class="cal-sync-card-desc">Sync directly with your Google account. All seminar updates, speaker pairings, and schedule announcements reflect automatically in your view.</p>
-          </div>
-          <div class="cal-sync-actions">
-            <a href="https://calendar.google.com/calendar/render?cid=dcc7f5705aadfb7ee6005d2bece1f873f5320485858565a7ff263c1c45d2ef33%40group.calendar.google.com" target="_blank" rel="noopener" class="cal-sync-btn cal-sync-btn-primary">
-              &#43; Add to Google Calendar
-            </a>
-          </div>
-        </div>
-
-        <!-- Apple Calendar Card -->
-        <div class="cal-sync-card">
-          <div class="cal-sync-card-top">
-            <span class="cal-sync-badge cal-sync-badge-apple">&#9679; Apple</span>
-            <h3 class="cal-sync-card-title">Apple Calendar</h3>
-            <p class="cal-sync-card-desc">One-tap subscription for macOS, iOS, and iPadOS devices. Subscribing via webcal creates an internet calendar that syncs automatically across your Apple ecosystem.</p>
-          </div>
-          <div class="cal-sync-actions">
-            <a href="webcal://calendar.google.com/calendar/ical/dcc7f5705aadfb7ee6005d2bece1f873f5320485858565a7ff263c1c45d2ef33%40group.calendar.google.com/public/basic.ics" class="cal-sync-btn cal-sync-btn-primary">
-              &#43; Subscribe on Apple
-            </a>
-          </div>
-        </div>
-
-        <!-- Microsoft Outlook Card -->
-        <div class="cal-sync-card">
-          <div class="cal-sync-card-top">
-            <span class="cal-sync-badge cal-sync-badge-ms">&#9679; Microsoft</span>
-            <h3 class="cal-sync-card-title">Microsoft Outlook</h3>
-            <p class="cal-sync-card-desc">Designed for engineering consultancies and universities utilizing Microsoft 365, as well as personal Outlook.com and Windows desktop installations.</p>
-          </div>
-          <div class="cal-sync-actions">
-            <a href="https://outlook.office.com/calendar/0/addcalendar?url=https%3A%2F%2Fcalendar.google.com%2Fcalendar%2Fical%2Fdcc7f5705aadfb7ee6005d2bece1f873f5320485858565a7ff263c1c45d2ef33%40group.calendar.google.com%2Fpublic%2Fbasic.ics&name=SFPE%20Australia%20Events" target="_blank" rel="noopener" class="cal-sync-btn cal-sync-btn-primary">
-              Outlook 365 (Work/School)
-            </a>
-            <a href="https://outlook.live.com/calendar/0/addcalendar?url=https%3A%2F%2Fcalendar.google.com%2Fcalendar%2Fical%2Fdcc7f5705aadfb7ee6005d2bece1f873f5320485858565a7ff263c1c45d2ef33%40group.calendar.google.com%2Fpublic%2Fbasic.ics&name=SFPE%20Australia%20Events" target="_blank" rel="noopener" class="cal-sync-btn cal-sync-btn-secondary">
-              Outlook.com (Personal)
-            </a>
-          </div>
-        </div>
-
-        <!-- Universal iCal Card -->
-        <div class="cal-sync-card">
-          <div class="cal-sync-card-top">
-            <span class="cal-sync-badge cal-sync-badge-ical">&#9679; Universal</span>
-            <h3 class="cal-sync-card-title">iCalendar (.ics)</h3>
-            <p class="cal-sync-card-desc">Download the universal .ics calendar file for offline import, or copy the live subscription feed URL into Thunderbird or any compatible application.</p>
-          </div>
-          <div class="cal-sync-actions">
-            <a href="https://calendar.google.com/calendar/ical/dcc7f5705aadfb7ee6005d2bece1f873f5320485858565a7ff263c1c45d2ef33%40group.calendar.google.com/public/basic.ics" class="cal-sync-btn cal-sync-btn-primary">
-              Download .ics File
-            </a>
-            <button type="button" class="cal-sync-btn cal-sync-btn-secondary cal-copy-url-btn" id="copyFeedBtn" data-feed-url="https://calendar.google.com/calendar/ical/dcc7f5705aadfb7ee6005d2bece1f873f5320485858565a7ff263c1c45d2ef33%40group.calendar.google.com/public/basic.ics">
-              &#128203; Copy Feed URL
-            </button>
-          </div>
-        </div>
-      </div>
     </div>
   </div>
 </section>
@@ -243,7 +180,7 @@ get_header(); ?>
       <p style="font-size: 15.5px; color: var(--color-ink-muted); line-height: 1.65; margin-bottom: 18px;">
         Unlike standard webinars that simply stream international content, each SFPE Australia session employs a structured dual-speaker format:
       </p>
-      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px;">
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 260px), 1fr)); gap: 20px;">
         <div style="background-color: var(--color-surface-alt); padding: 20px; border-radius: var(--radius-md);">
           <strong style="color: var(--color-blue); display: block; font-size: 16px; margin-bottom: 6px;">1. International Presenter</strong>
           <p style="font-size: 14px; color: var(--color-ink-muted); line-height: 1.6;">

@@ -24,7 +24,7 @@ get_header(); ?>
         <h1 class="section-title" style="margin-bottom: 20px;"><?php the_title(); ?></h1>
 
         <div style="background-color: var(--color-surface-alt); border-radius: var(--radius-md); padding: 18px 20px; margin-bottom: 26px;">
-          <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 14px; font-size: 14px;">
+          <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 200px), 1fr)); gap: 14px; font-size: 14px;">
             <div>
               <span style="color: var(--color-ink-subtle); display: block; font-size: 12px; text-transform: uppercase;">International Presenter:</span>
               <strong style="color: var(--color-ink); font-size: 15px;"><?php echo esc_html($speaker); ?></strong>
