@@ -19,7 +19,7 @@ get_header(); ?>
     <div class="form-card">
       <?php if (isset($_GET['submitted'])) : ?>
         <div class="alert alert-success">
-          Thank you for reaching out. Your message has been received by our committee (haninh1997@gmail.com) and we will respond to you shortly.
+          Thank you for reaching out. Your message has been received by the SFPE Australia executive committee and we will respond to you shortly.
         </div>
       <?php endif; ?>
 
@@ -65,7 +65,7 @@ get_header(); ?>
       </form>
 
       <div style="margin-top: 28px; padding-top: 20px; border-top: 1px solid var(--color-border); text-align: center; font-size: 13.5px; color: var(--color-ink-muted);">
-        Enquiries are directed to the chapter administrator at <strong>haninh1997@gmail.com</strong>.
+        All enquiries are reviewed directly by the SFPE Australia executive committee and relevant working group chairs.
       </div>
     </div>
   </div>

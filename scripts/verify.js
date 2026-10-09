@@ -13,7 +13,8 @@ const os = require("os");
 const PAGES = [
   { path: "/", name: "Homepage" },
   { path: "/about/", name: "About Us" },
-  { path: "/webinars/", name: "Webinars" },
+  { path: "/events/", name: "Events" },
+  { path: "/webinars/", name: "Webinars (Alias)" },
   { path: "/working-groups/", name: "Working Groups" },
   { path: "/cpd-hub/", name: "CPD Hub" },
   { path: "/contact/", name: "Contact & Join" }
@@ -76,19 +77,35 @@ async function verifyAll() {
       const hasCorrectSubtitle = res.body.includes("Society of Fire Protection Engineers");
       const hasWrongInHeader = res.body.includes('brand-subtitle">Fire Safety Engineering<');
       const hasTopBar = res.body.includes("Australian Chapter");
+      const hasPersonalEmail = res.body.includes("haninh1997@gmail.com");
 
-      const passed = isHttp200 && hasCorrectSubtitle && !hasWrongInHeader && hasTopBar;
+      let pageSpecificCheck = true;
+      if (page.path === "/events/") {
+        if (!res.body.includes("calendar.google.com/calendar/embed")) {
+          pageSpecificCheck = false;
+          console.log(`       - Error: Missing Google Calendar embed in /events/`);
+        }
+      }
+      if (page.path === "/about/") {
+        if (!res.body.includes("uq-logo.svg") || !res.body.includes("rmit-logo.svg")) {
+          pageSpecificCheck = false;
+          console.log(`       - Error: Missing UQ or RMIT alliance logo in /about/`);
+        }
+      }
+
+      const passed = isHttp200 && hasCorrectSubtitle && !hasWrongInHeader && hasTopBar && !hasPersonalEmail && pageSpecificCheck;
       if (!passed) allPassed = false;
 
       const statusTag = passed ? "\x1b[32mPASS\x1b[0m" : "\x1b[31mFAIL\x1b[0m";
-      console.log(`[${statusTag}] ${page.name.padEnd(16)} (${page.path.padEnd(16)}) -> HTTP ${res.status} (${res.latencyMs}ms)`);
+      console.log(`[${statusTag}] ${page.name.padEnd(18)} (${page.path.padEnd(16)}) -> HTTP ${res.status} (${res.latencyMs}ms)`);
       if (!isHttp200) console.log(`       - Error: Expected HTTP 200, got ${res.status}`);
       if (!hasCorrectSubtitle) console.log(`       - Error: Missing 'Society of Fire Protection Engineers' subtitle`);
       if (hasWrongInHeader) console.log(`       - Error: Found deprecated 'Fire Safety Engineering' subtitle in header!`);
       if (!hasTopBar) console.log(`       - Error: Missing 'Australian Chapter' in top bar`);
+      if (hasPersonalEmail) console.log(`       - Error: Found personal email haninh1997@gmail.com exposed in HTML!`);
     } catch (err) {
       allPassed = false;
-      console.log(`[\x1b[31mERROR\x1b[0m] ${page.name.padEnd(16)} (${page.path}) -> ${err.message}`);
+      console.log(`[\x1b[31mERROR\x1b[0m] ${page.name.padEnd(18)} (${page.path}) -> ${err.message}`);
     }
   }
 

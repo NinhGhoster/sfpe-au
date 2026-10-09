@@ -10,8 +10,8 @@ get_header(); ?>
       $status = get_post_meta(get_the_ID(), '_webinar_status', true) ?: 'In Pipeline';
     ?>
       <div style="margin-bottom: 24px;">
-        <a href="<?php echo esc_url(home_url('/webinars/')); ?>" style="color: var(--color-blue); font-size: 14px; font-weight: 600; display: inline-flex; align-items: center; gap: 4px;">
-          &larr; Back to Webinar Pipeline
+        <a href="<?php echo esc_url(home_url('/events/')); ?>" style="color: var(--color-blue); font-size: 14px; font-weight: 600; display: inline-flex; align-items: center; gap: 4px;">
+          &larr; Back to Events Calendar
         </a>
       </div>
 

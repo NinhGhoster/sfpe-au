@@ -61,8 +61,9 @@ This repository enforces strict design quality standards. The audit script (`npm
 4. **ZERO Marketing Buzzwords / Filler Copy**:
    - Forbidden terms: `cutting-edge`, `game-changing`, `seamlessly`, `delve`, `harness`, `elevate`, `unleash`, `tapestry`, `testament`.
    - Maintain an authoritative, professional, engineering-grade tone suitable for chartered engineers and academics.
-5. **Contact Inquiries**:
-   - All contact and registration notifications currently route to `haninh1997@gmail.com`.
+5. **Contact Inquiries & Privacy**:
+   - Never expose personal administrator emails (e.g. `haninh1997@gmail.com`) in public templates, footers, or success messages.
+   - All contact and registration inquiries route via the website contact form and are stored in the WordPress database.
 
 ---
 
@@ -75,7 +76,7 @@ SFPE/
 ├── package.json            # NPM scripts for deployment, audit, and verification
 ├── .gitignore              # Ignored files (node_modules, caches, temporary files)
 ├── theme/                  # Standalone WordPress theme source files
-│   ├── style.css           # Theme styles (v5.0.0, fluid typography, 1400px container)
+│   ├── style.css           # Theme styles (v5.1.0, fluid typography, 1400px container)
 │   ├── functions.php       # Post types, enqueue scripts, custom meta fields
 │   ├── header.php          # Global header, mobile navigation, brand mark
 │   ├── footer.php          # Global footer, contact links, brand mark
@@ -83,12 +84,13 @@ SFPE/
 │   ├── front-page.php      # Main homepage template
 │   ├── page-home.php       # Home page template alias
 │   ├── page-about.php      # About Us & leadership directory
-│   ├── page-webinars.php   # 6-session webinar pipeline & alert signup
+│   ├── page-events.php     # Google Calendar embed & 6-session pipeline
+│   ├── page-webinars.php   # Events alias for backward compatibility
 │   ├── single-webinar.php  # Single webinar session detail template
 │   ├── page-working-groups.php # 4 working groups with terms & mandates
 │   ├── page-cpd-hub.php    # Engineers Australia CPD guidance & partner hub
 │   ├── page-contact.php    # Join & inquiry form
-│   └── images/             # Theme image assets
+│   └── images/             # Theme image assets (logos, banner)
 │       ├── sfpe-australia-logo.png
 │       └── hero-australia-bg.jpg
 ├── assets/                 # Raw high-resolution assets

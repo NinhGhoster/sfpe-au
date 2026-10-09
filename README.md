@@ -1,7 +1,7 @@
 # SFPE Australia — Official Chapter Platform
 
 [![Status: Active](https://img.shields.io/badge/Status-Active-success.svg)](#)
-[![Theme: v5.0.0](https://img.shields.io/badge/Theme-v5.0.0-0072BB.svg)](#)
+[![Theme: v5.1.0](https://img.shields.io/badge/Theme-v5.1.0-0072BB.svg)](#)
 [![Website: Live](https://img.shields.io/badge/Website-sfpe.xo.je-0B132B.svg)](https://sfpe.xo.je/)
 
 Official repository for **SFPE Australia**, the Australian Chapter of **The Society of Fire Protection Engineers (SFPE)**.
@@ -17,7 +17,9 @@ Official repository for **SFPE Australia**, the Australian Chapter of **The Soci
 SFPE Australia bridges domestic fire safety engineering (under Australia's performance-based National Construction Code / BCA) with world-leading international fire protection engineering science, handbook revisions, and experimental testing data.
 
 ### Key Capabilities & Programs
-- **The Discussant Model**: 6-part annual technical webinar series pairing international authors and researchers with senior Australian discussants who contextualize global methods for local compliance.
+- **Events & Google Calendar**: Interactive chapter calendar featuring 1-click Google Calendar addition and direct iCal synchronization alongside the 6-part annual technical webinar series.
+- **The Discussant Model**: Every international seminar pairs global researchers and handbook authors with senior Australian discussants who contextualize global science for local compliance.
+- **Higher Education & Research Alliances**: Official academic ties with The University of Queensland (UQ), RMIT University, and the SFPE Foundation.
 - **Engineers Australia CPD**: Technical sessions align with Engineers Australia Type II & Type III Continuing Professional Development requirements.
 - **4 Active Working Groups**: Technical Program, Partnerships & Alliances, Digital & Membership, and Sponsorship & Development.
 - **Domestic & International Alliances**: Collaborative ties with the Society of Fire Safety (SFS), AIDGC, IFE Australia, SFPE New Zealand, and SFPE UK.
@@ -26,7 +28,7 @@ SFPE Australia bridges domestic fire safety engineering (under Australia's perfo
 
 ## Technology Stack
 
-- **Platform**: WordPress (Custom Theme: `sfpe-theme` v5.0.0)
+- **Platform**: WordPress (Custom Theme: `sfpe-theme` v5.1.0)
 - **Styling**: Vanilla CSS3 with fluid typography (`clamp()`), CSS Custom Properties, and responsive grid layouts (1400px maximum container width).
 - **Typography Stack**:
   - Headings: `Plus Jakarta Sans`
@@ -44,18 +46,19 @@ SFPE/
 ├── package.json            # NPM scripts for deployment, audit, and verification
 ├── .gitignore              # Version control ignore list
 ├── theme/                  # Standalone WordPress theme source files
-│   ├── style.css           # Responsive styles with fluid typography
+│   ├── style.css           # Responsive styles with fluid typography (v5.1.0)
 │   ├── functions.php       # Post types, enqueue scripts, custom meta
 │   ├── header.php          # Header, brand mark, and mobile navigation
 │   ├── footer.php          # Global footer and directory links
 │   ├── front-page.php      # Main homepage template
 │   ├── page-about.php      # About Us & leadership directory
-│   ├── page-webinars.php   # 6-session webinar pipeline
+│   ├── page-events.php     # Google Calendar embed & 6-session pipeline
+│   ├── page-webinars.php   # Events alias for backward compatibility
 │   ├── single-webinar.php  # Single webinar session detail template
 │   ├── page-working-groups.php # 4 working groups with terms & mandates
 │   ├── page-cpd-hub.php    # CPD guidance and partner resource hub
 │   ├── page-contact.php    # Join and inquiry form
-│   └── images/             # Theme assets and branding
+│   └── images/             # Theme assets and branding (logos, banner)
 ├── assets/                 # High-resolution branding and photography
 ├── scripts/                # Deployment and verification automation
 │   ├── deploy.js           # Pushes theme/ to remote WordPress and purges cache

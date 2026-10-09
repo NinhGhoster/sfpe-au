@@ -43,12 +43,12 @@
       <ul class="nav-links">
         <li><a href="<?php echo esc_url(home_url('/')); ?>" class="nav-link <?php echo is_front_page() ? 'active' : ''; ?>">Home</a></li>
         <li><a href="<?php echo esc_url(home_url('/about/')); ?>" class="nav-link <?php echo is_page('about') ? 'active' : ''; ?>">About</a></li>
-        <li><a href="<?php echo esc_url(home_url('/webinars/')); ?>" class="nav-link <?php echo is_page('webinars') ? 'active' : ''; ?>">Webinars</a></li>
+        <li><a href="<?php echo esc_url(home_url('/events/')); ?>" class="nav-link <?php echo (is_page('events') || is_page('webinars')) ? 'active' : ''; ?>">Events</a></li>
         <li><a href="<?php echo esc_url(home_url('/working-groups/')); ?>" class="nav-link <?php echo is_page('working-groups') ? 'active' : ''; ?>">Working Groups</a></li>
         <li><a href="<?php echo esc_url(home_url('/cpd-hub/')); ?>" class="nav-link <?php echo is_page('cpd-hub') ? 'active' : ''; ?>">CPD Hub</a></li>
         <li><a href="<?php echo esc_url(home_url('/contact/')); ?>" class="nav-link <?php echo is_page('contact') ? 'active' : ''; ?>">Contact &amp; Join</a></li>
       </ul>
-      <a href="<?php echo esc_url(home_url('/webinars/')); ?>" class="btn btn-primary">Upcoming Webinars</a>
+      <a href="<?php echo esc_url(home_url('/events/')); ?>" class="btn btn-primary">Events Calendar</a>
     </nav>
   </div>
 </header>

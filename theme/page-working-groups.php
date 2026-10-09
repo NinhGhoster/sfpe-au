@@ -27,7 +27,7 @@ get_header(); ?>
         <div class="wg-leadership">
           <div class="wg-person">
             <span class="wg-role">Chair:</span>
-            <span class="wg-name">Dan Rathnayaka</span>
+            <span class="wg-name"><a href="mailto:dan.rathnayaka@arup.com" style="color: inherit; text-decoration: underline;">Dan Rathnayaka</a></span>
           </div>
           <div class="wg-person">
             <span class="wg-role">Assisting:</span>
@@ -50,7 +50,7 @@ get_header(); ?>
         <div class="wg-leadership">
           <div class="wg-person">
             <span class="wg-role">Chair:</span>
-            <span class="wg-name">Michael Beecroft</span>
+            <span class="wg-name"><a href="mailto:michael.beecroft@bigpond.com" style="color: inherit; text-decoration: underline;">Michael Beecroft</a></span>
           </div>
           <div class="wg-person">
             <span class="wg-role">Contributing:</span>
@@ -69,10 +69,10 @@ get_header(); ?>
         <div class="wg-leadership">
           <div class="wg-person">
             <span class="wg-role">Chair:</span>
-            <span class="wg-name">Amer Magrabi</span>
+            <span class="wg-name"><a href="mailto:amer@loteconsulting.com" style="color: inherit; text-decoration: underline;">Amer Magrabi</a></span>
           </div>
           <div class="wg-person">
-            <span class="wg-role">Digital Lead:</span>
+            <span class="wg-role">Systems Lead:</span>
             <span class="wg-name">Ninh</span>
           </div>
         </div>
@@ -88,7 +88,7 @@ get_header(); ?>
         <div class="wg-leadership">
           <div class="wg-person">
             <span class="wg-role">Chair:</span>
-            <span class="wg-name">Frank Mendham</span>
+            <span class="wg-name"><a href="mailto:frank@mendhamconsult.com" style="color: inherit; text-decoration: underline;">Frank Mendham</a></span>
           </div>
           <div class="wg-person">
             <span class="wg-role">Assisting:</span>

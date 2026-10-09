@@ -62,7 +62,9 @@ function sfpe_ensure_page($title, $slug, $template) {
 }
 
 $home_id = sfpe_ensure_page('Home', 'home', 'page-home.php');
-$webinars_id = sfpe_ensure_page('Webinars & Events', 'webinars', 'page-webinars.php');
+$about_id = sfpe_ensure_page('About Us', 'about', 'page-about.php');
+$events_id = sfpe_ensure_page('Events & Technical Programs', 'events', 'page-events.php');
+$webinars_id = sfpe_ensure_page('Events & Webinars', 'webinars', 'page-webinars.php');
 $wg_id = sfpe_ensure_page('Working Groups', 'working-groups', 'page-working-groups.php');
 $cpd_id = sfpe_ensure_page('CPD & Partner Hub', 'cpd-hub', 'page-cpd-hub.php');
 $contact_id = sfpe_ensure_page('Get Involved', 'contact', 'page-contact.php');

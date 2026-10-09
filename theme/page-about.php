@@ -67,39 +67,116 @@ get_header(); ?>
         <div class="exec-card">
           <strong class="exec-name">Dr. Jonathan R. Barnett</strong>
           <span class="exec-role">President / Chapter Chair &bull; Basic Expert</span>
+          <div class="exec-links">
+            <a href="https://basic.expert" target="_blank" rel="noopener" class="exec-link-item" title="Website">&#127760; Website</a>
+            <a href="mailto:jonathan.barnett@basic.expert" class="exec-link-item" title="Email">&#9993; Email</a>
+            <a href="https://www.linkedin.com/in/jonathan-barnett-0470213/" target="_blank" rel="noopener" class="exec-link-item" title="LinkedIn">&#128279; LinkedIn</a>
+          </div>
         </div>
         <div class="exec-card">
           <strong class="exec-name">Dr. Frank Mendham</strong>
           <span class="exec-role">Vice President &bull; Mendham Consultants</span>
+          <div class="exec-links">
+            <a href="https://mendhamconsult.com" target="_blank" rel="noopener" class="exec-link-item" title="Website">&#127760; Website</a>
+            <a href="mailto:frank@mendhamconsult.com" class="exec-link-item" title="Email">&#9993; Email</a>
+            <a href="https://www.linkedin.com/in/frank-mendham-phd-43940120/" target="_blank" rel="noopener" class="exec-link-item" title="LinkedIn">&#128279; LinkedIn</a>
+          </div>
         </div>
         <div class="exec-card">
           <strong class="exec-name">Dan Rathnayaka</strong>
           <span class="exec-role">Technical Program Chair &bull; Arup</span>
+          <div class="exec-links">
+            <a href="https://www.arup.com" target="_blank" rel="noopener" class="exec-link-item" title="Website">&#127760; Website</a>
+            <a href="mailto:dan.rathnayaka@arup.com" class="exec-link-item" title="Email">&#9993; Email</a>
+            <a href="https://www.linkedin.com/in/dan-rathnayaka-2b22572a/" target="_blank" rel="noopener" class="exec-link-item" title="LinkedIn">&#128279; LinkedIn</a>
+          </div>
         </div>
         <div class="exec-card">
           <strong class="exec-name">Michael Beecroft</strong>
           <span class="exec-role">Partnerships &amp; Industry Liaison Chair</span>
+          <div class="exec-links">
+            <a href="mailto:michael.beecroft@bigpond.com" class="exec-link-item" title="Email">&#9993; Email</a>
+            <a href="https://www.linkedin.com/in/michael-beecroft-7a288636/" target="_blank" rel="noopener" class="exec-link-item" title="LinkedIn">&#128279; LinkedIn</a>
+          </div>
         </div>
         <div class="exec-card">
           <strong class="exec-name">Dr. Amer Magrabi</strong>
           <span class="exec-role">Digital &amp; Membership Chair &bull; Lote Consulting</span>
+          <div class="exec-links">
+            <a href="https://loteconsulting.com" target="_blank" rel="noopener" class="exec-link-item" title="Website">&#127760; Website</a>
+            <a href="mailto:amer@loteconsulting.com" class="exec-link-item" title="Email">&#9993; Email</a>
+            <a href="https://www.linkedin.com/in/amermagrabi/" target="_blank" rel="noopener" class="exec-link-item" title="LinkedIn">&#128279; LinkedIn</a>
+          </div>
         </div>
         <div class="exec-card">
           <strong class="exec-name">Prof. David Lange</strong>
           <span class="exec-role">Secretary &bull; The University of Queensland (UQ)</span>
+          <div class="exec-links">
+            <a href="https://civil.uq.edu.au/profile/1725/david-lange" target="_blank" rel="noopener" class="exec-link-item" title="Academic Profile">&#127760; Profile</a>
+            <a href="mailto:d.lange@uq.edu.au" class="exec-link-item" title="Email">&#9993; Email</a>
+            <a href="https://www.linkedin.com/in/david-lange-38a49015/" target="_blank" rel="noopener" class="exec-link-item" title="LinkedIn">&#128279; LinkedIn</a>
+          </div>
         </div>
       </div>
 
-      <div style="border-top: 1px solid var(--color-border); padding-top: 20px;">
-        <span style="font-size: 14px; font-weight: 700; color: var(--color-ink); display: block; margin-bottom: 12px;">Contributing Committee Members:</span>
-        <div style="display: flex; flex-wrap: wrap; gap: 10px;">
-          <span class="partner-pill-badge">Pelle Zetterstrom (KBR)</span>
-          <span class="partner-pill-badge">MC Hui (RED Fire Engineers)</span>
-          <span class="partner-pill-badge">Tobias Salomonsson</span>
-          <span class="partner-pill-badge">Simon Krishnan</span>
-          <span class="partner-pill-badge">Aaron Nicholson (RED Fire Engineers)</span>
-          <span class="partner-pill-badge">Derya Horasan (SciFire)</span>
-          <span class="partner-pill-badge">Alex Glennon</span>
+      <div style="border-top: 1px solid var(--color-border); padding-top: 24px;">
+        <span style="font-size: 14.5px; font-weight: 700; color: var(--color-ink); display: block; margin-bottom: 14px;">Contributing Committee Members:</span>
+        <div class="contrib-grid">
+          <div class="contrib-card">
+            <span class="contrib-name">Pelle Zetterstrom</span>
+            <span class="contrib-org">KBR</span>
+            <div class="contrib-links">
+              <a href="mailto:pelle.zetterstrom@kbr.com" class="exec-link-item">&#9993; Email</a>
+              <a href="https://www.kbr.com" target="_blank" rel="noopener" class="exec-link-item">&#127760; KBR</a>
+            </div>
+          </div>
+          <div class="contrib-card">
+            <span class="contrib-name">MC Hui</span>
+            <span class="contrib-org">RED Fire Engineers</span>
+            <div class="contrib-links">
+              <a href="mailto:mc@redfireengineers.com.au" class="exec-link-item">&#9993; Email</a>
+              <a href="https://redfireengineers.com.au" target="_blank" rel="noopener" class="exec-link-item">&#127760; Website</a>
+            </div>
+          </div>
+          <div class="contrib-card">
+            <span class="contrib-name">Aaron Nicholson</span>
+            <span class="contrib-org">RED Fire Engineers</span>
+            <div class="contrib-links">
+              <a href="mailto:aaron.nicholson@redfireengineers.com.au" class="exec-link-item">&#9993; Email</a>
+              <a href="https://redfireengineers.com.au" target="_blank" rel="noopener" class="exec-link-item">&#127760; Website</a>
+            </div>
+          </div>
+          <div class="contrib-card">
+            <span class="contrib-name">Tobias Salomonsson</span>
+            <span class="contrib-org">RED Fire Engineers</span>
+            <div class="contrib-links">
+              <a href="mailto:tobias@redfireengineers.com.au" class="exec-link-item">&#9993; Email</a>
+              <a href="https://redfireengineers.com.au" target="_blank" rel="noopener" class="exec-link-item">&#127760; Website</a>
+            </div>
+          </div>
+          <div class="contrib-card">
+            <span class="contrib-name">Simon P. Krishnan</span>
+            <span class="contrib-org">Astrix Fire Safety Certification</span>
+            <div class="contrib-links">
+              <a href="mailto:simonk@astrixfiresafetycertification.com" class="exec-link-item">&#9993; Email</a>
+              <a href="https://astrixfiresafetycertification.com" target="_blank" rel="noopener" class="exec-link-item">&#127760; Website</a>
+            </div>
+          </div>
+          <div class="contrib-card">
+            <span class="contrib-name">Derya Horasan</span>
+            <span class="contrib-org">SciFire</span>
+            <div class="contrib-links">
+              <a href="mailto:derya.horasan@scifire.com.au" class="exec-link-item">&#9993; Email</a>
+              <a href="https://scifire.com.au" target="_blank" rel="noopener" class="exec-link-item">&#127760; Website</a>
+            </div>
+          </div>
+          <div class="contrib-card">
+            <span class="contrib-name">Alex Glennon</span>
+            <span class="contrib-org">Consulting Practitioner</span>
+            <div class="contrib-links">
+              <a href="mailto:alex.glennon@gmail.com" class="exec-link-item">&#9993; Email</a>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -107,19 +184,46 @@ get_header(); ?>
     <!-- Universities & Research Alliances -->
     <div style="background-color: var(--color-surface); border: 1px solid var(--color-border); border-radius: var(--radius-lg); padding: clamp(28px, 3.2vw, 44px); box-shadow: var(--shadow-sm);">
       <h2 style="font-size: clamp(22px, 1.8vw, 28px); color: var(--color-ink); margin-bottom: 14px;">Higher Education &amp; Research Alliances</h2>
-      <p style="font-size: 15px; color: var(--color-ink-muted); line-height: 1.65; margin-bottom: 20px;">
-        Strong ties with university fire engineering faculties form the backbone of our technical mission:
+      <p style="font-size: 15px; color: var(--color-ink-muted); line-height: 1.65; margin-bottom: 24px;">
+        Strong partnerships with leading universities and research foundations form the foundation of our technical mission. Select an institution below to explore their research programs:
       </p>
-      <div style="display: flex; flex-direction: column; gap: 14px; font-size: 15px; color: var(--color-ink-muted);">
-        <p>
-          &bull; <strong>The University of Queensland (UQ) Fire Safety Engineering:</strong> Supporting student engagement, research seminars, and the UQ SFPE Student Chapter.
-        </p>
-        <p>
-          &bull; <strong>RMIT University:</strong> Collaboration with faculty researchers exploring timber fire dynamics and testing methodologies.
-        </p>
-        <p>
-          &bull; <strong>SFPE Foundation:</strong> Channeling global research grants and academic awards to Australian students and practitioners.
-        </p>
+
+      <div class="alliance-grid">
+        <a href="https://civil.uq.edu.au/fire" target="_blank" rel="noopener" class="alliance-card">
+          <div class="alliance-logo-wrap">
+            <img src="<?php echo esc_url(get_template_directory_uri() . '/images/uq-logo.svg'); ?>" alt="The University of Queensland Logo" class="alliance-logo-img">
+          </div>
+          <h3 class="alliance-title">The University of Queensland</h3>
+          <span class="alliance-subtitle">UQ Fire Safety Engineering</span>
+          <p class="alliance-desc">
+            Supporting student engagement, advanced postgraduate fire engineering research, and the active UQ SFPE Student Chapter.
+          </p>
+          <span class="alliance-link-label">Visit UQ Fire Engineering &rarr;</span>
+        </a>
+
+        <a href="https://www.rmit.edu.au/" target="_blank" rel="noopener" class="alliance-card">
+          <div class="alliance-logo-wrap">
+            <img src="<?php echo esc_url(get_template_directory_uri() . '/images/rmit-logo.svg'); ?>" alt="RMIT University Logo" class="alliance-logo-img">
+          </div>
+          <h3 class="alliance-title">RMIT University</h3>
+          <span class="alliance-subtitle">School of Engineering</span>
+          <p class="alliance-desc">
+            Collaborating on mass timber fire dynamics, structural response under severe fire conditions, and material combustibility testing.
+          </p>
+          <span class="alliance-link-label">Visit RMIT University &rarr;</span>
+        </a>
+
+        <a href="https://www.sfpe.org/foundation/home" target="_blank" rel="noopener" class="alliance-card">
+          <div class="alliance-logo-wrap">
+            <img src="<?php echo esc_url(get_template_directory_uri() . '/images/sfpe-foundation-logo.png'); ?>" alt="SFPE Foundation Logo" class="alliance-logo-img">
+          </div>
+          <h3 class="alliance-title">SFPE Foundation</h3>
+          <span class="alliance-subtitle">Global Research &amp; Education</span>
+          <p class="alliance-desc">
+            Facilitating international fire safety research grants, academic symposiums, and global student research awards.
+          </p>
+          <span class="alliance-link-label">Visit SFPE Foundation &rarr;</span>
+        </a>
       </div>
     </div>
   </div>

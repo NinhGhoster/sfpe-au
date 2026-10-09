@@ -32,7 +32,7 @@ function sfpe_scripts() {
         'sfpe-style',
         get_stylesheet_uri(),
         array('sfpe-fonts'),
-        '5.0.0'
+        '5.1.0'
     );
 }
 add_action('wp_enqueue_scripts', 'sfpe_scripts');
@@ -125,8 +125,8 @@ function sfpe_handle_contact_submission() {
         $topic = sanitize_text_field($_POST['interest_area'] ?? 'General Enquiry');
         $message = sanitize_textarea_field($_POST['message'] ?? '');
 
-        // Recipient email specified by user: haninh1997@gmail.com
-        $to = 'haninh1997@gmail.com';
+        // Committee notification recipient
+        $to = get_option('admin_email');
         $subject = '[SFPE Australia] New Inquiry: ' . $topic . ' from ' . $name;
         $body = "New submission via SFPE Australia Website (sfpe.xo.je):\n\n";
         $body .= "Name: " . $name . "\n";

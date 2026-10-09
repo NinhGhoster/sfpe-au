@@ -28,7 +28,7 @@
         <h4 class="footer-col-title">Navigation</h4>
         <ul class="footer-links">
           <li><a href="<?php echo esc_url(home_url('/about/')); ?>">About the Chapter</a></li>
-          <li><a href="<?php echo esc_url(home_url('/webinars/')); ?>">Webinar Program</a></li>
+          <li><a href="<?php echo esc_url(home_url('/events/')); ?>">Events &amp; Webinars</a></li>
           <li><a href="<?php echo esc_url(home_url('/working-groups/')); ?>">Working Groups</a></li>
           <li><a href="<?php echo esc_url(home_url('/cpd-hub/')); ?>">CPD Calendar Hub</a></li>
           <li><a href="<?php echo esc_url(home_url('/contact/')); ?>">Contact &amp; Join</a></li>
@@ -50,9 +50,9 @@
         <h4 class="footer-col-title">Connect</h4>
         <ul class="footer-links">
           <li><a href="<?php echo esc_url(home_url('/contact/')); ?>">Join a Working Group</a></li>
-          <li><a href="<?php echo esc_url(home_url('/webinars/')); ?>">Speaker Proposal</a></li>
+          <li><a href="<?php echo esc_url(home_url('/events/')); ?>">Speaker Proposal</a></li>
           <li><a href="<?php echo esc_url(home_url('/contact/')); ?>">Handbook Discount Access</a></li>
-          <li><a href="mailto:haninh1997@gmail.com">haninh1997@gmail.com</a></li>
+          <li><a href="<?php echo esc_url(home_url('/contact/')); ?>">Contact Committee</a></li>
         </ul>
       </div>
     </div>

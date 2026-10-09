@@ -4,7 +4,7 @@ Theme URI: https://sfpe.xo.je
 Description: Official theme for the Australian Chapter of the Society of Fire Protection Engineers (SFPE).
 Author: Ninh
 Author URI: https://sfpe.xo.je
-Version: 5.0.0
+Version: 5.1.0
 Text Domain: sfpe-australia
 */
 
@@ -811,6 +811,229 @@ a:hover {
   font-weight: 500;
 }
 
+/* Executive & Leadership Contact Links */
+.exec-links {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-top: 10px;
+  padding-top: 10px;
+  border-top: 1px solid var(--color-border);
+  flex-wrap: wrap;
+}
+
+.exec-link-item {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 12.5px;
+  font-weight: 600;
+  color: var(--color-blue);
+  text-decoration: none;
+  transition: color 0.15s ease;
+}
+
+.exec-link-item:hover {
+  color: var(--color-blue-hover);
+  text-decoration: underline;
+}
+
+.exec-link-icon {
+  width: 14px;
+  height: 14px;
+  display: inline-block;
+  vertical-align: middle;
+  flex-shrink: 0;
+}
+
+/* Contributing Members Grid */
+.contrib-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 12px;
+  margin-top: 10px;
+}
+
+.contrib-card {
+  background-color: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-sm);
+  padding: 12px 14px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.contrib-name {
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--color-ink);
+}
+
+.contrib-org {
+  font-size: 12px;
+  color: var(--color-ink-subtle);
+}
+
+.contrib-links {
+  display: flex;
+  gap: 10px;
+  margin-top: 6px;
+  font-size: 12px;
+}
+
+/* Higher Education & Research Alliances */
+.alliance-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: clamp(20px, 2.2vw, 28px);
+  margin-top: 24px;
+}
+
+.alliance-card {
+  background-color: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  padding: clamp(24px, 2.4vw, 32px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  text-decoration: none;
+  transition: all 0.2s ease;
+  box-shadow: var(--shadow-sm);
+}
+
+.alliance-card:hover {
+  transform: translateY(-3px);
+  border-color: var(--color-blue);
+  box-shadow: var(--shadow-md);
+}
+
+.alliance-logo-wrap {
+  height: 84px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 18px;
+  width: 100%;
+  padding: 8px 12px;
+}
+
+.alliance-logo-img {
+  max-height: 64px;
+  max-width: 100%;
+  object-fit: contain;
+}
+
+.alliance-title {
+  font-size: 16.5px;
+  font-weight: 700;
+  color: var(--color-ink);
+  margin-bottom: 6px;
+}
+
+.alliance-subtitle {
+  font-size: 12.5px;
+  color: var(--color-ink-subtle);
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.4px;
+  margin-bottom: 10px;
+}
+
+.alliance-desc {
+  font-size: 13.5px;
+  color: var(--color-ink-muted);
+  line-height: 1.6;
+  margin-bottom: 18px;
+  flex-grow: 1;
+}
+
+.alliance-link-label {
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--color-blue);
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.alliance-card:hover .alliance-link-label {
+  color: var(--color-blue-hover);
+  text-decoration: underline;
+}
+
+/* Calendar Embed & Controls */
+.calendar-embed-container {
+  background-color: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  box-shadow: var(--shadow-sm);
+  margin-bottom: clamp(36px, 4vw, 56px);
+}
+
+.calendar-embed-container iframe {
+  display: block;
+  width: 100%;
+  min-height: 600px;
+  border: 0;
+}
+
+.calendar-actions-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 14px;
+  flex-wrap: wrap;
+  margin-bottom: 22px;
+  background-color: var(--color-surface-alt);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  padding: 16px 20px;
+}
+
+.calendar-actions-group {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.calendar-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  font-size: 13.5px;
+  font-weight: 600;
+  padding: 8px 16px;
+  border-radius: var(--radius-sm);
+  text-decoration: none;
+  transition: all 0.15s ease;
+}
+
+.calendar-btn-primary {
+  background-color: var(--color-navy);
+  color: #FFFFFF;
+}
+
+.calendar-btn-primary:hover {
+  background-color: var(--color-navy-dark);
+  color: #FFFFFF;
+}
+
+.calendar-btn-secondary {
+  background-color: var(--color-surface);
+  color: var(--color-ink);
+  border: 1px solid var(--color-border);
+}
+
+.calendar-btn-secondary:hover {
+  background-color: var(--color-surface-alt);
+  border-color: #CBD5E1;
+  color: var(--color-blue);
+}
+
 /* Partner Alliances Strip */
 .partner-strip {
   background-color: var(--color-surface);
@@ -1180,6 +1403,26 @@ a:hover {
 
   .hero-card {
     padding: 24px 20px;
+  }
+
+  .alliance-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .calendar-actions-bar {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 16px;
+  }
+
+  .calendar-actions-group {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .calendar-actions-group .calendar-btn {
+    width: 100%;
+    justify-content: center;
   }
 }
 

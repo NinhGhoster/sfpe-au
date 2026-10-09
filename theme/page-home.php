@@ -20,8 +20,8 @@ get_header(); ?>
         The Australian Chapter of the Society of Fire Protection Engineers (SFPE) bridges domestic performance-based engineering with world-leading fire science: delivering technical seminars with Australian discussants, international handbook insights, and cross-disciplinary forums.
       </p>
       <div class="hero-actions">
-        <a href="<?php echo esc_url(home_url('/webinars/')); ?>" class="btn btn-primary">
-          Explore 2026/2027 Program
+        <a href="<?php echo esc_url(home_url('/events/')); ?>" class="btn btn-primary">
+          Explore Events &amp; Calendar
         </a>
         <a href="<?php echo esc_url(home_url('/about/')); ?>" class="btn btn-secondary">
           About the Chapter
@@ -71,7 +71,7 @@ get_header(); ?>
   <div class="container stat-grid">
     <div class="stat-item">
       <div class="stat-number">6</div>
-      <div class="stat-label">Technical Webinars</div>
+      <div class="stat-label">Events &amp; Webinars</div>
     </div>
     <div class="stat-item">
       <div class="stat-number">4</div>
@@ -131,8 +131,8 @@ get_header(); ?>
 <section class="section section-alt">
   <div class="container">
     <div class="section-header">
-      <span class="section-tag">Technical Program</span>
-      <h2 class="section-title">Upcoming Webinar Series</h2>
+      <span class="section-tag">Chapter Calendar &amp; Programs</span>
+      <h2 class="section-title">Upcoming Events &amp; Technical Programs</h2>
       <p class="section-desc">
         Delivering 6 specialized technical seminars over 12 months in partnership with international chapters and domestic engineering societies.
       </p>
@@ -163,7 +163,7 @@ get_header(); ?>
         </div>
         <div class="webinar-card-footer">
           <span class="webinar-status">Confirmed Partner</span>
-          <a href="<?php echo esc_url(home_url('/webinars/')); ?>" class="btn btn-outline-dark" style="font-size: 13px; padding: 7px 14px;">Details &rarr;</a>
+          <a href="<?php echo esc_url(home_url('/events/')); ?>" class="btn btn-outline-dark" style="font-size: 13px; padding: 7px 14px;">Details &rarr;</a>
         </div>
       </div>
 
@@ -191,7 +191,7 @@ get_header(); ?>
         </div>
         <div class="webinar-card-footer">
           <span class="webinar-status">In Development</span>
-          <a href="<?php echo esc_url(home_url('/webinars/')); ?>" class="btn btn-outline-dark" style="font-size: 13px; padding: 7px 14px;">Details &rarr;</a>
+          <a href="<?php echo esc_url(home_url('/events/')); ?>" class="btn btn-outline-dark" style="font-size: 13px; padding: 7px 14px;">Details &rarr;</a>
         </div>
       </div>
 
@@ -219,14 +219,14 @@ get_header(); ?>
         </div>
         <div class="webinar-card-footer">
           <span class="webinar-status">Confirmed Partner</span>
-          <a href="<?php echo esc_url(home_url('/webinars/')); ?>" class="btn btn-outline-dark" style="font-size: 13px; padding: 7px 14px;">Details &rarr;</a>
+          <a href="<?php echo esc_url(home_url('/events/')); ?>" class="btn btn-outline-dark" style="font-size: 13px; padding: 7px 14px;">Details &rarr;</a>
         </div>
       </div>
     </div>
 
     <div style="text-align: center; margin-top: clamp(36px, 4vw, 56px);">
-      <a href="<?php echo esc_url(home_url('/webinars/')); ?>" class="btn btn-primary">
-        View All 6 Pipeline Sessions &rarr;
+      <a href="<?php echo esc_url(home_url('/events/')); ?>" class="btn btn-primary">
+        View Events Calendar &amp; Pipeline &rarr;
       </a>
     </div>
   </div>
