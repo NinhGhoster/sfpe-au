@@ -1,0 +1,957 @@
+{
+  "active_plugins": [
+    "akismet/akismet.php",
+    "deskuss/deskuss.php",
+    "loginizer-security/loginizer-security.php",
+    "loginizer/loginizer.php",
+    "novamira/novamira.php",
+    "sharemypost-pro/sharemypost-pro.php",
+    "sharemypost/sharemypost.php",
+    "w3-total-cache/w3-total-cache.php"
+  ],
+  "admin_email": "haninh1997@gmail.com",
+  "admin_email_lifespan": "1807118683",
+  "akismet_comment_form_privacy_notice": "hide",
+  "akismet_enable_mcp_access": "0",
+  "akismet_show_user_comments_approved": "0",
+  "akismet_spam_count": "0",
+  "akismet_strictness": "0",
+  "auto_plugin_theme_update_emails": [],
+  "auto_update_core_dev": "enabled",
+  "auto_update_core_major": "enabled",
+  "auto_update_core_minor": "enabled",
+  "auto_update_plugins": [
+    "akismet/akismet.php",
+    "hello.php",
+    "loginizer/loginizer.php",
+    "sharemypost/sharemypost.php",
+    "w3-total-cache/w3-total-cache.php",
+    "novamira/novamira.php"
+  ],
+  "avatar_default": "mystery",
+  "avatar_rating": "G",
+  "blog_charset": "UTF-8",
+  "blog_public": "1",
+  "blogdescription": "Australian Chapter • The Society of Fire Protection Engineers (SFPE)",
+  "blogname": "SFPE Australia",
+  "can_compress_scripts": "0",
+  "category_base": "",
+  "close_comments_days_old": "14",
+  "close_comments_for_old_posts": "0",
+  "comment_max_links": "2",
+  "comment_moderation": "0",
+  "comment_order": "asc",
+  "comment_previously_approved": "1",
+  "comment_registration": "0",
+  "comments_notify": "1",
+  "comments_per_page": "50",
+  "cron": {
+    "1791566683": {
+      "wp_update_themes": {
+        "40cd750bba9870f18aada2478b24840a": {
+          "schedule": "twicedaily",
+          "args": [],
+          "interval": 43200
+        }
+      }
+    },
+    "1791566685": {
+      "wp_privacy_delete_old_export_files": {
+        "40cd750bba9870f18aada2478b24840a": {
+          "schedule": "hourly",
+          "args": [],
+          "interval": 3600
+        }
+      },
+      "wp_version_check": {
+        "40cd750bba9870f18aada2478b24840a": {
+          "schedule": "twicedaily",
+          "args": [],
+          "interval": 43200
+        }
+      },
+      "wp_update_plugins": {
+        "40cd750bba9870f18aada2478b24840a": {
+          "schedule": "twicedaily",
+          "args": [],
+          "interval": 43200
+        }
+      }
+    },
+    "1791566694": {
+      "check_plugin_updates-loginizer-security": {
+        "40cd750bba9870f18aada2478b24840a": {
+          "schedule": "twicedaily",
+          "args": [],
+          "interval": 43200
+        }
+      },
+      "loginizer_do_checksum": {
+        "40cd750bba9870f18aada2478b24840a": {
+          "schedule": false,
+          "args": []
+        }
+      }
+    },
+    "1791566707": {
+      "check_plugin_updates-sharemypost-pro": {
+        "40cd750bba9870f18aada2478b24840a": {
+          "schedule": "twicedaily",
+          "args": [],
+          "interval": 43200
+        }
+      }
+    },
+    "1791566788": {
+      "w3_pgcache_cleanup": {
+        "40cd750bba9870f18aada2478b24840a": {
+          "schedule": "w3_pgcache_cleanup",
+          "args": [],
+          "interval": 3600
+        }
+      }
+    },
+    "1791566801": {
+      "check_plugin_updates-deskuss": {
+        "40cd750bba9870f18aada2478b24840a": {
+          "schedule": "twicedaily",
+          "args": [],
+          "interval": 43200
+        }
+      },
+      "wp_scheduled_delete": {
+        "40cd750bba9870f18aada2478b24840a": {
+          "schedule": "daily",
+          "args": [],
+          "interval": 86400
+        }
+      },
+      "delete_expired_transients": {
+        "40cd750bba9870f18aada2478b24840a": {
+          "schedule": "daily",
+          "args": [],
+          "interval": 86400
+        }
+      },
+      "wp_update_user_counts": {
+        "40cd750bba9870f18aada2478b24840a": {
+          "schedule": "twicedaily",
+          "args": [],
+          "interval": 43200
+        }
+      }
+    },
+    "1791566805": {
+      "wp_scheduled_auto_draft_delete": {
+        "40cd750bba9870f18aada2478b24840a": {
+          "schedule": "daily",
+          "args": [],
+          "interval": 86400
+        }
+      }
+    },
+    "1791566814": {
+      "wp_delete_temp_updater_backups": {
+        "40cd750bba9870f18aada2478b24840a": {
+          "schedule": "weekly",
+          "args": [],
+          "interval": 604800
+        }
+      }
+    },
+    "1791566826": {
+      "wp_privacy_personal_data_cleanup_requests": {
+        "40cd750bba9870f18aada2478b24840a": {
+          "schedule": "daily",
+          "args": [],
+          "interval": 86400
+        }
+      }
+    },
+    "1791566861": {
+      "wp_update_comment_type_batch": {
+        "40cd750bba9870f18aada2478b24840a": {
+          "schedule": false,
+          "args": []
+        }
+      }
+    },
+    "1791571007": {
+      "novamira_oauth_gc": {
+        "40cd750bba9870f18aada2478b24840a": {
+          "schedule": "daily",
+          "args": [],
+          "interval": 86400
+        }
+      },
+      "novamira_gutenberg_cleanup": {
+        "40cd750bba9870f18aada2478b24840a": {
+          "schedule": "daily",
+          "args": [],
+          "interval": 86400
+        }
+      }
+    },
+    "1791574583": {
+      "upgrader_scheduled_cleanup": {
+        "686c8315be36c96dc00d0d7ed3656b43": {
+          "schedule": false,
+          "args": [
+            6
+          ]
+        }
+      }
+    },
+    "1791653083": {
+      "wp_site_health_scheduled_check": {
+        "40cd750bba9870f18aada2478b24840a": {
+          "schedule": "weekly",
+          "args": [],
+          "interval": 604800
+        }
+      },
+      "recovery_mode_clean_expired_keys": {
+        "40cd750bba9870f18aada2478b24840a": {
+          "schedule": "daily",
+          "args": [],
+          "interval": 86400
+        }
+      }
+    },
+    "1791826589": {
+      "novamira_specializations_refresh": {
+        "40cd750bba9870f18aada2478b24840a": {
+          "schedule": "novamira_three_days",
+          "args": [],
+          "interval": 259200
+        }
+      }
+    },
+    "version": 2
+  },
+  "current_theme": "SFPE Australia",
+  "date_format": "F j, Y",
+  "db_version": "61833",
+  "default_category": "1",
+  "default_comment_status": "open",
+  "default_comments_page": "newest",
+  "default_email_category": "1",
+  "default_link_category": "2",
+  "default_ping_status": "open",
+  "default_pingback_flag": "1",
+  "default_post_format": "0",
+  "default_role": "subscriber",
+  "deskuss_caps_version": "1.0.7",
+  "deskuss_flush_rewrite_rules": "1",
+  "deskuss_initial_admins_synced": "1791566692",
+  "deskuss_schema_version": "3",
+  "deskuss_version": "1.0.7",
+  "disallowed_keys": "",
+  "external_updates-deskuss": {
+    "lastCheck": 1791568987,
+    "checkedVersion": "1.0.7",
+    "update": {
+      "id": 0,
+      "slug": "deskuss",
+      "version": "1.0.7",
+      "homepage": "https://deskuss.com/",
+      "tested": "6.8.3",
+      "download_url": "https://a.softaculous.com/deskuss/download.php?version=1.0.7&license=SOFTWP-27967-77671-13718-51812&url=https://sfpe.org.au",
+      "upgrade_notice": null,
+      "filename": "deskuss/deskuss.php",
+      "translations": [],
+      "signature": "aBYsWmPqQO7oapGrBgWowLqHbSWH64BX2yCWjE+jJBio4rrZ5clIOc4PgWOLZSPBPfk3Iauik1sobMuGL084cLl0JdYvb3BJGlT3H/YeRYCPsC4nw4nJ3INUEBQQZ1BcnvqA2/pgfkfypm4HKcuMPnHrsaYz0LTqO1LqfJV/Cluhwqbue6+CFdMD4UMjm9asA5XHrY5Eo/yuLnuu8BIOMiKWcI9juAtraxNoW8vBI+KNcK9bu4gILE+tmPfFXbrbH2jBAJ8xtJJESF/UN/YULktZZVUs8rPvkl3Iq1ZCB5LxEwLMqXJNJjwKNV9unerzS/b7bqF6uf7QT8yorrYlxz8+VF6chVcNb6diyuBLkb1e8E2WGB+BGDRbIwpTwwGQfGeYFG8eKSt9tQnkEFbQcnb36MVtPc/WdCgaCN3suXTvAWV3mKf6htN2sS6GBX8joXYZXNsjKg7t/eVGpgHYVl7jBq+2Ppm0aSH6C14+OU/KJGLD1JGmDDCFpXHZOzHZYqC2dHSW2RzEnu4vlVK8jyEAkd/++mzoV2/Oq8XK4Jhu9eUhP6eZbyCh8czFKI3NS/l+rgaFM7thdP8GgOWLdbSEGxZDAPu++mkc2s3GgBkV9SwE5kn6wLJbRFCeOsrjuf8ApL8wW4IM5amGetyGzsLmYKRZuE8ubC9s0ymWL8c=\n"
+    }
+  },
+  "external_updates-loginizer-security": {
+    "lastCheck": 1791568987,
+    "checkedVersion": "2.1.2",
+    "update": {
+      "id": 0,
+      "slug": "loginizer-security",
+      "version": "2.1.2",
+      "homepage": "http://loginizer.com",
+      "tested": "6.7.2",
+      "download_url": "https://api.loginizer.com/download.php?version=2.1.2&license=SOFTWP-27967-77671-13718-51812&url=https://sfpe.org.au",
+      "upgrade_notice": null,
+      "filename": "loginizer-security/loginizer-security.php",
+      "translations": [],
+      "icons": {
+        "2x": "https://ps.w.org/loginizer/assets/icon-256x256.png",
+        "1x": "https://ps.w.org/loginizer/assets/icon-128x128.png"
+      },
+      "banners": {
+        "2x": "https://ps.w.org/loginizer/assets/banner-1544x500.jpg",
+        "1x": "https://ps.w.org/loginizer/assets/banner-772x250.jpg"
+      },
+      "signature": "onj8OeNpZoxGb9lt+JsjC0yuldg0lJuBcxbyKW4C1NOS/MdQXfIkkrKv0Xt1p8a5/H5lelb4syE1hFBV1I4PXihXtdMW7ibClS41M6hcjsS0cC7zDquewQ5h0CqGORDT2Tq0zA/56ISxqEY56sSObA8yzLYHOSfkrQHYayJNG+PZTo8g+hu1plclXCZisOOoyL689Wa3xNbEd52z3MaGm9wVOx0HPsw764kezG63k3EJDzKDmq0Qe96bPcetJ3gGXB8GoGZd4JKxeYuy/2HezyFzpbkA4bB5fA0wdmC8W9A/OMt1E5QfUmz6EJWRmIUrYxnATcWQAgdoIo8JtusTpFhvxQX7Lq4YRzWt0ymJpaW6swGWac5SVMZk07d4J92cffX7uJjKM1NhwUAaRzXN5Q5IktA9ySvhXNc+4hSoj6ZYrZq9A75bYJokocwzC9TWAClEr1XDZiZnJaWlgRWOMZYxFJsLBAtHDsFWo8SF8BnLvS02tgAZvZ+lD7TUyySD87Z9EHrxGNyn0n5UYGHpa4J7/5UUlcnsWQI7sAwVgmpePcu/89sFaWYe4Lc6A4jIO2/fzi8ljZ26sX9460gcn5XyOnOKffeTF0aCw5xRJ5FDBgqtEOrOpreMaUGXnrqeVGnRz81MOnDoBx+B3BwcuZZmmXxRZawFlEechl44v9Q=\n"
+    }
+  },
+  "external_updates-sharemypost-pro": {
+    "lastCheck": 1791568992,
+    "checkedVersion": "1.0.7",
+    "update": {
+      "id": 0,
+      "slug": "sharemypost-pro",
+      "version": "1.0.7",
+      "homepage": "https://softaculous.com/",
+      "tested": "7.0.0",
+      "download_url": "https://a.softaculous.com/sharemypost/download.php?version=1.0.7&license=SOFTWP-27967-77671-13718-51812&url=https://sfpe.org.au",
+      "upgrade_notice": null,
+      "filename": "sharemypost-pro/sharemypost-pro.php",
+      "translations": [],
+      "signature": "YJeAJ2wEff867FXaQwcqvjUwHgWNpllf8n/Zcz6wJG2FNlOsEcKwek5f3SD4E3eN7AQKW3fpv50BqWq6lFQ7GS0kXqJm8U2C0mP5Zqkm5YDsCxWtOLNulOrGTAjCXLk9Zhuc8wRMljKe9cyRk74QBv+3Qz1/b/uvBijHFMVj67tQ8Cs+OT2utXFnYxwx2UJVug87NPliQliyWXWHonBZrYA+/pDXMbGqFGWGYbGBj4WwTK3NGp8jrVZ70oyvcp192xSYQdOTiAtYH3wxskB+27BCdejs52V+UNMu5/or9oaHZky1qY9uy7M04WFaL6XOBr+rnG7yubyd8QOAwcWK0LSOhEdwNsLzfZQj4Yn9+r2WpY8cmLP+S+0TDRUWK3UBk6F8PegXdhs51lg2YQ/6a7SCIeDLzBzqGFT9PA7Zyv38LeXCAWzJ+XLT3uR42vLB6YbtalbXrdY0Z7ZWRHQZPQ7F9opXBeWyngqHgYw8r++t8ZKrH5wJ/7A1eKwGidu0kBtqMPRdjl6QerYZFcvw0NS2TTBvheQjBAW9xI/pOzpZKw/PyDUuGfCAfe/L7isXn+Le3Qm9lqf0xHBTYtCgKeNctHbZVETLk8xlkyVo+Ov5T8imWUirpU4KKtpCsC53+BqDHpoHzJpLERf6/XjX47jfKJpoPTlziul79sXBWO4=\n"
+    }
+  },
+  "finished_splitting_shared_terms": "1",
+  "fresh_site": "0",
+  "gmt_offset": "11",
+  "hack_file": "0",
+  "home": "https://sfpe.org.au",
+  "html_type": "text/html",
+  "image_default_align": "",
+  "image_default_link_type": "none",
+  "image_default_size": "",
+  "initial_db_version": "61833",
+  "large_size_h": "1024",
+  "large_size_w": "1024",
+  "link_manager_enabled": "0",
+  "links_updated_date_format": "F j, Y g:i a",
+  "loginizer_2fa_whitelist": [],
+  "loginizer_blacklist": [],
+  "loginizer_free_installed": "1791566694",
+  "loginizer_ins_time": "1791566693",
+  "loginizer_last_reset": "1791566693",
+  "loginizer_login_attempt_stats": {
+    "1791565200": {
+      "1": 1
+    }
+  },
+  "loginizer_options": [],
+  "loginizer_pro_less_than_201": "1",
+  "loginizer_pro_version": "2.1.2",
+  "loginizer_provider_settings": {
+    "Google": {
+      "enabled": true,
+      "tested": true,
+      "loginizer_social_key": true
+    },
+    "GitHub": {
+      "enabled": true,
+      "tested": true,
+      "loginizer_social_key": true
+    },
+    "LinkedInOpenID": {
+      "enabled": true,
+      "tested": true,
+      "loginizer_social_key": true
+    },
+    "Twitter": {
+      "enabled": true,
+      "tested": true,
+      "loginizer_social_key": true
+    }
+  },
+  "loginizer_social_settings": {
+    "login": {
+      "login_form": true
+    }
+  },
+  "loginizer_version": "2.1.2",
+  "loginizer_version_free_nag": "1791566694",
+  "loginizer_version_pro_nag": "1791566694",
+  "loginizer_whitelist": [],
+  "mailserver_login": "login@example.com",
+  "mailserver_pass": "",
+  "mailserver_port": "110",
+  "mailserver_url": "mail.example.com",
+  "medium_large_size_h": "0",
+  "medium_large_size_w": "768",
+  "medium_size_h": "300",
+  "medium_size_w": "300",
+  "moderation_keys": "",
+  "moderation_notify": "1",
+  "new_admin_email": "haninh1997@gmail.com",
+  "novamira_ai_abilities_domain": "sfpe.org.au",
+  "novamira_ai_abilities_enabled": "1",
+  "novamira_chat_schema_version": "1",
+  "novamira_oauth_encryption_key": "u4fmmO06Z+gIfs39cNdhc6YO+QFky93O4QtDj5q7ww4=",
+  "novamira_oauth_private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDMoyRskQvSobWI\ncFsR4d/JemYK4QX6sfm/hkcRZRcOUnCgSfoskjCSnEq4+mH7/qiQw6V9yZQD/EbV\nmoCqgM/WPZriqQRkL/F/poww0xKOT2W+L1cFmeZR1lsuE/VOhLL5VNU8F82phPRF\nIyzRg1rWi9B4icHbRLoTmkWyD+z2GSm7j/B9+XSmEa6niJjpE2LitNiJnoZgB3Cd\nJZ6/H7D/tgvmsKTovkzSyOIAsN+x8kp6Ei79DF+ir8cG36El0Y9EWBXSmA49wNUJ\nsFypnTHvnkungWwY+0+RKI9abVlfHj+dfo1QW0VCWQk3UJ5GODWqQh7RZ3IHGNKQ\nlTTyfwcJAgMBAAECggEABzXnamjo+vzGNf7JgrWMCmAk+NSpfoYnZ/N+DROcDp3i\niI9awJfNHNlje6Wc7sFwJJu0ONyxubs5rryhNIDR8fldPAfbFwGmd4pBjdXeJUQQ\ncHVgEls0JaWRNGwxHFlqKgVudw3aqhK8fbQp198SRBWMnLaz7Ts8eETbGFVd0uUL\nZIZ28BP0AD9Oru8HoE3An3zEs8KgyZtJqoEHIoc09laJkWPXryd4dlKBaDBe2CtO\n8zryRcGB190it/thhLmj//1AFgHFU5z+9uEKU/YzUu/stQcNYxRI0EF/IkYdeTsq\nTdNH+IffMmdCj2q/pTwvP00z/5LmvI8x0/5y9e6qQQKBgQD6hV/UR/l3P+IRKVRI\n+VB3seZbDv1H9EojdYD71zXweqrM59iFUIqpfWjyazYTAhEoLCG2XGTUg8sdFmWw\n2XcS5wg7g86eFeGYk9PGK56DB37fP9x46MRZB/lgSYR1oxHyKDzj3OLkFk2PnJXH\n1r7ki3jmVNiA8c3HUdhf8IlJIQKBgQDRHN9hr9FddqtzrC/fC6746RfbgvaLTYzF\nQ/IqnkPhjPFQy9v3r5NhECWumWmAfsCOXAej7E/mGCkxZTocoUDhV5pJMXP0+iKE\nyB4/omGJj1NC8vb3jXut8mHi2Tsssk4Jq0pjDI44n2zzjo58wLJT68TWEaV+p2Jy\nkm7K7sR46QKBgDChh3K77g9aFVZjgXsQ+q/hlugCRuSa5XFws/MvWccu6M0SDJQE\niIZSU/cLHNofwpjbyEeQM/qVAu7IlED6VgUTWCPFeGxzrvFhcPC9Mu4YnGZWDURj\nWwo1ZBFu9Amp+Cfb68YH8Pt54OCJ8wFyDGhtMrDzs3uEdP/GQYyOMvhBAoGAc6vg\n9QxoZ6bpGEc7A8pWs2FczRQYhN4U7Fm1b1W0fuOT6PmbZ9s7Twm7jmVWMrnqkdTe\ndRKW79SVlLlF9+hLF1t6ANrWJcDnr0NzWAfepFUf3XzAmBcvPv1AoFdBoGvRNxAF\nSdz8Ht4xSlilAOUmv70/WJrSTMkScAYIO0DwdWECgYEAiATMwHsCj9hUzZoyeUNP\nFgQEYhtUFDgYk/uhu8UWr5yWZD9iM1DrhWS3UC9t4GXpuro6yuPA9GKnbiOi13cz\nFaYmZFjAkLPM+VXcYfeLzyLEOPx2r5sNApa15Nzv+4x6LfZEq4V+7hyS3s3VyLkk\nDc63rU+15m/AiM0xmbgpnzw=\n-----END PRIVATE KEY-----\n",
+  "novamira_oauth_schema_version": "5",
+  "novamira_pro_upsell_installed_at": "1791567389",
+  "page_comments": "0",
+  "page_for_posts": "0",
+  "page_on_front": "9",
+  "permalink_structure": "/%postname%/",
+  "ping_sites": "https://rpc.pingomatic.com/",
+  "posts_per_page": "10",
+  "posts_per_rss": "10",
+  "recently_activated": [],
+  "recently_edited": "",
+  "recovery_keys": [],
+  "require_name_email": "1",
+  "rewrite_rules": {
+    "^wp-json/?$": "index.php?rest_route=/",
+    "^wp-json/(.*)?": "index.php?rest_route=/$matches[1]",
+    "^index.php/wp-json/?$": "index.php?rest_route=/",
+    "^index.php/wp-json/(.*)?": "index.php?rest_route=/$matches[1]",
+    "^wp-sitemap\\.xml$": "index.php?sitemap=index",
+    "^wp-sitemap\\.xsl$": "index.php?sitemap-stylesheet=sitemap",
+    "^wp-sitemap-index\\.xsl$": "index.php?sitemap-stylesheet=index",
+    "^wp-sitemap-([a-z]+?)-([a-z\\d_-]+?)-(\\d+?)\\.xml$": "index.php?sitemap=$matches[1]&sitemap-subtype=$matches[2]&paged=$matches[3]",
+    "^wp-sitemap-([a-z]+?)-(\\d+?)\\.xml$": "index.php?sitemap=$matches[1]&paged=$matches[2]",
+    "^deskuss/(.*)?$": "index.php?deskuss_route=$matches[1]",
+    "webinars-list/?$": "index.php?post_type=webinar",
+    "webinars-list/feed/(feed|rdf|rss|rss2|atom)/?$": "index.php?post_type=webinar&feed=$matches[1]",
+    "webinars-list/(feed|rdf|rss|rss2|atom)/?$": "index.php?post_type=webinar&feed=$matches[1]",
+    "webinars-list/page/([0-9]{1,})/?$": "index.php?post_type=webinar&paged=$matches[1]",
+    "category/(.+?)/feed/(feed|rdf|rss|rss2|atom)/?$": "index.php?category_name=$matches[1]&feed=$matches[2]",
+    "category/(.+?)/(feed|rdf|rss|rss2|atom)/?$": "index.php?category_name=$matches[1]&feed=$matches[2]",
+    "category/(.+?)/embed/?$": "index.php?category_name=$matches[1]&embed=true",
+    "category/(.+?)/page/?([0-9]{1,})/?$": "index.php?category_name=$matches[1]&paged=$matches[2]",
+    "category/(.+?)/?$": "index.php?category_name=$matches[1]",
+    "tag/([^/]+)/feed/(feed|rdf|rss|rss2|atom)/?$": "index.php?tag=$matches[1]&feed=$matches[2]",
+    "tag/([^/]+)/(feed|rdf|rss|rss2|atom)/?$": "index.php?tag=$matches[1]&feed=$matches[2]",
+    "tag/([^/]+)/embed/?$": "index.php?tag=$matches[1]&embed=true",
+    "tag/([^/]+)/page/?([0-9]{1,})/?$": "index.php?tag=$matches[1]&paged=$matches[2]",
+    "tag/([^/]+)/?$": "index.php?tag=$matches[1]",
+    "type/([^/]+)/feed/(feed|rdf|rss|rss2|atom)/?$": "index.php?post_format=$matches[1]&feed=$matches[2]",
+    "type/([^/]+)/(feed|rdf|rss|rss2|atom)/?$": "index.php?post_format=$matches[1]&feed=$matches[2]",
+    "type/([^/]+)/embed/?$": "index.php?post_format=$matches[1]&embed=true",
+    "type/([^/]+)/page/?([0-9]{1,})/?$": "index.php?post_format=$matches[1]&paged=$matches[2]",
+    "type/([^/]+)/?$": "index.php?post_format=$matches[1]",
+    "webinars-list/[^/]+/attachment/([^/]+)/?$": "index.php?attachment=$matches[1]",
+    "webinars-list/[^/]+/attachment/([^/]+)/trackback/?$": "index.php?attachment=$matches[1]&tb=1",
+    "webinars-list/[^/]+/attachment/([^/]+)/feed/(feed|rdf|rss|rss2|atom)/?$": "index.php?attachment=$matches[1]&feed=$matches[2]",
+    "webinars-list/[^/]+/attachment/([^/]+)/(feed|rdf|rss|rss2|atom)/?$": "index.php?attachment=$matches[1]&feed=$matches[2]",
+    "webinars-list/[^/]+/attachment/([^/]+)/comment-page-([0-9]{1,})/?$": "index.php?attachment=$matches[1]&cpage=$matches[2]",
+    "webinars-list/[^/]+/attachment/([^/]+)/embed/?$": "index.php?attachment=$matches[1]&embed=true",
+    "webinars-list/([^/]+)/embed/?$": "index.php?webinar=$matches[1]&embed=true",
+    "webinars-list/([^/]+)/trackback/?$": "index.php?webinar=$matches[1]&tb=1",
+    "webinars-list/([^/]+)/feed/(feed|rdf|rss|rss2|atom)/?$": "index.php?webinar=$matches[1]&feed=$matches[2]",
+    "webinars-list/([^/]+)/(feed|rdf|rss|rss2|atom)/?$": "index.php?webinar=$matches[1]&feed=$matches[2]",
+    "webinars-list/([^/]+)/page/?([0-9]{1,})/?$": "index.php?webinar=$matches[1]&paged=$matches[2]",
+    "webinars-list/([^/]+)/comment-page-([0-9]{1,})/?$": "index.php?webinar=$matches[1]&cpage=$matches[2]",
+    "webinars-list/([^/]+)(?:/([0-9]+))?/?$": "index.php?webinar=$matches[1]&page=$matches[2]",
+    "webinars-list/[^/]+/([^/]+)/?$": "index.php?attachment=$matches[1]",
+    "webinars-list/[^/]+/([^/]+)/trackback/?$": "index.php?attachment=$matches[1]&tb=1",
+    "webinars-list/[^/]+/([^/]+)/feed/(feed|rdf|rss|rss2|atom)/?$": "index.php?attachment=$matches[1]&feed=$matches[2]",
+    "webinars-list/[^/]+/([^/]+)/(feed|rdf|rss|rss2|atom)/?$": "index.php?attachment=$matches[1]&feed=$matches[2]",
+    "webinars-list/[^/]+/([^/]+)/comment-page-([0-9]{1,})/?$": "index.php?attachment=$matches[1]&cpage=$matches[2]",
+    "webinars-list/[^/]+/([^/]+)/embed/?$": "index.php?attachment=$matches[1]&embed=true",
+    "robots\\.txt$": "index.php?robots=1",
+    "favicon\\.ico$": "index.php?favicon=1",
+    "sitemap\\.xml": "index.php?sitemap=index",
+    ".*wp-(atom|rdf|rss|rss2|feed|commentsrss2)\\.php$": "index.php?feed=old",
+    ".*wp-app\\.php(/.*)?$": "index.php?error=403",
+    ".*wp-register.php$": "index.php?register=true",
+    "feed/(feed|rdf|rss|rss2|atom)/?$": "index.php?&feed=$matches[1]",
+    "(feed|rdf|rss|rss2|atom)/?$": "index.php?&feed=$matches[1]",
+    "embed/?$": "index.php?&embed=true",
+    "page/?([0-9]{1,})/?$": "index.php?&paged=$matches[1]",
+    "comment-page-([0-9]{1,})/?$": "index.php?&page_id=9&cpage=$matches[1]",
+    "comments/feed/(feed|rdf|rss|rss2|atom)/?$": "index.php?&feed=$matches[1]&withcomments=1",
+    "comments/(feed|rdf|rss|rss2|atom)/?$": "index.php?&feed=$matches[1]&withcomments=1",
+    "comments/embed/?$": "index.php?&embed=true",
+    "search/(.+)/feed/(feed|rdf|rss|rss2|atom)/?$": "index.php?s=$matches[1]&feed=$matches[2]",
+    "search/(.+)/(feed|rdf|rss|rss2|atom)/?$": "index.php?s=$matches[1]&feed=$matches[2]",
+    "search/(.+)/embed/?$": "index.php?s=$matches[1]&embed=true",
+    "search/(.+)/page/?([0-9]{1,})/?$": "index.php?s=$matches[1]&paged=$matches[2]",
+    "search/(.+)/?$": "index.php?s=$matches[1]",
+    "author/([^/]+)/feed/(feed|rdf|rss|rss2|atom)/?$": "index.php?author_name=$matches[1]&feed=$matches[2]",
+    "author/([^/]+)/(feed|rdf|rss|rss2|atom)/?$": "index.php?author_name=$matches[1]&feed=$matches[2]",
+    "author/([^/]+)/embed/?$": "index.php?author_name=$matches[1]&embed=true",
+    "author/([^/]+)/page/?([0-9]{1,})/?$": "index.php?author_name=$matches[1]&paged=$matches[2]",
+    "author/([^/]+)/?$": "index.php?author_name=$matches[1]",
+    "([0-9]{4})/([0-9]{1,2})/([0-9]{1,2})/feed/(feed|rdf|rss|rss2|atom)/?$": "index.php?year=$matches[1]&monthnum=$matches[2]&day=$matches[3]&feed=$matches[4]",
+    "([0-9]{4})/([0-9]{1,2})/([0-9]{1,2})/(feed|rdf|rss|rss2|atom)/?$": "index.php?year=$matches[1]&monthnum=$matches[2]&day=$matches[3]&feed=$matches[4]",
+    "([0-9]{4})/([0-9]{1,2})/([0-9]{1,2})/embed/?$": "index.php?year=$matches[1]&monthnum=$matches[2]&day=$matches[3]&embed=true",
+    "([0-9]{4})/([0-9]{1,2})/([0-9]{1,2})/page/?([0-9]{1,})/?$": "index.php?year=$matches[1]&monthnum=$matches[2]&day=$matches[3]&paged=$matches[4]",
+    "([0-9]{4})/([0-9]{1,2})/([0-9]{1,2})/?$": "index.php?year=$matches[1]&monthnum=$matches[2]&day=$matches[3]",
+    "([0-9]{4})/([0-9]{1,2})/feed/(feed|rdf|rss|rss2|atom)/?$": "index.php?year=$matches[1]&monthnum=$matches[2]&feed=$matches[3]",
+    "([0-9]{4})/([0-9]{1,2})/(feed|rdf|rss|rss2|atom)/?$": "index.php?year=$matches[1]&monthnum=$matches[2]&feed=$matches[3]",
+    "([0-9]{4})/([0-9]{1,2})/embed/?$": "index.php?year=$matches[1]&monthnum=$matches[2]&embed=true",
+    "([0-9]{4})/([0-9]{1,2})/page/?([0-9]{1,})/?$": "index.php?year=$matches[1]&monthnum=$matches[2]&paged=$matches[3]",
+    "([0-9]{4})/([0-9]{1,2})/?$": "index.php?year=$matches[1]&monthnum=$matches[2]",
+    "([0-9]{4})/feed/(feed|rdf|rss|rss2|atom)/?$": "index.php?year=$matches[1]&feed=$matches[2]",
+    "([0-9]{4})/(feed|rdf|rss|rss2|atom)/?$": "index.php?year=$matches[1]&feed=$matches[2]",
+    "([0-9]{4})/embed/?$": "index.php?year=$matches[1]&embed=true",
+    "([0-9]{4})/page/?([0-9]{1,})/?$": "index.php?year=$matches[1]&paged=$matches[2]",
+    "([0-9]{4})/?$": "index.php?year=$matches[1]",
+    ".?.+?/attachment/([^/]+)/?$": "index.php?attachment=$matches[1]",
+    ".?.+?/attachment/([^/]+)/trackback/?$": "index.php?attachment=$matches[1]&tb=1",
+    ".?.+?/attachment/([^/]+)/feed/(feed|rdf|rss|rss2|atom)/?$": "index.php?attachment=$matches[1]&feed=$matches[2]",
+    ".?.+?/attachment/([^/]+)/(feed|rdf|rss|rss2|atom)/?$": "index.php?attachment=$matches[1]&feed=$matches[2]",
+    ".?.+?/attachment/([^/]+)/comment-page-([0-9]{1,})/?$": "index.php?attachment=$matches[1]&cpage=$matches[2]",
+    ".?.+?/attachment/([^/]+)/embed/?$": "index.php?attachment=$matches[1]&embed=true",
+    "(.?.+?)/embed/?$": "index.php?pagename=$matches[1]&embed=true",
+    "(.?.+?)/trackback/?$": "index.php?pagename=$matches[1]&tb=1",
+    "(.?.+?)/feed/(feed|rdf|rss|rss2|atom)/?$": "index.php?pagename=$matches[1]&feed=$matches[2]",
+    "(.?.+?)/(feed|rdf|rss|rss2|atom)/?$": "index.php?pagename=$matches[1]&feed=$matches[2]",
+    "(.?.+?)/page/?([0-9]{1,})/?$": "index.php?pagename=$matches[1]&paged=$matches[2]",
+    "(.?.+?)/comment-page-([0-9]{1,})/?$": "index.php?pagename=$matches[1]&cpage=$matches[2]",
+    "(.?.+?)(?:/([0-9]+))?/?$": "index.php?pagename=$matches[1]&page=$matches[2]",
+    "[^/]+/attachment/([^/]+)/?$": "index.php?attachment=$matches[1]",
+    "[^/]+/attachment/([^/]+)/trackback/?$": "index.php?attachment=$matches[1]&tb=1",
+    "[^/]+/attachment/([^/]+)/feed/(feed|rdf|rss|rss2|atom)/?$": "index.php?attachment=$matches[1]&feed=$matches[2]",
+    "[^/]+/attachment/([^/]+)/(feed|rdf|rss|rss2|atom)/?$": "index.php?attachment=$matches[1]&feed=$matches[2]",
+    "[^/]+/attachment/([^/]+)/comment-page-([0-9]{1,})/?$": "index.php?attachment=$matches[1]&cpage=$matches[2]",
+    "[^/]+/attachment/([^/]+)/embed/?$": "index.php?attachment=$matches[1]&embed=true",
+    "([^/]+)/embed/?$": "index.php?name=$matches[1]&embed=true",
+    "([^/]+)/trackback/?$": "index.php?name=$matches[1]&tb=1",
+    "([^/]+)/feed/(feed|rdf|rss|rss2|atom)/?$": "index.php?name=$matches[1]&feed=$matches[2]",
+    "([^/]+)/(feed|rdf|rss|rss2|atom)/?$": "index.php?name=$matches[1]&feed=$matches[2]",
+    "([^/]+)/page/?([0-9]{1,})/?$": "index.php?name=$matches[1]&paged=$matches[2]",
+    "([^/]+)/comment-page-([0-9]{1,})/?$": "index.php?name=$matches[1]&cpage=$matches[2]",
+    "([^/]+)(?:/([0-9]+))?/?$": "index.php?name=$matches[1]&page=$matches[2]",
+    "[^/]+/([^/]+)/?$": "index.php?attachment=$matches[1]",
+    "[^/]+/([^/]+)/trackback/?$": "index.php?attachment=$matches[1]&tb=1",
+    "[^/]+/([^/]+)/feed/(feed|rdf|rss|rss2|atom)/?$": "index.php?attachment=$matches[1]&feed=$matches[2]",
+    "[^/]+/([^/]+)/(feed|rdf|rss|rss2|atom)/?$": "index.php?attachment=$matches[1]&feed=$matches[2]",
+    "[^/]+/([^/]+)/comment-page-([0-9]{1,})/?$": "index.php?attachment=$matches[1]&cpage=$matches[2]",
+    "[^/]+/([^/]+)/embed/?$": "index.php?attachment=$matches[1]&embed=true"
+  },
+  "rss_use_excerpt": "0",
+  "sharemypost_pro_tweet_settings": {
+    "tweet_theme": "default",
+    "tweet_accent_color": "#1f75e1",
+    "tweet_cta_text": "Click to Tweet",
+    "tweet_cta_position": "right",
+    "tweet_remove_url": 0,
+    "tweet_remove_username": 0,
+    "tweet_hide_hashtags": 0
+  },
+  "sharemypost_pro_version": "1.0.7",
+  "sharemypost_settings": {
+    "mobile": 1,
+    "inline_enabled": 1,
+    "inline_position": "below",
+    "inline_post_types": [
+      "post"
+    ],
+    "inline_enabled_networks": [
+      "twitter",
+      "pinterest",
+      "whatsapp",
+      "facebook"
+    ],
+    "inline_network_order": [
+      "twitter",
+      "pinterest",
+      "reddit",
+      "mastodon",
+      "threads",
+      "email",
+      "print",
+      "flipboard",
+      "hackernews",
+      "line",
+      "wechat",
+      "snapchat",
+      "mix",
+      "pocket",
+      "sms",
+      "tumblr",
+      "xing",
+      "vk",
+      "buffer",
+      "yummly",
+      "nextdoor",
+      "gab"
+    ],
+    "inline_button_color_type": "original",
+    "inline_button_color": "#1f75e1",
+    "inline_show_labels": "icon_only",
+    "container_width": "auto",
+    "inline_ai_enabled_networks": [
+      "chatgpt",
+      "gemini",
+      ""
+    ],
+    "floating_enabled": 1,
+    "floating_position": "right",
+    "floating_post_types": [
+      "post"
+    ],
+    "floating_enabled_networks": [
+      "facebook",
+      "twitter",
+      "whatsapp",
+      "linkedin"
+    ],
+    "floating_network_order": [
+      "twitter",
+      "pinterest",
+      "reddit",
+      "mastodon",
+      "threads",
+      "email",
+      "print",
+      "flipboard",
+      "hackernews",
+      "line",
+      "wechat",
+      "snapchat",
+      "mix",
+      "pocket",
+      "sms",
+      "tumblr",
+      "xing",
+      "vk",
+      "buffer",
+      "yummly",
+      "nextdoor",
+      "gab"
+    ],
+    "floating_button_shape": "rounded",
+    "floating_button_size": 20,
+    "floating_space_between_icons": 10,
+    "floating_button_style": "filled",
+    "floating_button_color_type": "original",
+    "floating_button_color": "#1f75e1",
+    "floating_show_labels": "icon_only",
+    "floating_universal_enabled": 1,
+    "floating_universal_color": "#1f75e1",
+    "floating_mobile_breakpoint": 768
+  },
+  "show_avatars": "1",
+  "show_comments_cookies_opt_in": "1",
+  "show_on_front": "page",
+  "sidebars_widgets": {
+    "wp_inactive_widgets": [
+      "block-2",
+      "block-3",
+      "block-4",
+      "block-5",
+      "block-6"
+    ],
+    "array_version": 3
+  },
+  "site_icon": "0",
+  "siteurl": "https://sfpe.org.au",
+  "softaculous_pro_license": {
+    "license": "SOFTWP-27967-77671-13718-51812",
+    "expires": "20261103",
+    "type": "1",
+    "type_txt": "Premium",
+    "num_sites": null,
+    "plan": "personal",
+    "active": 1,
+    "licexpired": null,
+    "thid": null,
+    "status": 1,
+    "last_edit": "1791566687",
+    "status_txt": "<font color=\"green\">Active</font>",
+    "has_plid": 1,
+    "last_update": 1791566689
+  },
+  "softaculous_pro_rebranding": {
+    "sn": "Softaculous",
+    "logo_url": "",
+    "default_hf_bg": null,
+    "default_hf_text": null
+  },
+  "start_of_week": "1",
+  "sticky_posts": [],
+  "stylesheet": "sfpe-theme",
+  "tag_base": "",
+  "template": "sfpe-theme",
+  "theme_mods_sfpe-theme": {
+    "nav_menu_locations": [],
+    "sidebars_widgets": {
+      "time": 1791568531,
+      "data": {
+        "wp_inactive_widgets": [
+          "block-2",
+          "block-3",
+          "block-4",
+          "block-5",
+          "block-6"
+        ]
+      }
+    },
+    "custom_css_post_id": -1
+  },
+  "theme_mods_twentytwentyfive": {
+    "custom_css_post_id": -1,
+    "sidebars_widgets": {
+      "time": 1791568518,
+      "data": {
+        "wp_inactive_widgets": [],
+        "sidebar-1": [
+          "block-2",
+          "block-3",
+          "block-4"
+        ],
+        "sidebar-2": [
+          "block-5",
+          "block-6"
+        ]
+      }
+    }
+  },
+  "theme_switched": "",
+  "thread_comments": "1",
+  "thread_comments_depth": "5",
+  "thumbnail_crop": "1",
+  "thumbnail_size_h": "150",
+  "thumbnail_size_w": "150",
+  "time_format": "g:i a",
+  "timezone_string": "",
+  "uninstall_plugins": {
+    "loginizer/loginizer.php": "loginizer_deactivation",
+    "sharemypost/sharemypost.php": "\\ShareMyPost\\Install::uninstall",
+    "sharemypost-pro/sharemypost-pro.php": "\\ShareMyPostPro\\Install::uninstall"
+  },
+  "upload_path": "",
+  "upload_url_path": "",
+  "uploads_use_yearmonth_folders": "1",
+  "use_balanceTags": "0",
+  "use_smilies": "1",
+  "use_trackback": "0",
+  "user_count": "1",
+  "users_can_register": "1",
+  "w3tc_cached_notices": "{\"time\":1791567153,\"notices\":[{\"id\":1,\"name\":\"flash-sale-half-off\",\"is_active\":1,\"audience\":\"all\",\"priority\":1,\"start_at\":\"2024-08-07 00:00:00\",\"end_at\":null,\"content\":\"<div class=\\\"notice notice-info is-dismissible\\\" data-id=\\\"1\\\">Get 50% off a W3 Total Cache 1 Site License! Use code flash-sale-half-off at checkout.<button type=\\\"button\\\" class=\\\"notice-dismiss\\\"><span class=\\\"screen-reader-text\\\">Dismiss this notice.<\\/span><\\/button><\\/div>\",\"created_at\":\"2024-08-07T00:00:00.000000Z\",\"updated_at\":\"2024-08-07T00:00:00.000000Z\",\"is_global\":false}]}",
+  "w3tc_extensions_hooks": "{\"actions\":[],\"filters\":[],\"next_check_date\":1791653790}",
+  "w3tc_install_date": "2026-10-09 17:25:07",
+  "w3tc_pgcache_prime_generation": "7a54b076-da20-4516-b004-31571ca9ca0a",
+  "w3tc_pgcache_prime_offset": "0",
+  "w3tc_pgcache_prime_settings": "a3b03fb3c3f9bec267244262badf1fd978959d49139767f42b5231a58b78e5e6",
+  "w3tc_post_update_admin_tasks_ran_versions": [
+    "2.8.1",
+    "2.8.6"
+  ],
+  "w3tc_post_update_generic_tasks_ran_versions": [
+    "2.8.6"
+  ],
+  "w3tc_state": "{\"common.install\":1791566707,\"common.install_version\":\"2.10.7\",\"tasks.generic.last_run_version\":\"2.10.7\",\"tasks.last_run_version\":null,\"tasks.admin.last_run_version\":\"2.10.7\",\"license.status\":\"no_key\",\"license.next_check\":1792001069,\"license.terms\":\"\",\"license.paypal_billing_update_required\":false,\"common.show_note.plugins_updated\":false,\"common.show_note.plugins_updated.timestamp\":1791567395,\"license.community_terms\":\"accept\",\"common.show_note.flush_posts_needed\":false,\"common.show_note.flush_posts_needed.timestamp\":1791567395}",
+  "widget_akismet_widget": {
+    "_multiwidget": 1
+  },
+  "widget_archives": {
+    "_multiwidget": 1
+  },
+  "widget_block": {
+    "2": {
+      "content": "<!-- wp:search /-->"
+    },
+    "3": {
+      "content": "<!-- wp:group --><div class=\"wp-block-group\"><!-- wp:heading --><h2>Recent Posts</h2><!-- /wp:heading --><!-- wp:latest-posts /--></div><!-- /wp:group -->"
+    },
+    "4": {
+      "content": "<!-- wp:group --><div class=\"wp-block-group\"><!-- wp:heading --><h2>Recent Comments</h2><!-- /wp:heading --><!-- wp:latest-comments {\"displayAvatar\":false,\"displayDate\":false,\"displayExcerpt\":false} /--></div><!-- /wp:group -->"
+    },
+    "5": {
+      "content": "<!-- wp:group --><div class=\"wp-block-group\"><!-- wp:heading --><h2>Archives</h2><!-- /wp:heading --><!-- wp:archives /--></div><!-- /wp:group -->"
+    },
+    "6": {
+      "content": "<!-- wp:group --><div class=\"wp-block-group\"><!-- wp:heading --><h2>Categories</h2><!-- /wp:heading --><!-- wp:categories /--></div><!-- /wp:group -->"
+    },
+    "_multiwidget": 1
+  },
+  "widget_calendar": {
+    "_multiwidget": 1
+  },
+  "widget_categories": [],
+  "widget_custom_html": {
+    "_multiwidget": 1
+  },
+  "widget_media_audio": {
+    "_multiwidget": 1
+  },
+  "widget_media_gallery": {
+    "_multiwidget": 1
+  },
+  "widget_media_image": {
+    "_multiwidget": 1
+  },
+  "widget_media_video": {
+    "_multiwidget": 1
+  },
+  "widget_meta": {
+    "_multiwidget": 1
+  },
+  "widget_nav_menu": {
+    "_multiwidget": 1
+  },
+  "widget_pages": {
+    "_multiwidget": 1
+  },
+  "widget_recent-comments": {
+    "_multiwidget": 1
+  },
+  "widget_recent-posts": {
+    "_multiwidget": 1
+  },
+  "widget_rss": [],
+  "widget_search": {
+    "_multiwidget": 1
+  },
+  "widget_tag_cloud": {
+    "_multiwidget": 1
+  },
+  "widget_text": [],
+  "wordpress_api_key": "7cd5597002d1",
+  "wp_attachment_pages_enabled": "0",
+  "wp_force_deactivated_plugins": [],
+  "wp_notes_notify": "1",
+  "wp_page_for_privacy_policy": "3",
+  "WPLANG": "en_AU",
+  "wpli_user_roles": {
+    "administrator": {
+      "name": "Administrator",
+      "capabilities": {
+        "switch_themes": true,
+        "edit_themes": true,
+        "activate_plugins": true,
+        "edit_plugins": true,
+        "edit_users": true,
+        "edit_files": true,
+        "manage_options": true,
+        "moderate_comments": true,
+        "manage_categories": true,
+        "manage_links": true,
+        "upload_files": true,
+        "import": true,
+        "unfiltered_html": true,
+        "edit_posts": true,
+        "edit_others_posts": true,
+        "edit_published_posts": true,
+        "publish_posts": true,
+        "edit_pages": true,
+        "read": true,
+        "level_10": true,
+        "level_9": true,
+        "level_8": true,
+        "level_7": true,
+        "level_6": true,
+        "level_5": true,
+        "level_4": true,
+        "level_3": true,
+        "level_2": true,
+        "level_1": true,
+        "level_0": true,
+        "edit_others_pages": true,
+        "edit_published_pages": true,
+        "publish_pages": true,
+        "delete_pages": true,
+        "delete_others_pages": true,
+        "delete_published_pages": true,
+        "delete_posts": true,
+        "delete_others_posts": true,
+        "delete_published_posts": true,
+        "delete_private_posts": true,
+        "edit_private_posts": true,
+        "read_private_posts": true,
+        "delete_private_pages": true,
+        "edit_private_pages": true,
+        "read_private_pages": true,
+        "delete_users": true,
+        "create_users": true,
+        "unfiltered_upload": true,
+        "edit_dashboard": true,
+        "update_plugins": true,
+        "delete_plugins": true,
+        "install_plugins": true,
+        "update_themes": true,
+        "install_themes": true,
+        "update_core": true,
+        "list_users": true,
+        "remove_users": true,
+        "promote_users": true,
+        "edit_theme_options": true,
+        "delete_themes": true,
+        "export": true,
+        "deskuss_staff": true,
+        "support_client": true
+      }
+    },
+    "editor": {
+      "name": "Editor",
+      "capabilities": {
+        "moderate_comments": true,
+        "manage_categories": true,
+        "manage_links": true,
+        "upload_files": true,
+        "unfiltered_html": true,
+        "edit_posts": true,
+        "edit_others_posts": true,
+        "edit_published_posts": true,
+        "publish_posts": true,
+        "edit_pages": true,
+        "read": true,
+        "level_7": true,
+        "level_6": true,
+        "level_5": true,
+        "level_4": true,
+        "level_3": true,
+        "level_2": true,
+        "level_1": true,
+        "level_0": true,
+        "edit_others_pages": true,
+        "edit_published_pages": true,
+        "publish_pages": true,
+        "delete_pages": true,
+        "delete_others_pages": true,
+        "delete_published_pages": true,
+        "delete_posts": true,
+        "delete_others_posts": true,
+        "delete_published_posts": true,
+        "delete_private_posts": true,
+        "edit_private_posts": true,
+        "read_private_posts": true,
+        "delete_private_pages": true,
+        "edit_private_pages": true,
+        "read_private_pages": true,
+        "deskuss_staff": true,
+        "support_client": true
+      }
+    },
+    "author": {
+      "name": "Author",
+      "capabilities": {
+        "upload_files": true,
+        "edit_posts": true,
+        "edit_published_posts": true,
+        "publish_posts": true,
+        "read": true,
+        "level_2": true,
+        "level_1": true,
+        "level_0": true,
+        "delete_posts": true,
+        "delete_published_posts": true
+      }
+    },
+    "contributor": {
+      "name": "Contributor",
+      "capabilities": {
+        "edit_posts": true,
+        "read": true,
+        "level_1": true,
+        "level_0": true,
+        "delete_posts": true
+      }
+    },
+    "subscriber": {
+      "name": "Subscriber",
+      "capabilities": {
+        "read": true,
+        "level_0": true
+      }
+    },
+    "deskuss_staff": {
+      "name": "Deskuss Staff",
+      "capabilities": {
+        "read": true,
+        "edit_posts": false,
+        "upload_files": true
+      }
+    },
+    "support_client": {
+      "name": "Support Client",
+      "capabilities": {
+        "read": true
+      }
+    }
+  }
+}

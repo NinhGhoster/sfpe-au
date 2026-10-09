@@ -25,10 +25,17 @@ const seedScript = `
 // 1. Activate Theme
 switch_theme('sfpe-theme');
 
-// 2. Set Site Title, Tagline and Permalinks
+// 2. Set Site Title, Tagline, Permalinks, and General Settings
 update_option('blogname', 'SFPE Australia');
 update_option('blogdescription', 'Australian Chapter • The Society of Fire Protection Engineers (SFPE)');
 update_option('permalink_structure', '/%postname%/');
+update_option('users_can_register', '1');
+update_option('default_role', 'subscriber');
+update_option('gmt_offset', '11');
+update_option('start_of_week', '1');
+update_option('WPLANG', 'en_AU');
+update_option('date_format', 'F j, Y');
+update_option('time_format', 'g:i a');
 
 // 3. Trash default sample post and sample page
 $sample_post = get_page_by_path('hello-world', OBJECT, 'post');

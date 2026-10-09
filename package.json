@@ -9,6 +9,7 @@
     "purge-cache": "node scripts/purge-cache.js",
     "audit": "node scripts/audit.js",
     "seed": "node scripts/seed-site.js",
+    "backup": "node scripts/backup.js",
     "test": "npm run audit && npm run verify"
   },
   "repository": {
