@@ -26,9 +26,21 @@ SFPE Australia bridges domestic fire safety engineering (under Australia's perfo
 
 ---
 
+## Platform Preview
+
+| Desktop Overview | Mobile Responsive View |
+| :---: | :---: |
+| ![Homepage Desktop](assets/screenshots/homepage_desktop.png) | <img src="assets/screenshots/homepage_mobile.png" width="300" alt="Homepage Mobile"> |
+
+| Official Events & Calendar Pipeline | Higher Education & Research Alliances |
+| :---: | :---: |
+| ![Events & Calendar](assets/screenshots/events_desktop.png) | ![About & Research Alliances](assets/screenshots/about_desktop.png) |
+
+---
+
 ## Technology Stack
 
-- **Platform**: WordPress (Custom Theme: `sfpe-theme` v5.1.0)
+- **Platform**: WordPress (Custom Theme: `sfpe-theme` v5.3.0)
 - **Styling**: Vanilla CSS3 with fluid typography (`clamp()`), CSS Custom Properties, and responsive grid layouts (1400px maximum container width).
 - **Typography Stack**:
   - Headings: `Plus Jakarta Sans`
@@ -46,7 +58,7 @@ SFPE/
 ├── package.json            # NPM scripts for deployment, audit, and verification
 ├── .gitignore              # Version control ignore list
 ├── theme/                  # Standalone WordPress theme source files
-│   ├── style.css           # Responsive styles with fluid typography (v5.1.0)
+│   ├── style.css           # Responsive styles with fluid typography (v5.3.0)
 │   ├── functions.php       # Post types, enqueue scripts, custom meta
 │   ├── header.php          # Header, brand mark, and mobile navigation
 │   ├── footer.php          # Global footer and directory links
@@ -59,7 +71,10 @@ SFPE/
 │   ├── page-cpd-hub.php    # CPD guidance and partner resource hub
 │   ├── page-contact.php    # Join and inquiry form
 │   └── images/             # Theme assets and branding (logos, banner)
-├── assets/                 # High-resolution branding and photography
+├── assets/                 # High-resolution branding, imagery, and previews
+│   ├── branding/           # Vector marks and official crests
+│   ├── imagery/            # High-resolution landscape photography
+│   └── screenshots/        # Multi-viewport responsive interface captures
 ├── scripts/                # Deployment and verification automation
 │   ├── deploy.js           # Pushes theme/ to remote WordPress and purges cache
 │   ├── purge-cache.js      # Flushes static page cache & object cache
