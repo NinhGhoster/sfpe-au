@@ -32,7 +32,7 @@ function sfpe_scripts() {
         'sfpe-style',
         get_stylesheet_uri(),
         array('sfpe-fonts'),
-        '5.2.1'
+        wp_get_theme()->get('Version') ?: '5.4.8'
     );
 }
 add_action('wp_enqueue_scripts', 'sfpe_scripts');

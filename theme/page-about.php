@@ -66,7 +66,7 @@ get_header(); ?>
       <div class="exec-grid">
         <div class="exec-card">
           <div class="exec-headshot">
-            <img src="<?php echo esc_url(get_template_directory_uri() . '/images/headshot-placeholder.svg'); ?>" alt="Dr Jonathan Barnett Headshot" class="headshot-photo" width="120" height="120">
+            <img src="<?php echo esc_url(get_template_directory_uri() . '/images/headshot-placeholder.svg'); ?>" alt="Dr Jonathan Barnett Headshot" class="headshot-photo" width="150" height="150">
           </div>
           <div class="exec-details">
             <div class="exec-header-text">
@@ -83,7 +83,7 @@ get_header(); ?>
 
         <div class="exec-card">
           <div class="exec-headshot">
-            <img src="<?php echo esc_url(get_template_directory_uri() . '/images/headshot-placeholder.svg'); ?>" alt="Dr Frank Mendham Headshot" class="headshot-photo" width="120" height="120">
+            <img src="<?php echo esc_url(get_template_directory_uri() . '/images/headshot-placeholder.svg'); ?>" alt="Dr Frank Mendham Headshot" class="headshot-photo" width="150" height="150">
           </div>
           <div class="exec-details">
             <div class="exec-header-text">
@@ -100,7 +100,7 @@ get_header(); ?>
 
         <div class="exec-card">
           <div class="exec-headshot">
-            <img src="<?php echo esc_url(get_template_directory_uri() . '/images/headshot-placeholder.svg'); ?>" alt="Dr Dan Rathnayaka Headshot" class="headshot-photo" width="120" height="120">
+            <img src="<?php echo esc_url(get_template_directory_uri() . '/images/headshot-placeholder.svg'); ?>" alt="Dr Dan Rathnayaka Headshot" class="headshot-photo" width="150" height="150">
           </div>
           <div class="exec-details">
             <div class="exec-header-text">
@@ -117,7 +117,7 @@ get_header(); ?>
 
         <div class="exec-card">
           <div class="exec-headshot">
-            <img src="<?php echo esc_url(get_template_directory_uri() . '/images/headshot-placeholder.svg'); ?>" alt="Michael Beecroft Headshot" class="headshot-photo" width="120" height="120">
+            <img src="<?php echo esc_url(get_template_directory_uri() . '/images/headshot-placeholder.svg'); ?>" alt="Michael Beecroft Headshot" class="headshot-photo" width="150" height="150">
           </div>
           <div class="exec-details">
             <div class="exec-header-text">
@@ -134,7 +134,7 @@ get_header(); ?>
 
         <div class="exec-card">
           <div class="exec-headshot">
-            <img src="<?php echo esc_url(get_template_directory_uri() . '/images/headshot-placeholder.svg'); ?>" alt="Dr Amer Magrabi Headshot" class="headshot-photo" width="120" height="120">
+            <img src="<?php echo esc_url(get_template_directory_uri() . '/images/headshot-placeholder.svg'); ?>" alt="Dr Amer Magrabi Headshot" class="headshot-photo" width="150" height="150">
           </div>
           <div class="exec-details">
             <div class="exec-header-text">
@@ -151,7 +151,7 @@ get_header(); ?>
 
         <div class="exec-card">
           <div class="exec-headshot">
-            <img src="<?php echo esc_url(get_template_directory_uri() . '/images/headshot-placeholder.svg'); ?>" alt="Prof David Lange Headshot" class="headshot-photo" width="120" height="120">
+            <img src="<?php echo esc_url(get_template_directory_uri() . '/images/headshot-placeholder.svg'); ?>" alt="Prof David Lange Headshot" class="headshot-photo" width="150" height="150">
           </div>
           <div class="exec-details">
             <div class="exec-header-text">
@@ -172,7 +172,7 @@ get_header(); ?>
         <div class="contrib-grid">
           <div class="contrib-card">
             <div class="contrib-headshot">
-              <img src="<?php echo esc_url(get_template_directory_uri() . '/images/headshot-placeholder.svg'); ?>" alt="Pelle Zetterstrom Headshot" class="headshot-photo" width="80" height="80">
+              <img src="<?php echo esc_url(get_template_directory_uri() . '/images/headshot-placeholder.svg'); ?>" alt="Pelle Zetterstrom Headshot" class="headshot-photo" width="100" height="100">
             </div>
             <div class="contrib-details">
               <div class="contrib-header-text">
@@ -188,7 +188,7 @@ get_header(); ?>
 
           <div class="contrib-card">
             <div class="contrib-headshot">
-              <img src="<?php echo esc_url(get_template_directory_uri() . '/images/headshot-placeholder.svg'); ?>" alt="MC Hui Headshot" class="headshot-photo" width="80" height="80">
+              <img src="<?php echo esc_url(get_template_directory_uri() . '/images/headshot-placeholder.svg'); ?>" alt="MC Hui Headshot" class="headshot-photo" width="100" height="100">
             </div>
             <div class="contrib-details">
               <div class="contrib-header-text">
@@ -205,7 +205,7 @@ get_header(); ?>
 
           <div class="contrib-card">
             <div class="contrib-headshot">
-              <img src="<?php echo esc_url(get_template_directory_uri() . '/images/headshot-placeholder.svg'); ?>" alt="Aaron Nicholson Headshot" class="headshot-photo" width="80" height="80">
+              <img src="<?php echo esc_url(get_template_directory_uri() . '/images/headshot-placeholder.svg'); ?>" alt="Aaron Nicholson Headshot" class="headshot-photo" width="100" height="100">
             </div>
             <div class="contrib-details">
               <div class="contrib-header-text">
@@ -221,7 +221,7 @@ get_header(); ?>
 
           <div class="contrib-card">
             <div class="contrib-headshot">
-              <img src="<?php echo esc_url(get_template_directory_uri() . '/images/headshot-placeholder.svg'); ?>" alt="Tobias Salomonsson Headshot" class="headshot-photo" width="80" height="80">
+              <img src="<?php echo esc_url(get_template_directory_uri() . '/images/headshot-placeholder.svg'); ?>" alt="Tobias Salomonsson Headshot" class="headshot-photo" width="100" height="100">
             </div>
             <div class="contrib-details">
               <div class="contrib-header-text">
@@ -237,7 +237,7 @@ get_header(); ?>
 
           <div class="contrib-card">
             <div class="contrib-headshot">
-              <img src="<?php echo esc_url(get_template_directory_uri() . '/images/headshot-placeholder.svg'); ?>" alt="Simon P Krishnan Headshot" class="headshot-photo" width="80" height="80">
+              <img src="<?php echo esc_url(get_template_directory_uri() . '/images/headshot-placeholder.svg'); ?>" alt="Simon P Krishnan Headshot" class="headshot-photo" width="100" height="100">
             </div>
             <div class="contrib-details">
               <div class="contrib-header-text">
@@ -253,7 +253,7 @@ get_header(); ?>
 
           <div class="contrib-card">
             <div class="contrib-headshot">
-              <img src="<?php echo esc_url(get_template_directory_uri() . '/images/headshot-placeholder.svg'); ?>" alt="Derya Horasan Headshot" class="headshot-photo" width="80" height="80">
+              <img src="<?php echo esc_url(get_template_directory_uri() . '/images/headshot-placeholder.svg'); ?>" alt="Derya Horasan Headshot" class="headshot-photo" width="100" height="100">
             </div>
             <div class="contrib-details">
               <div class="contrib-header-text">
@@ -269,7 +269,7 @@ get_header(); ?>
 
           <div class="contrib-card">
             <div class="contrib-headshot">
-              <img src="<?php echo esc_url(get_template_directory_uri() . '/images/headshot-placeholder.svg'); ?>" alt="Ninh Ghoster Headshot" class="headshot-photo" width="80" height="80">
+              <img src="<?php echo esc_url(get_template_directory_uri() . '/images/headshot-placeholder.svg'); ?>" alt="Ninh Ghoster Headshot" class="headshot-photo" width="100" height="100">
             </div>
             <div class="contrib-details">
               <div class="contrib-header-text">

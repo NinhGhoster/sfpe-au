@@ -4,7 +4,7 @@ Theme URI: https://sfpe.org.au
 Description: Official theme for the Australian Chapter of the Society of Fire Protection Engineers (SFPE).
  * Author: Ninh
  * Author URI: https://sfpe.org.au
- * Version: 5.4.7
+ * Version: 5.4.8
  * Text Domain: sfpe-australia
  */
 
@@ -864,7 +864,7 @@ a:hover {
   display: flex;
   flex-direction: row;
   align-items: center;
-  gap: clamp(16px, 1.8vw, 22px);
+  gap: clamp(18px, 2vw, 24px);
   transition: all 0.2s ease;
 }
 
@@ -875,9 +875,9 @@ a:hover {
 }
 
 .exec-headshot {
-  width: 120px;
-  height: 120px;
-  min-width: 120px;
+  width: 150px;
+  height: 150px;
+  min-width: 150px;
   border-radius: var(--radius-md);
   border: 1px solid var(--color-border);
   background-color: var(--color-canvas);
@@ -902,7 +902,7 @@ a:hover {
   justify-content: center;
   min-width: 0;
   flex-grow: 1;
-  gap: 10px;
+  gap: 12px;
 }
 
 .exec-header-text {
@@ -914,10 +914,10 @@ a:hover {
 .exec-name {
   color: var(--color-ink);
   display: block;
-  font-size: clamp(18px, 1.25vw, 20.5px);
+  font-size: clamp(18px, 1.25vw, 21px);
   font-weight: 700;
   line-height: 1.25;
-  margin-bottom: 3px;
+  margin-bottom: 4px;
 }
 
 .exec-role {
@@ -931,8 +931,8 @@ a:hover {
 .exec-links {
   display: flex;
   align-items: center;
-  gap: 12px;
-  padding-top: 8px;
+  gap: 14px;
+  padding-top: 10px;
   border-top: 1px solid var(--color-border);
   flex-wrap: wrap;
 }
@@ -988,9 +988,9 @@ a:hover {
 }
 
 .contrib-headshot {
-  width: 80px;
-  height: 80px;
-  min-width: 80px;
+  width: 100px;
+  height: 100px;
+  min-width: 100px;
   border-radius: var(--radius-md);
   border: 1px solid var(--color-border);
   background-color: var(--color-canvas);
@@ -1799,9 +1799,9 @@ a:hover {
   }
 
   .exec-headshot {
-    width: 104px;
-    height: 104px;
-    min-width: 104px;
+    width: clamp(110px, 25vw, 130px);
+    height: clamp(110px, 25vw, 130px);
+    min-width: clamp(110px, 25vw, 130px);
   }
 
   .contrib-grid {
@@ -1809,9 +1809,9 @@ a:hover {
   }
 
   .contrib-headshot {
-    width: 72px;
-    height: 72px;
-    min-width: 72px;
+    width: clamp(76px, 18vw, 88px);
+    height: clamp(76px, 18vw, 88px);
+    min-width: clamp(76px, 18vw, 88px);
   }
 
   .alliance-grid {
