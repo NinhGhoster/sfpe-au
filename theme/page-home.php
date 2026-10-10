@@ -224,7 +224,7 @@ get_header(); ?>
       </div>
     </div>
 
-    <div style="text-align: center; margin-top: clamp(36px, 4vw, 56px);">
+    <div style="text-align: center; margin-top: clamp(20px, 2.5vw, 32px);">
       <a href="<?php echo esc_url(home_url('/events/')); ?>" class="btn btn-primary">
         View Events Calendar &amp; Pipeline &rarr;
       </a>

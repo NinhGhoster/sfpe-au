@@ -93,9 +93,12 @@ function deployTheme() {
       if (file_exists($path)) $written++;
     }
 
-    // Copy favicon.ico to WordPress web root for direct browser requests
+    // Copy favicon.ico and favicon.png to WordPress web root for direct browser requests
     if (isset($files['favicon.ico'])) {
       file_put_contents(ABSPATH . '/favicon.ico', base64_decode($files['favicon.ico']));
+    }
+    if (isset($images['sfpe_favicon3.png'])) {
+      file_put_contents(ABSPATH . '/favicon.png', base64_decode($images['sfpe_favicon3.png']));
     }
 
     // Ensure theme is active

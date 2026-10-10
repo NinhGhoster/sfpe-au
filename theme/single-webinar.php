@@ -9,21 +9,21 @@ get_header(); ?>
       $discussant = get_post_meta(get_the_ID(), '_webinar_discussant', true) ?: 'Australian Discussant';
       $status = get_post_meta(get_the_ID(), '_webinar_status', true) ?: 'In Pipeline';
     ?>
-      <div style="margin-bottom: 24px;">
+      <div style="margin-bottom: 16px;">
         <a href="<?php echo esc_url(home_url('/events/')); ?>" style="color: var(--color-blue); font-size: 14px; font-weight: 600; display: inline-flex; align-items: center; gap: 4px;">
           &larr; Back to Events Calendar
         </a>
       </div>
 
       <div class="content-card">
-        <div style="display: flex; gap: 10px; margin-bottom: 16px; flex-wrap: wrap;">
+        <div style="display: flex; gap: 10px; margin-bottom: 12px; flex-wrap: wrap;">
           <span class="webinar-session-badge"><?php echo esc_html($session); ?></span>
           <span class="webinar-partner-pill"><?php echo esc_html($partner); ?></span>
         </div>
 
-        <h1 class="section-title" style="margin-bottom: 20px;"><?php the_title(); ?></h1>
+        <h1 class="section-title" style="margin-bottom: 14px;"><?php the_title(); ?></h1>
 
-        <div style="background-color: var(--color-surface-alt); border-radius: var(--radius-md); padding: 18px 20px; margin-bottom: 26px;">
+        <div style="background-color: var(--color-surface-alt); border-radius: var(--radius-md); padding: 14px 16px; margin-bottom: 18px;">
           <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 200px), 1fr)); gap: 14px; font-size: 14px;">
             <div>
               <span style="color: var(--color-ink-subtle); display: block; font-size: 12px; text-transform: uppercase;">International Presenter:</span>

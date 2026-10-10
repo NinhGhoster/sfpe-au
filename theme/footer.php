@@ -7,14 +7,14 @@
   <div class="container">
     <div class="footer-grid">
       <div>
-        <div style="display: flex; align-items: center; gap: 12px; margin-bottom: 18px;">
+        <div style="display: flex; align-items: center; gap: 12px; margin-bottom: 12px;">
           <img src="<?php echo esc_url(get_template_directory_uri() . '/images/sfpe-australia-logo.png'); ?>" alt="SFPE Australia Chapter Logo" class="footer-brand-logo" width="750" height="465">
           <div style="display: flex; flex-direction: column;">
             <span style="font-size: 19px; font-weight: 800; color: #FFFFFF; line-height: 1.15;">SFPE Australia</span>
             <span style="font-size: 11px; color: #94A3B8; text-transform: uppercase; font-weight: 600;">Society of Fire Protection Engineers</span>
           </div>
         </div>
-        <p style="font-size: 14px; line-height: 1.65; color: #94A3B8; margin-bottom: 18px;">
+        <p style="font-size: 14px; line-height: 1.6; color: #94A3B8; margin-bottom: 12px;">
           The official Australian chapter of the Society of Fire Protection Engineers, connecting domestic performance-based engineering practice with international fire protection research, handbooks, and science.
         </p>
         <p style="font-size: 14px;">

@@ -4,11 +4,11 @@
  */
 get_header(); ?>
 
-<section class="section" style="padding-top: clamp(48px, 5vw, 72px); background-color: var(--color-surface); border-bottom: 1px solid var(--color-border);">
+<section class="section" style="padding-top: clamp(20px, 2.2vw, 32px); padding-bottom: clamp(16px, 1.8vw, 24px); background-color: var(--color-surface); border-bottom: 1px solid var(--color-border);">
   <div class="container">
     <span class="section-tag">Chapter Calendar &amp; Technical Programs</span>
-    <h1 class="section-title" style="margin-bottom: 16px;">Chapter Events &amp; Technical Pipeline</h1>
-    <p class="section-desc" style="max-width: 860px; margin-bottom: 28px;">
+    <h1 class="section-title" style="margin-bottom: 12px;">Chapter Events &amp; Technical Pipeline</h1>
+    <p class="section-desc" style="max-width: 860px; margin-bottom: 20px;">
       Official events calendar for the Australian Chapter of the Society of Fire Protection Engineers. Explore our upcoming seminar pipeline, joint society sessions with SFS and AIDGC, and trans-Tasman technical forums.
     </p>
 
@@ -23,7 +23,7 @@ get_header(); ?>
 </section>
 
 <!-- Interactive Calendar Section -->
-<section class="section" style="padding-bottom: clamp(32px, 3.5vw, 48px);">
+<section class="section" style="padding-bottom: clamp(20px, 2.2vw, 30px);">
   <div class="container">
     <div class="calendar-actions-bar">
       <div>

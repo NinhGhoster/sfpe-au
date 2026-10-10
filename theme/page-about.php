@@ -4,7 +4,7 @@
  */
 get_header(); ?>
 
-<section class="section" style="padding-top: clamp(40px, 4.2vw, 64px); background-color: var(--color-surface); border-bottom: 1px solid var(--color-border);">
+<section class="section" style="padding-top: clamp(20px, 2.2vw, 32px); padding-bottom: clamp(16px, 1.8vw, 24px); background-color: var(--color-surface); border-bottom: 1px solid var(--color-border);">
   <div class="container">
     <span class="section-tag">Institutional Profile</span>
     <h1 class="section-title" style="margin-bottom: 14px;">About SFPE Australia</h1>
@@ -167,8 +167,8 @@ get_header(); ?>
         </div>
       </div>
 
-      <div style="border-top: 1px solid var(--color-border); padding-top: 24px;">
-        <span style="font-size: 15px; font-weight: 700; color: var(--color-ink); display: block; margin-bottom: 16px;">Contributing Committee Members:</span>
+      <div style="border-top: 1px solid var(--color-border); padding-top: 16px;">
+        <span style="font-size: 15px; font-weight: 700; color: var(--color-ink); display: block; margin-bottom: 12px;">Contributing Committee Members:</span>
         <div class="contrib-grid">
           <div class="contrib-card">
             <div class="contrib-card-header">

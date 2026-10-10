@@ -4,7 +4,7 @@
  */
 get_header(); ?>
 
-<section class="section" style="padding-top: clamp(48px, 5vw, 72px); background-color: var(--color-surface); border-bottom: 1px solid var(--color-border);">
+<section class="section" style="padding-top: clamp(20px, 2.2vw, 32px); padding-bottom: clamp(16px, 1.8vw, 24px); background-color: var(--color-surface); border-bottom: 1px solid var(--color-border);">
   <div class="container">
     <span class="section-tag">Governance &amp; Committees</span>
     <h1 class="section-title" style="margin-bottom: 16px;">Working Groups &amp; Committees</h1>
