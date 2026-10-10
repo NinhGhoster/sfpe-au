@@ -66,9 +66,11 @@ get_header(); ?>
       <div class="exec-grid">
         <div class="exec-card">
           <div class="exec-card-header">
-            <div class="exec-avatar"><span class="avatar-initials">JB</span></div>
+            <div class="exec-headshot">
+              <img src="<?php echo esc_url(get_template_directory_uri() . '/images/headshot-placeholder.svg'); ?>" alt="Dr Jonathan Barnett Headshot" class="headshot-photo" width="88" height="88">
+            </div>
             <div class="exec-header-text">
-              <strong class="exec-name">Dr. Jonathan R. Barnett, FSFPE, CEng</strong>
+              <strong class="exec-name">Dr Jonathan Barnett</strong>
               <span class="exec-role">President / Chapter Chair &bull; Basic Expert</span>
             </div>
           </div>
@@ -81,9 +83,11 @@ get_header(); ?>
 
         <div class="exec-card">
           <div class="exec-card-header">
-            <div class="exec-avatar"><span class="avatar-initials">FM</span></div>
+            <div class="exec-headshot">
+              <img src="<?php echo esc_url(get_template_directory_uri() . '/images/headshot-placeholder.svg'); ?>" alt="Dr Frank Mendham Headshot" class="headshot-photo" width="88" height="88">
+            </div>
             <div class="exec-header-text">
-              <strong class="exec-name">Dr. Frank Mendham, PhD, FSFPE, CEng</strong>
+              <strong class="exec-name">Dr Frank Mendham</strong>
               <span class="exec-role">Vice President &bull; Mendham Consultants</span>
             </div>
           </div>
@@ -96,9 +100,11 @@ get_header(); ?>
 
         <div class="exec-card">
           <div class="exec-card-header">
-            <div class="exec-avatar"><span class="avatar-initials">DR</span></div>
+            <div class="exec-headshot">
+              <img src="<?php echo esc_url(get_template_directory_uri() . '/images/headshot-placeholder.svg'); ?>" alt="Dr Dan Rathnayaka Headshot" class="headshot-photo" width="88" height="88">
+            </div>
             <div class="exec-header-text">
-              <strong class="exec-name">Dr. Dan Rathnayaka, PhD, CPEng</strong>
+              <strong class="exec-name">Dr Dan Rathnayaka</strong>
               <span class="exec-role">Technical Program Chair &bull; Arup</span>
             </div>
           </div>
@@ -111,9 +117,11 @@ get_header(); ?>
 
         <div class="exec-card">
           <div class="exec-card-header">
-            <div class="exec-avatar"><span class="avatar-initials">MB</span></div>
+            <div class="exec-headshot">
+              <img src="<?php echo esc_url(get_template_directory_uri() . '/images/headshot-placeholder.svg'); ?>" alt="Michael Beecroft Headshot" class="headshot-photo" width="88" height="88">
+            </div>
             <div class="exec-header-text">
-              <strong class="exec-name">Michael Beecroft, CPEng, RPEQ</strong>
+              <strong class="exec-name">Michael Beecroft</strong>
               <span class="exec-role">Partnerships &amp; Industry Liaison Chair</span>
             </div>
           </div>
@@ -126,9 +134,11 @@ get_header(); ?>
 
         <div class="exec-card">
           <div class="exec-card-header">
-            <div class="exec-avatar"><span class="avatar-initials">AM</span></div>
+            <div class="exec-headshot">
+              <img src="<?php echo esc_url(get_template_directory_uri() . '/images/headshot-placeholder.svg'); ?>" alt="Dr Amer Magrabi Headshot" class="headshot-photo" width="88" height="88">
+            </div>
             <div class="exec-header-text">
-              <strong class="exec-name">Dr. Amer Magrabi, FIEAust, CPEng</strong>
+              <strong class="exec-name">Dr Amer Magrabi</strong>
               <span class="exec-role">Digital &amp; Membership Chair &bull; Lote Consulting</span>
             </div>
           </div>
@@ -141,9 +151,11 @@ get_header(); ?>
 
         <div class="exec-card">
           <div class="exec-card-header">
-            <div class="exec-avatar"><span class="avatar-initials">DL</span></div>
+            <div class="exec-headshot">
+              <img src="<?php echo esc_url(get_template_directory_uri() . '/images/headshot-placeholder.svg'); ?>" alt="Prof David Lange Headshot" class="headshot-photo" width="88" height="88">
+            </div>
             <div class="exec-header-text">
-              <strong class="exec-name">Prof. David Lange</strong>
+              <strong class="exec-name">Prof David Lange</strong>
               <span class="exec-role">Secretary &bull; The University of Queensland (UQ)</span>
             </div>
           </div>
@@ -160,7 +172,9 @@ get_header(); ?>
         <div class="contrib-grid">
           <div class="contrib-card">
             <div class="contrib-card-header">
-              <div class="contrib-avatar"><span class="avatar-initials-sm">PZ</span></div>
+              <div class="contrib-headshot">
+                <img src="<?php echo esc_url(get_template_directory_uri() . '/images/headshot-placeholder.svg'); ?>" alt="Pelle Zetterstrom Headshot" class="headshot-photo" width="64" height="64">
+              </div>
               <div>
                 <strong class="contrib-name">Pelle Zetterstrom</strong>
                 <span class="contrib-org">Senior Fire Engineer &bull; KBR</span>
@@ -174,9 +188,11 @@ get_header(); ?>
 
           <div class="contrib-card">
             <div class="contrib-card-header">
-              <div class="contrib-avatar"><span class="avatar-initials-sm">MH</span></div>
+              <div class="contrib-headshot">
+                <img src="<?php echo esc_url(get_template_directory_uri() . '/images/headshot-placeholder.svg'); ?>" alt="MC Hui Headshot" class="headshot-photo" width="64" height="64">
+              </div>
               <div>
-                <strong class="contrib-name">M.C. Hui, FIEAust, CPEng</strong>
+                <strong class="contrib-name">MC Hui</strong>
                 <span class="contrib-org">Technical Director &bull; RED Fire Engineers</span>
               </div>
             </div>
@@ -189,7 +205,9 @@ get_header(); ?>
 
           <div class="contrib-card">
             <div class="contrib-card-header">
-              <div class="contrib-avatar"><span class="avatar-initials-sm">AN</span></div>
+              <div class="contrib-headshot">
+                <img src="<?php echo esc_url(get_template_directory_uri() . '/images/headshot-placeholder.svg'); ?>" alt="Aaron Nicholson Headshot" class="headshot-photo" width="64" height="64">
+              </div>
               <div>
                 <strong class="contrib-name">Aaron Nicholson</strong>
                 <span class="contrib-org">Director &bull; RED Fire Engineers</span>
@@ -203,7 +221,9 @@ get_header(); ?>
 
           <div class="contrib-card">
             <div class="contrib-card-header">
-              <div class="contrib-avatar"><span class="avatar-initials-sm">TS</span></div>
+              <div class="contrib-headshot">
+                <img src="<?php echo esc_url(get_template_directory_uri() . '/images/headshot-placeholder.svg'); ?>" alt="Tobias Salomonsson Headshot" class="headshot-photo" width="64" height="64">
+              </div>
               <div>
                 <strong class="contrib-name">Tobias Salomonsson</strong>
                 <span class="contrib-org">Senior Fire Engineer &bull; RED Fire Engineers</span>
@@ -217,9 +237,11 @@ get_header(); ?>
 
           <div class="contrib-card">
             <div class="contrib-card-header">
-              <div class="contrib-avatar"><span class="avatar-initials-sm">SK</span></div>
+              <div class="contrib-headshot">
+                <img src="<?php echo esc_url(get_template_directory_uri() . '/images/headshot-placeholder.svg'); ?>" alt="Simon P Krishnan Headshot" class="headshot-photo" width="64" height="64">
+              </div>
               <div>
-                <strong class="contrib-name">Simon P. Krishnan, C10</strong>
+                <strong class="contrib-name">Simon P Krishnan</strong>
                 <span class="contrib-org">Director &bull; Astrix Fire Safety Certification</span>
               </div>
             </div>
@@ -231,9 +253,11 @@ get_header(); ?>
 
           <div class="contrib-card">
             <div class="contrib-card-header">
-              <div class="contrib-avatar"><span class="avatar-initials-sm">DH</span></div>
+              <div class="contrib-headshot">
+                <img src="<?php echo esc_url(get_template_directory_uri() . '/images/headshot-placeholder.svg'); ?>" alt="Derya Horasan Headshot" class="headshot-photo" width="64" height="64">
+              </div>
               <div>
-                <strong class="contrib-name">Derya Horasan, FIEAust</strong>
+                <strong class="contrib-name">Derya Horasan</strong>
                 <span class="contrib-org">Director &bull; SciFire</span>
               </div>
             </div>
@@ -245,7 +269,9 @@ get_header(); ?>
 
           <div class="contrib-card">
             <div class="contrib-card-header">
-              <div class="contrib-avatar"><span class="avatar-initials-sm">NG</span></div>
+              <div class="contrib-headshot">
+                <img src="<?php echo esc_url(get_template_directory_uri() . '/images/headshot-placeholder.svg'); ?>" alt="Ninh Ghoster Headshot" class="headshot-photo" width="64" height="64">
+              </div>
               <div>
                 <strong class="contrib-name">Ninh Ghoster</strong>
                 <span class="contrib-org">Ph.D. Researcher &bull; Université de Corse (SPE Lab)</span>
@@ -386,7 +412,7 @@ get_header(); ?>
         <div class="alliance-marquee-track">
           <?php for ($loop = 0; $loop < 2; $loop++): ?>
             <?php foreach ($alliance_cards as $card): ?>
-              <a href="<?php echo esc_url($card['url']); ?>" target="_blank" rel="noopener" class="alliance-card-marquee">
+              <a href="<?php echo esc_url($card['url']); ?>" target="_blank" rel="noopener" class="alliance-card">
                 <div class="alliance-logo-wrap">
                   <img src="<?php echo esc_url($card['logo']); ?>" alt="<?php echo esc_attr($card['title']); ?> Logo" class="alliance-logo-img" style="max-height: <?php echo esc_attr($card['logo_h']); ?>;">
                 </div>

@@ -4,7 +4,7 @@ Theme URI: https://sfpe.org.au
 Description: Official theme for the Australian Chapter of the Society of Fire Protection Engineers (SFPE).
  * Author: Ninh
  * Author URI: https://sfpe.org.au
- * Version: 5.4.0
+ * Version: 5.4.1
  * Text Domain: sfpe-australia
  */
 
@@ -873,37 +873,29 @@ a:hover {
 .exec-card-header {
   display: flex;
   align-items: center;
-  gap: 16px;
-  margin-bottom: 12px;
+  gap: 18px;
+  margin-bottom: 14px;
 }
 
-.exec-avatar {
-  width: 58px;
-  height: 58px;
-  border-radius: var(--radius-full);
-  background: linear-gradient(135deg, var(--color-navy) 0%, #1E293B 100%);
-  border: 2px solid var(--color-blue);
+.exec-headshot {
+  width: 88px;
+  height: 88px;
+  border-radius: var(--radius-md);
+  border: 1px solid var(--color-border);
+  background-color: var(--color-canvas);
+  overflow: hidden;
+  flex-shrink: 0;
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-shrink: 0;
-  box-shadow: 0 2px 8px rgba(11, 19, 43, 0.2);
+  box-shadow: 0 2px 6px rgba(11, 19, 43, 0.08);
 }
 
-.avatar-initials {
-  font-family: var(--font-heading);
-  font-size: 19px;
-  font-weight: 700;
-  color: #FFFFFF;
-  letter-spacing: 0.8px;
-}
-
-.avatar-initials-sm {
-  font-family: var(--font-heading);
-  font-size: 14.5px;
-  font-weight: 700;
-  color: #FFFFFF;
-  letter-spacing: 0.5px;
+.headshot-photo {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
 }
 
 .exec-header-text {
@@ -989,20 +981,22 @@ a:hover {
 .contrib-card-header {
   display: flex;
   align-items: center;
-  gap: 12px;
-  margin-bottom: 8px;
+  gap: 14px;
+  margin-bottom: 10px;
 }
 
-.contrib-avatar {
-  width: 44px;
-  height: 44px;
-  border-radius: var(--radius-full);
-  background: linear-gradient(135deg, #1E293B 0%, #334155 100%);
-  border: 2px solid rgba(0, 114, 187, 0.4);
+.contrib-headshot {
+  width: 64px;
+  height: 64px;
+  border-radius: var(--radius-md);
+  border: 1px solid var(--color-border);
+  background-color: var(--color-canvas);
+  overflow: hidden;
+  flex-shrink: 0;
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-shrink: 0;
+  box-shadow: 0 1px 4px rgba(11, 19, 43, 0.06);
 }
 
 .contrib-name {
@@ -1034,16 +1028,16 @@ a:hover {
   width: 100%;
   overflow: hidden;
   position: relative;
-  padding: 14px 0 18px;
-  mask-image: linear-gradient(to right, transparent 0%, black 3%, black 97%, transparent 100%);
-  -webkit-mask-image: linear-gradient(to right, transparent 0%, black 3%, black 97%, transparent 100%);
+  padding: 16px 0 24px;
+  mask-image: linear-gradient(to right, transparent 0%, black 4%, black 96%, transparent 100%);
+  -webkit-mask-image: linear-gradient(to right, transparent 0%, black 4%, black 96%, transparent 100%);
 }
 
 .alliance-marquee-track {
   display: flex;
-  gap: 22px;
+  gap: 24px;
   width: max-content;
-  animation: marqueeScroll 55s linear infinite;
+  animation: marqueeScroll 60s linear infinite;
   will-change: transform;
 }
 
@@ -1060,83 +1054,10 @@ a:hover {
   }
 }
 
-.alliance-card-marquee {
-  width: 320px;
-  flex-shrink: 0;
-  background-color: var(--color-surface);
-  border: 1px solid var(--color-border);
-  border-radius: var(--radius-lg);
-  padding: 22px 18px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-  text-decoration: none;
-  box-shadow: var(--shadow-sm);
-  transition: all 0.2s ease;
-}
-
-.alliance-card-marquee:hover {
-  transform: translateY(-4px);
-  border-color: var(--color-blue);
-  box-shadow: var(--shadow-md);
-}
-
-.alliance-logo-wrap {
-  height: 72px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-bottom: 14px;
-  width: 100%;
-  padding: 6px 12px;
-}
-
-.alliance-logo-img {
-  max-height: 54px;
-  max-width: 100%;
-  object-fit: contain;
-}
-
-.alliance-title {
-  font-size: 16px;
-  font-weight: 700;
-  color: var(--color-ink);
-  margin-bottom: 4px;
-  line-height: 1.25;
-}
-
-.alliance-subtitle {
-  font-size: 12px;
-  color: var(--color-ink-subtle);
-  font-weight: 600;
-  text-transform: uppercase;
-  letter-spacing: 0.4px;
-  margin-bottom: 10px;
-}
-
-.alliance-desc {
-  font-size: 13px;
-  color: var(--color-ink-muted);
-  line-height: 1.55;
-  margin-bottom: 14px;
-  flex-grow: 1;
-}
-
-.alliance-link-label {
-  font-size: 13px;
-  font-weight: 700;
-  color: var(--color-blue);
-}
-
-.alliance-grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: clamp(20px, 2.2vw, 28px);
-  margin-top: 24px;
-}
-
 .alliance-card {
+  width: 380px;
+  min-width: 380px;
+  flex-shrink: 0;
   background-color: var(--color-surface);
   border: 1px solid var(--color-border);
   border-radius: var(--radius-lg);
@@ -1151,10 +1072,57 @@ a:hover {
 }
 
 .alliance-card:hover {
-  transform: translateY(-3px);
+  transform: translateY(-4px);
   border-color: var(--color-blue);
   box-shadow: var(--shadow-md);
-}  display: inline-flex;
+}
+
+.alliance-logo-wrap {
+  height: 84px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 18px;
+  width: 100%;
+  padding: 8px 12px;
+}
+
+.alliance-logo-img {
+  max-height: 64px;
+  max-width: 100%;
+  object-fit: contain;
+}
+
+.alliance-title {
+  font-size: 19px;
+  font-weight: 700;
+  color: var(--color-ink);
+  margin-bottom: 4px;
+  line-height: 1.3;
+}
+
+.alliance-subtitle {
+  font-size: 12.5px;
+  color: var(--color-ink-subtle);
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  margin-bottom: 12px;
+}
+
+.alliance-desc {
+  font-size: 14.5px;
+  color: var(--color-ink-muted);
+  line-height: 1.6;
+  margin-bottom: 18px;
+  flex-grow: 1;
+}
+
+.alliance-link-label {
+  font-size: 13.5px;
+  font-weight: 700;
+  color: var(--color-blue);
+  display: inline-flex;
   align-items: center;
   gap: 5px;
 }
