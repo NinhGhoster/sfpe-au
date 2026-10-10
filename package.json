@@ -1,6 +1,6 @@
 {
   "name": "sfpe-australia",
-  "version": "5.4.3",
+  "version": "5.4.4",
   "description": "Official WordPress theme and deployment pipeline for SFPE Australia (The Society of Fire Protection Engineers)",
   "main": "scripts/deploy.js",
   "scripts": {

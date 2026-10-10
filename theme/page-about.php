@@ -65,104 +65,104 @@ get_header(); ?>
 
       <div class="exec-grid">
         <div class="exec-card">
-          <div class="exec-card-header">
-            <div class="exec-headshot">
-              <img src="<?php echo esc_url(get_template_directory_uri() . '/images/headshot-placeholder.svg'); ?>" alt="Dr Jonathan Barnett Headshot" class="headshot-photo" width="88" height="88">
-            </div>
+          <div class="exec-headshot">
+            <img src="<?php echo esc_url(get_template_directory_uri() . '/images/headshot-placeholder.svg'); ?>" alt="Dr Jonathan Barnett Headshot" class="headshot-photo" width="120" height="120">
+          </div>
+          <div class="exec-details">
             <div class="exec-header-text">
               <strong class="exec-name">Dr Jonathan Barnett</strong>
               <span class="exec-role">President / Chapter Chair &bull; Basic Expert</span>
             </div>
-          </div>
-          <div class="exec-links">
-            <a href="https://basic.expert/team/dr-jonathan-barnett/" target="_blank" rel="noopener" class="exec-link-item" title="Personal Profile">&#127760; Profile</a>
-            <a href="mailto:jonathan.barnett@basic.expert" class="exec-link-item" title="Email">&#9993; Email</a>
-            <a href="https://www.linkedin.com/in/jonathan-barnett-0470213/" target="_blank" rel="noopener" class="exec-link-item" title="LinkedIn">&#128279; LinkedIn</a>
+            <div class="exec-links">
+              <a href="https://basic.expert/team/dr-jonathan-barnett/" target="_blank" rel="noopener" class="exec-link-item" title="Personal Profile">&#127760; Profile</a>
+              <a href="mailto:jonathan.barnett@basic.expert" class="exec-link-item" title="Email">&#9993; Email</a>
+              <a href="https://www.linkedin.com/in/jonathan-barnett-0470213/" target="_blank" rel="noopener" class="exec-link-item" title="LinkedIn">&#128279; LinkedIn</a>
+            </div>
           </div>
         </div>
 
         <div class="exec-card">
-          <div class="exec-card-header">
-            <div class="exec-headshot">
-              <img src="<?php echo esc_url(get_template_directory_uri() . '/images/headshot-placeholder.svg'); ?>" alt="Dr Frank Mendham Headshot" class="headshot-photo" width="88" height="88">
-            </div>
+          <div class="exec-headshot">
+            <img src="<?php echo esc_url(get_template_directory_uri() . '/images/headshot-placeholder.svg'); ?>" alt="Dr Frank Mendham Headshot" class="headshot-photo" width="120" height="120">
+          </div>
+          <div class="exec-details">
             <div class="exec-header-text">
               <strong class="exec-name">Dr Frank Mendham</strong>
               <span class="exec-role">Vice President &bull; Mendham Consultants</span>
             </div>
-          </div>
-          <div class="exec-links">
-            <a href="https://mendhamconsult.com/about-us/" target="_blank" rel="noopener" class="exec-link-item" title="Personal Profile">&#127760; Profile</a>
-            <a href="mailto:frank@mendhamconsult.com" class="exec-link-item" title="Email">&#9993; Email</a>
-            <a href="https://www.linkedin.com/in/frank-mendham-phd-43940120/" target="_blank" rel="noopener" class="exec-link-item" title="LinkedIn">&#128279; LinkedIn</a>
+            <div class="exec-links">
+              <a href="https://mendhamconsult.com/about-us/" target="_blank" rel="noopener" class="exec-link-item" title="Personal Profile">&#127760; Profile</a>
+              <a href="mailto:frank@mendhamconsult.com" class="exec-link-item" title="Email">&#9993; Email</a>
+              <a href="https://www.linkedin.com/in/frank-mendham-phd-43940120/" target="_blank" rel="noopener" class="exec-link-item" title="LinkedIn">&#128279; LinkedIn</a>
+            </div>
           </div>
         </div>
 
         <div class="exec-card">
-          <div class="exec-card-header">
-            <div class="exec-headshot">
-              <img src="<?php echo esc_url(get_template_directory_uri() . '/images/headshot-placeholder.svg'); ?>" alt="Dr Dan Rathnayaka Headshot" class="headshot-photo" width="88" height="88">
-            </div>
+          <div class="exec-headshot">
+            <img src="<?php echo esc_url(get_template_directory_uri() . '/images/headshot-placeholder.svg'); ?>" alt="Dr Dan Rathnayaka Headshot" class="headshot-photo" width="120" height="120">
+          </div>
+          <div class="exec-details">
             <div class="exec-header-text">
               <strong class="exec-name">Dr Dan Rathnayaka</strong>
               <span class="exec-role">Technical Program Chair &bull; Arup</span>
             </div>
-          </div>
-          <div class="exec-links">
-            <a href="https://www.linkedin.com/in/dan-rathnayaka-2b22572a/" target="_blank" rel="noopener" class="exec-link-item" title="Personal Profile">&#127760; Profile</a>
-            <a href="mailto:dan.rathnayaka@arup.com" class="exec-link-item" title="Email">&#9993; Email</a>
-            <a href="https://www.linkedin.com/in/dan-rathnayaka-2b22572a/" target="_blank" rel="noopener" class="exec-link-item" title="LinkedIn">&#128279; LinkedIn</a>
+            <div class="exec-links">
+              <a href="https://www.linkedin.com/in/dan-rathnayaka-2b22572a/" target="_blank" rel="noopener" class="exec-link-item" title="Personal Profile">&#127760; Profile</a>
+              <a href="mailto:dan.rathnayaka@arup.com" class="exec-link-item" title="Email">&#9993; Email</a>
+              <a href="https://www.linkedin.com/in/dan-rathnayaka-2b22572a/" target="_blank" rel="noopener" class="exec-link-item" title="LinkedIn">&#128279; LinkedIn</a>
+            </div>
           </div>
         </div>
 
         <div class="exec-card">
-          <div class="exec-card-header">
-            <div class="exec-headshot">
-              <img src="<?php echo esc_url(get_template_directory_uri() . '/images/headshot-placeholder.svg'); ?>" alt="Michael Beecroft Headshot" class="headshot-photo" width="88" height="88">
-            </div>
+          <div class="exec-headshot">
+            <img src="<?php echo esc_url(get_template_directory_uri() . '/images/headshot-placeholder.svg'); ?>" alt="Michael Beecroft Headshot" class="headshot-photo" width="120" height="120">
+          </div>
+          <div class="exec-details">
             <div class="exec-header-text">
               <strong class="exec-name">Michael Beecroft</strong>
               <span class="exec-role">Partnerships &amp; Industry Liaison Chair</span>
             </div>
-          </div>
-          <div class="exec-links">
-            <a href="https://www.linkedin.com/in/michael-beecroft-7a288636/" target="_blank" rel="noopener" class="exec-link-item" title="Personal Profile">&#127760; Profile</a>
-            <a href="mailto:michael.beecroft@bigpond.com" class="exec-link-item" title="Email">&#9993; Email</a>
-            <a href="https://www.linkedin.com/in/michael-beecroft-7a288636/" target="_blank" rel="noopener" class="exec-link-item" title="LinkedIn">&#128279; LinkedIn</a>
+            <div class="exec-links">
+              <a href="https://www.linkedin.com/in/michael-beecroft-7a288636/" target="_blank" rel="noopener" class="exec-link-item" title="Personal Profile">&#127760; Profile</a>
+              <a href="mailto:michael.beecroft@bigpond.com" class="exec-link-item" title="Email">&#9993; Email</a>
+              <a href="https://www.linkedin.com/in/michael-beecroft-7a288636/" target="_blank" rel="noopener" class="exec-link-item" title="LinkedIn">&#128279; LinkedIn</a>
+            </div>
           </div>
         </div>
 
         <div class="exec-card">
-          <div class="exec-card-header">
-            <div class="exec-headshot">
-              <img src="<?php echo esc_url(get_template_directory_uri() . '/images/headshot-placeholder.svg'); ?>" alt="Dr Amer Magrabi Headshot" class="headshot-photo" width="88" height="88">
-            </div>
+          <div class="exec-headshot">
+            <img src="<?php echo esc_url(get_template_directory_uri() . '/images/headshot-placeholder.svg'); ?>" alt="Dr Amer Magrabi Headshot" class="headshot-photo" width="120" height="120">
+          </div>
+          <div class="exec-details">
             <div class="exec-header-text">
               <strong class="exec-name">Dr Amer Magrabi</strong>
               <span class="exec-role">Digital &amp; Membership Chair &bull; Lote Consulting</span>
             </div>
-          </div>
-          <div class="exec-links">
-            <a href="https://loteconsulting.com/team/amer-magrabi/" target="_blank" rel="noopener" class="exec-link-item" title="Personal Profile">&#127760; Profile</a>
-            <a href="mailto:amer@loteconsulting.com" class="exec-link-item" title="Email">&#9993; Email</a>
-            <a href="https://www.linkedin.com/in/amermagrabi/" target="_blank" rel="noopener" class="exec-link-item" title="LinkedIn">&#128279; LinkedIn</a>
+            <div class="exec-links">
+              <a href="https://loteconsulting.com/team/amer-magrabi/" target="_blank" rel="noopener" class="exec-link-item" title="Personal Profile">&#127760; Profile</a>
+              <a href="mailto:amer@loteconsulting.com" class="exec-link-item" title="Email">&#9993; Email</a>
+              <a href="https://www.linkedin.com/in/amermagrabi/" target="_blank" rel="noopener" class="exec-link-item" title="LinkedIn">&#128279; LinkedIn</a>
+            </div>
           </div>
         </div>
 
         <div class="exec-card">
-          <div class="exec-card-header">
-            <div class="exec-headshot">
-              <img src="<?php echo esc_url(get_template_directory_uri() . '/images/headshot-placeholder.svg'); ?>" alt="Prof David Lange Headshot" class="headshot-photo" width="88" height="88">
-            </div>
+          <div class="exec-headshot">
+            <img src="<?php echo esc_url(get_template_directory_uri() . '/images/headshot-placeholder.svg'); ?>" alt="Prof David Lange Headshot" class="headshot-photo" width="120" height="120">
+          </div>
+          <div class="exec-details">
             <div class="exec-header-text">
               <strong class="exec-name">Prof David Lange</strong>
               <span class="exec-role">Secretary &bull; The University of Queensland (UQ)</span>
             </div>
-          </div>
-          <div class="exec-links">
-            <a href="https://civil.uq.edu.au/profile/1725/david-lange" target="_blank" rel="noopener" class="exec-link-item" title="Academic Profile">&#127760; Profile</a>
-            <a href="mailto:d.lange@uq.edu.au" class="exec-link-item" title="Email">&#9993; Email</a>
-            <a href="https://www.linkedin.com/in/david-lange-38a49015/" target="_blank" rel="noopener" class="exec-link-item" title="LinkedIn">&#128279; LinkedIn</a>
+            <div class="exec-links">
+              <a href="https://civil.uq.edu.au/profile/1725/david-lange" target="_blank" rel="noopener" class="exec-link-item" title="Academic Profile">&#127760; Profile</a>
+              <a href="mailto:d.lange@uq.edu.au" class="exec-link-item" title="Email">&#9993; Email</a>
+              <a href="https://www.linkedin.com/in/david-lange-38a49015/" target="_blank" rel="noopener" class="exec-link-item" title="LinkedIn">&#128279; LinkedIn</a>
+            </div>
           </div>
         </div>
       </div>
@@ -171,115 +171,115 @@ get_header(); ?>
         <span style="font-size: 15px; font-weight: 700; color: var(--color-ink); display: block; margin-bottom: 12px;">Contributing Committee Members:</span>
         <div class="contrib-grid">
           <div class="contrib-card">
-            <div class="contrib-card-header">
-              <div class="contrib-headshot">
-                <img src="<?php echo esc_url(get_template_directory_uri() . '/images/headshot-placeholder.svg'); ?>" alt="Pelle Zetterstrom Headshot" class="headshot-photo" width="64" height="64">
-              </div>
-              <div>
+            <div class="contrib-headshot">
+              <img src="<?php echo esc_url(get_template_directory_uri() . '/images/headshot-placeholder.svg'); ?>" alt="Pelle Zetterstrom Headshot" class="headshot-photo" width="80" height="80">
+            </div>
+            <div class="contrib-details">
+              <div class="contrib-header-text">
                 <strong class="contrib-name">Pelle Zetterstrom</strong>
                 <span class="contrib-org">Senior Fire Engineer &bull; KBR</span>
               </div>
-            </div>
-            <div class="contrib-links">
-              <a href="https://www.linkedin.com/in/pellezetterstrom/" target="_blank" rel="noopener" class="exec-link-item">&#127760; Profile</a>
-              <a href="mailto:pelle.zetterstrom@kbr.com" class="exec-link-item">&#9993; Email</a>
+              <div class="contrib-links">
+                <a href="https://www.linkedin.com/in/pellezetterstrom/" target="_blank" rel="noopener" class="exec-link-item">&#127760; Profile</a>
+                <a href="mailto:pelle.zetterstrom@kbr.com" class="exec-link-item">&#9993; Email</a>
+              </div>
             </div>
           </div>
 
           <div class="contrib-card">
-            <div class="contrib-card-header">
-              <div class="contrib-headshot">
-                <img src="<?php echo esc_url(get_template_directory_uri() . '/images/headshot-placeholder.svg'); ?>" alt="MC Hui Headshot" class="headshot-photo" width="64" height="64">
-              </div>
-              <div>
+            <div class="contrib-headshot">
+              <img src="<?php echo esc_url(get_template_directory_uri() . '/images/headshot-placeholder.svg'); ?>" alt="MC Hui Headshot" class="headshot-photo" width="80" height="80">
+            </div>
+            <div class="contrib-details">
+              <div class="contrib-header-text">
                 <strong class="contrib-name">MC Hui</strong>
                 <span class="contrib-org">Technical Director &bull; RED Fire Engineers</span>
               </div>
-            </div>
-            <div class="contrib-links">
-              <a href="https://redfireengineers.com.au/team/" target="_blank" rel="noopener" class="exec-link-item">&#127760; Profile</a>
-              <a href="mailto:mc@redfireengineers.com.au" class="exec-link-item">&#9993; Email</a>
-              <a href="https://www.linkedin.com/in/mc-hui-a9217036/" target="_blank" rel="noopener" class="exec-link-item">&#128279; LinkedIn</a>
+              <div class="contrib-links">
+                <a href="https://redfireengineers.com.au/team/" target="_blank" rel="noopener" class="exec-link-item">&#127760; Profile</a>
+                <a href="mailto:mc@redfireengineers.com.au" class="exec-link-item">&#9993; Email</a>
+                <a href="https://www.linkedin.com/in/mc-hui-a9217036/" target="_blank" rel="noopener" class="exec-link-item">&#128279; LinkedIn</a>
+              </div>
             </div>
           </div>
 
           <div class="contrib-card">
-            <div class="contrib-card-header">
-              <div class="contrib-headshot">
-                <img src="<?php echo esc_url(get_template_directory_uri() . '/images/headshot-placeholder.svg'); ?>" alt="Aaron Nicholson Headshot" class="headshot-photo" width="64" height="64">
-              </div>
-              <div>
+            <div class="contrib-headshot">
+              <img src="<?php echo esc_url(get_template_directory_uri() . '/images/headshot-placeholder.svg'); ?>" alt="Aaron Nicholson Headshot" class="headshot-photo" width="80" height="80">
+            </div>
+            <div class="contrib-details">
+              <div class="contrib-header-text">
                 <strong class="contrib-name">Aaron Nicholson</strong>
                 <span class="contrib-org">Director &bull; RED Fire Engineers</span>
               </div>
-            </div>
-            <div class="contrib-links">
-              <a href="https://www.linkedin.com/in/aaron-nicholson-red/" target="_blank" rel="noopener" class="exec-link-item">&#127760; Profile</a>
-              <a href="mailto:aaron.nicholson@redfireengineers.com.au" class="exec-link-item">&#9993; Email</a>
+              <div class="contrib-links">
+                <a href="https://www.linkedin.com/in/aaron-nicholson-red/" target="_blank" rel="noopener" class="exec-link-item">&#127760; Profile</a>
+                <a href="mailto:aaron.nicholson@redfireengineers.com.au" class="exec-link-item">&#9993; Email</a>
+              </div>
             </div>
           </div>
 
           <div class="contrib-card">
-            <div class="contrib-card-header">
-              <div class="contrib-headshot">
-                <img src="<?php echo esc_url(get_template_directory_uri() . '/images/headshot-placeholder.svg'); ?>" alt="Tobias Salomonsson Headshot" class="headshot-photo" width="64" height="64">
-              </div>
-              <div>
+            <div class="contrib-headshot">
+              <img src="<?php echo esc_url(get_template_directory_uri() . '/images/headshot-placeholder.svg'); ?>" alt="Tobias Salomonsson Headshot" class="headshot-photo" width="80" height="80">
+            </div>
+            <div class="contrib-details">
+              <div class="contrib-header-text">
                 <strong class="contrib-name">Tobias Salomonsson</strong>
                 <span class="contrib-org">Senior Fire Engineer &bull; RED Fire Engineers</span>
               </div>
-            </div>
-            <div class="contrib-links">
-              <a href="https://www.linkedin.com/in/tobias-salomonsson/" target="_blank" rel="noopener" class="exec-link-item">&#127760; Profile</a>
-              <a href="mailto:tobias@redfireengineers.com.au" class="exec-link-item">&#9993; Email</a>
+              <div class="contrib-links">
+                <a href="https://www.linkedin.com/in/tobias-salomonsson/" target="_blank" rel="noopener" class="exec-link-item">&#127760; Profile</a>
+                <a href="mailto:tobias@redfireengineers.com.au" class="exec-link-item">&#9993; Email</a>
+              </div>
             </div>
           </div>
 
           <div class="contrib-card">
-            <div class="contrib-card-header">
-              <div class="contrib-headshot">
-                <img src="<?php echo esc_url(get_template_directory_uri() . '/images/headshot-placeholder.svg'); ?>" alt="Simon P Krishnan Headshot" class="headshot-photo" width="64" height="64">
-              </div>
-              <div>
+            <div class="contrib-headshot">
+              <img src="<?php echo esc_url(get_template_directory_uri() . '/images/headshot-placeholder.svg'); ?>" alt="Simon P Krishnan Headshot" class="headshot-photo" width="80" height="80">
+            </div>
+            <div class="contrib-details">
+              <div class="contrib-header-text">
                 <strong class="contrib-name">Simon P Krishnan</strong>
                 <span class="contrib-org">Director &bull; Astrix Fire Safety Certification</span>
               </div>
-            </div>
-            <div class="contrib-links">
-              <a href="https://www.linkedin.com/in/simon-krishnan/" target="_blank" rel="noopener" class="exec-link-item">&#127760; Profile</a>
-              <a href="mailto:simonk@astrixfiresafetycertification.com" class="exec-link-item">&#9993; Email</a>
+              <div class="contrib-links">
+                <a href="https://www.linkedin.com/in/simon-krishnan/" target="_blank" rel="noopener" class="exec-link-item">&#127760; Profile</a>
+                <a href="mailto:simonk@astrixfiresafetycertification.com" class="exec-link-item">&#9993; Email</a>
+              </div>
             </div>
           </div>
 
           <div class="contrib-card">
-            <div class="contrib-card-header">
-              <div class="contrib-headshot">
-                <img src="<?php echo esc_url(get_template_directory_uri() . '/images/headshot-placeholder.svg'); ?>" alt="Derya Horasan Headshot" class="headshot-photo" width="64" height="64">
-              </div>
-              <div>
+            <div class="contrib-headshot">
+              <img src="<?php echo esc_url(get_template_directory_uri() . '/images/headshot-placeholder.svg'); ?>" alt="Derya Horasan Headshot" class="headshot-photo" width="80" height="80">
+            </div>
+            <div class="contrib-details">
+              <div class="contrib-header-text">
                 <strong class="contrib-name">Derya Horasan</strong>
                 <span class="contrib-org">Director &bull; SciFire</span>
               </div>
-            </div>
-            <div class="contrib-links">
-              <a href="https://www.linkedin.com/in/derya-horasan/" target="_blank" rel="noopener" class="exec-link-item">&#127760; Profile</a>
-              <a href="mailto:derya.horasan@scifire.com.au" class="exec-link-item">&#9993; Email</a>
+              <div class="contrib-links">
+                <a href="https://www.linkedin.com/in/derya-horasan/" target="_blank" rel="noopener" class="exec-link-item">&#127760; Profile</a>
+                <a href="mailto:derya.horasan@scifire.com.au" class="exec-link-item">&#9993; Email</a>
+              </div>
             </div>
           </div>
 
           <div class="contrib-card">
-            <div class="contrib-card-header">
-              <div class="contrib-headshot">
-                <img src="<?php echo esc_url(get_template_directory_uri() . '/images/headshot-placeholder.svg'); ?>" alt="Ninh Ghoster Headshot" class="headshot-photo" width="64" height="64">
-              </div>
-              <div>
+            <div class="contrib-headshot">
+              <img src="<?php echo esc_url(get_template_directory_uri() . '/images/headshot-placeholder.svg'); ?>" alt="Ninh Ghoster Headshot" class="headshot-photo" width="80" height="80">
+            </div>
+            <div class="contrib-details">
+              <div class="contrib-header-text">
                 <strong class="contrib-name">Ninh Ghoster</strong>
                 <span class="contrib-org">Ph.D. Researcher &bull; Université de Corse (SPE Lab)</span>
               </div>
-            </div>
-            <div class="contrib-links">
-              <a href="https://spe.universita.corsica/" target="_blank" rel="noopener" class="exec-link-item">&#127760; Profile</a>
-              <a href="mailto:nguyen_h@univ-corse.fr" class="exec-link-item">&#9993; Email</a>
+              <div class="contrib-links">
+                <a href="https://spe.universita.corsica/" target="_blank" rel="noopener" class="exec-link-item">&#127760; Profile</a>
+                <a href="mailto:nguyen_h@univ-corse.fr" class="exec-link-item">&#9993; Email</a>
+              </div>
             </div>
           </div>
         </div>

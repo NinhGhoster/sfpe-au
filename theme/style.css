@@ -4,7 +4,7 @@ Theme URI: https://sfpe.org.au
 Description: Official theme for the Australian Chapter of the Society of Fire Protection Engineers (SFPE).
  * Author: Ninh
  * Author URI: https://sfpe.org.au
- * Version: 5.4.3
+ * Version: 5.4.4
  * Text Domain: sfpe-australia
  */
 
@@ -847,39 +847,37 @@ a:hover {
 }
 
 /* Executive Committee Directory Grid */
+/* Executive Committee Directory Grid */
 .exec-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 16px;
-  margin-bottom: 20px;
+  gap: clamp(16px, 1.8vw, 24px);
+  margin-bottom: 24px;
 }
 
 .exec-card {
   background-color: var(--color-surface);
-  padding: 16px 18px;
-  border-radius: var(--radius-md);
+  padding: clamp(18px, 1.8vw, 22px);
+  border-radius: var(--radius-lg);
   border: 1px solid var(--color-border);
   box-shadow: var(--shadow-sm);
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  align-items: center;
+  gap: clamp(16px, 1.8vw, 22px);
   transition: all 0.2s ease;
 }
 
 .exec-card:hover {
   border-color: var(--color-blue);
   box-shadow: var(--shadow-md);
-}
-
-.exec-card-header {
-  display: flex;
-  align-items: center;
-  gap: 14px;
-  margin-bottom: 10px;
+  transform: translateY(-2px);
 }
 
 .exec-headshot {
-  width: 80px;
-  height: 80px;
+  width: 120px;
+  height: 120px;
+  min-width: 120px;
   border-radius: var(--radius-md);
   border: 1px solid var(--color-border);
   background-color: var(--color-canvas);
@@ -888,7 +886,7 @@ a:hover {
   display: flex;
   align-items: center;
   justify-content: center;
-  box-shadow: 0 2px 6px rgba(11, 19, 43, 0.08);
+  box-shadow: 0 2px 8px rgba(11, 19, 43, 0.08);
 }
 
 .headshot-photo {
@@ -896,6 +894,15 @@ a:hover {
   height: 100%;
   object-fit: cover;
   display: block;
+}
+
+.exec-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-width: 0;
+  flex-grow: 1;
+  gap: 10px;
 }
 
 .exec-header-text {
@@ -907,26 +914,25 @@ a:hover {
 .exec-name {
   color: var(--color-ink);
   display: block;
-  font-size: clamp(16.5px, 1.15vw, 19px);
+  font-size: clamp(18px, 1.25vw, 20.5px);
   font-weight: 700;
   line-height: 1.25;
-  margin-bottom: 2px;
+  margin-bottom: 3px;
 }
 
 .exec-role {
-  font-size: 13px;
+  font-size: 13.5px;
   color: var(--color-ink-muted);
   font-weight: 500;
-  line-height: 1.35;
+  line-height: 1.4;
 }
 
 /* Executive & Leadership Contact Links */
 .exec-links {
   display: flex;
   align-items: center;
-  gap: 10px;
-  margin-top: auto;
-  padding-top: 10px;
+  gap: 12px;
+  padding-top: 8px;
   border-top: 1px solid var(--color-border);
   flex-wrap: wrap;
 }
@@ -958,36 +964,33 @@ a:hover {
 /* Contributing Members Grid */
 .contrib-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-  gap: 12px;
-  margin-top: 10px;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 14px;
+  margin-top: 12px;
 }
 
 .contrib-card {
   background-color: var(--color-surface);
   border: 1px solid var(--color-border);
   border-radius: var(--radius-md);
-  padding: 12px 14px;
+  padding: 14px 16px;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  align-items: center;
+  gap: 14px;
   box-shadow: var(--shadow-sm);
   transition: all 0.2s ease;
 }
 
 .contrib-card:hover {
   border-color: var(--color-blue);
-}
-
-.contrib-card-header {
-  display: flex;
-  align-items: center;
-  gap: 12px;
-  margin-bottom: 8px;
+  box-shadow: var(--shadow-sm);
 }
 
 .contrib-headshot {
-  width: 58px;
-  height: 58px;
+  width: 80px;
+  height: 80px;
+  min-width: 80px;
   border-radius: var(--radius-md);
   border: 1px solid var(--color-border);
   background-color: var(--color-canvas);
@@ -999,15 +1002,29 @@ a:hover {
   box-shadow: 0 1px 4px rgba(11, 19, 43, 0.06);
 }
 
+.contrib-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-width: 0;
+  flex-grow: 1;
+  gap: 6px;
+}
+
+.contrib-header-text {
+  display: flex;
+  flex-direction: column;
+}
+
 .contrib-name {
-  font-size: 15px;
+  font-size: 15.5px;
   font-weight: 700;
   color: var(--color-ink);
   line-height: 1.25;
 }
 
 .contrib-org {
-  font-size: 12px;
+  font-size: 12.5px;
   color: var(--color-ink-subtle);
   line-height: 1.35;
   margin-top: 2px;
@@ -1017,10 +1034,10 @@ a:hover {
 .contrib-links {
   display: flex;
   gap: 10px;
-  margin-top: auto;
   padding-top: 6px;
   border-top: 1px solid var(--color-border);
   font-size: 12px;
+  flex-wrap: wrap;
 }
 
 /* Higher Education & Research Alliances - Continuous Right-to-Left Motion Track */
@@ -1781,8 +1798,20 @@ a:hover {
     grid-template-columns: 1fr;
   }
 
+  .exec-headshot {
+    width: 104px;
+    height: 104px;
+    min-width: 104px;
+  }
+
   .contrib-grid {
-    grid-template-columns: repeat(auto-fill, minmax(min(100%, 240px), 1fr));
+    grid-template-columns: 1fr;
+  }
+
+  .contrib-headshot {
+    width: 72px;
+    height: 72px;
+    min-width: 72px;
   }
 
   .alliance-grid {

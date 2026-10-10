@@ -104,6 +104,22 @@ async function main() {
     await callPage("Page.navigate", { url: "https://sfpe.org.au/about/" });
     await new Promise(r => setTimeout(r, 3000));
 
+    // Scroll to Executive Leadership section in mobile
+    await callPage("Runtime.evaluate", {
+      expression: `(() => {
+        const sec = document.querySelector('.exec-grid');
+        if (sec) sec.scrollIntoView({ block: 'center' });
+      })()`
+    });
+    await new Promise(r => setTimeout(r, 600));
+    const mobileExecShot = await callPage("Page.captureScreenshot", { format: "png" });
+    fs.writeFileSync(path.join(OUTPUT_DIR, "about_exec_mobile.png"), Buffer.from(mobileExecShot.data, "base64"));
+    console.log("Saved: about_exec_mobile.png");
+
+    // Scroll back to top
+    await callPage("Runtime.evaluate", { expression: "window.scrollTo(0, 0);" });
+    await new Promise(r => setTimeout(r, 400));
+
     // Click mobile menu toggle
     console.log("Opening mobile drawer...");
     const clickRes = await callPage("Runtime.evaluate", {
@@ -157,6 +173,18 @@ async function main() {
     });
     await callPage("Page.navigate", { url: "https://sfpe.org.au/about/" });
     await new Promise(r => setTimeout(r, 3000));
+
+    // Scroll to Executive Leadership section
+    await callPage("Runtime.evaluate", {
+      expression: `(() => {
+        const sec = document.querySelector('.exec-grid');
+        if (sec) sec.scrollIntoView({ block: 'center' });
+      })()`
+    });
+    await new Promise(r => setTimeout(r, 800));
+    const execShot = await callPage("Page.captureScreenshot", { format: "png" });
+    fs.writeFileSync(path.join(OUTPUT_DIR, "about_exec_section.png"), Buffer.from(execShot.data, "base64"));
+    console.log("Saved: about_exec_section.png");
 
     // Scroll to alliances section
     await callPage("Runtime.evaluate", {
