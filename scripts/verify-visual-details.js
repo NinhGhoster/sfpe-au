@@ -239,6 +239,32 @@ async function main() {
     fs.writeFileSync(path.join(OUTPUT_DIR, "astrix_card_view.png"), Buffer.from(astrixShot.data, "base64"));
     console.log("Saved: astrix_card_view.png");
 
+    // Contributing Committee & Ha-Ninh Nguyen Card
+    const haninhDetails = await callPage("Runtime.evaluate", {
+      expression: `(() => {
+        const cards = Array.from(document.querySelectorAll('.contrib-card'));
+        const card = cards.find(c => c.textContent.includes('Ha-Ninh Nguyen'));
+        if (card) {
+          card.scrollIntoView({ block: 'center' });
+          const rect = card.getBoundingClientRect();
+          return {
+            found: true,
+            name: card.querySelector('.contrib-name')?.innerText,
+            org: card.querySelector('.contrib-org')?.innerText,
+            links: Array.from(card.querySelectorAll('.contrib-links a')).map(a => ({ text: a.innerText, href: a.href })),
+            box: { x: rect.x, y: rect.y + window.scrollY, width: rect.width, height: rect.height }
+          };
+        }
+        return { found: false };
+      })()`,
+      returnByValue: true
+    });
+    console.log("Ha-Ninh Nguyen Card Metrics:", haninhDetails.result.value);
+    await new Promise(r => setTimeout(r, 600));
+    const haninhShot = await callPage("Page.captureScreenshot", { format: "png" });
+    fs.writeFileSync(path.join(OUTPUT_DIR, "about_haninh_card.png"), Buffer.from(haninhShot.data, "base64"));
+    console.log("Saved: about_haninh_card.png");
+
     // 3. Footer on /about/
     await callPage("Runtime.evaluate", {
       expression: `(() => {

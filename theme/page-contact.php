@@ -28,12 +28,12 @@ get_header(); ?>
 
         <div class="form-group">
           <label class="form-label" for="full_name">Full Name *</label>
-          <input type="text" id="full_name" name="full_name" class="form-input" required placeholder="Ninh Ghoster">
+          <input type="text" id="full_name" name="full_name" class="form-input" required placeholder="Ha-Ninh Nguyen">
         </div>
 
         <div class="form-group">
           <label class="form-label" for="email">Email Address *</label>
-          <input type="email" id="email" name="email" class="form-input" required placeholder="nguyen_h@univ-corse.fr">
+          <input type="email" id="email" name="email" class="form-input" required placeholder="haninh.nguyen@student.unimelb.edu.au">
         </div>
 
         <div class="form-group">

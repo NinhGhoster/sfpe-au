@@ -293,7 +293,7 @@ get_header(); ?>
           </div>
           <div class="wg-person">
             <span class="wg-role">Digital Lead:</span>
-            <span class="wg-name">Ninh</span>
+            <span class="wg-name">Ha-Ninh Nguyen</span>
           </div>
         </div>
       </div>

@@ -269,16 +269,16 @@ get_header(); ?>
 
           <div class="contrib-card">
             <div class="contrib-headshot">
-              <img src="<?php echo esc_url(get_template_directory_uri() . '/images/headshot-placeholder.svg'); ?>" alt="Ninh Ghoster Headshot" class="headshot-photo" width="100" height="100">
+              <img src="<?php echo esc_url(get_template_directory_uri() . '/images/headshot-placeholder.svg'); ?>" alt="Ha-Ninh Nguyen Headshot" class="headshot-photo" width="100" height="100">
             </div>
             <div class="contrib-details">
               <div class="contrib-header-text">
-                <strong class="contrib-name">Ninh Ghoster</strong>
-                <span class="contrib-org">Ph.D. Researcher &bull; Università di Corsica (SPE Lab)</span>
+                <strong class="contrib-name">Ha-Ninh Nguyen</strong>
+                <span class="contrib-org">PhD Candidate &bull; The University of Melbourne</span>
               </div>
               <div class="contrib-links">
-                <a href="https://spe.universita.corsica/" target="_blank" rel="noopener" class="exec-link-item">&#127760; Profile</a>
-                <a href="mailto:nguyen_h@univ-corse.fr" class="exec-link-item">&#9993; Email</a>
+                <a href="https://www.flarewildfire.com/our_team/ha-ninh-nguyen/" target="_blank" rel="noopener" class="exec-link-item">&#127760; Profile</a>
+                <a href="mailto:haninh.nguyen@student.unimelb.edu.au" class="exec-link-item">&#9993; Email</a>
               </div>
             </div>
           </div>
