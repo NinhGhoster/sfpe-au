@@ -229,7 +229,7 @@ async function main() {
     const footerDetails = await callPage("Runtime.evaluate", {
       expression: `(() => {
         const ft = document.querySelector('.site-footer');
-        const sfpeLink = ft ? ft.querySelector('a[href*="sfpe.org"]') : null;
+        const sfpeLink = ft ? ft.querySelector('.footer-bottom a[href*="sfpe.org"]') : null;
         return {
           footerHeight: ft ? ft.getBoundingClientRect().height : null,
           hasSlogan: document.body.innerText.includes('Advancing fire protection and safety engineering through international research and local practice.'),

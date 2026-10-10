@@ -59,7 +59,7 @@
 
     <div class="footer-bottom">
       <div>
-        &copy; <?php echo date('Y'); ?> SFPE Australia. Australian Chapter of <a href="https://www.sfpe.org/" target="_blank" rel="noopener" style="color: #60A5FA; text-decoration: underline;">The Society of Fire Protection Engineers (SFPE)</a>.
+        &copy; <?php echo date('Y'); ?> SFPE Australia Chapter. Affiliated with <a href="https://www.sfpe.org/" target="_blank" rel="noopener" style="color: #60A5FA; text-decoration: underline;">the Society of Fire Protection Engineers</a>.
       </div>
     </div>
   </div>
