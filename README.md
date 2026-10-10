@@ -1,7 +1,7 @@
 # SFPE Australia - Official Chapter Platform
 
 [![Status: Active](https://img.shields.io/badge/Status-Active-success.svg)](#)
-[![Theme: v5.4.16](https://img.shields.io/badge/Theme-v5.4.16-0072BB.svg)](#)
+[![Theme: v5.4.17](https://img.shields.io/badge/Theme-v5.4.17-0072BB.svg)](#)
 [![Website: Live](https://img.shields.io/badge/Website-sfpe.org.au-0B132B.svg)](https://sfpe.org.au/)
 
 Official repository for **SFPE Australia**, the Australian Chapter of **The Society of Fire Protection Engineers (SFPE)**.
