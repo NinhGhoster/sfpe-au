@@ -7,6 +7,8 @@
 <head>
   <meta charset="<?php bloginfo('charset'); ?>">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="192x192" href="<?php echo esc_url(get_template_directory_uri() . '/images/sfpe-favicon-192x192.png'); ?>">
+  <link rel="icon" type="image/png" sizes="48x48" href="<?php echo esc_url(get_template_directory_uri() . '/images/sfpe-favicon-48x48.png'); ?>">
   <link rel="icon" type="image/png" sizes="32x32" href="<?php echo esc_url(get_template_directory_uri() . '/images/sfpe-favicon-32x32.png'); ?>">
   <link rel="icon" type="image/png" sizes="16x16" href="<?php echo esc_url(get_template_directory_uri() . '/images/sfpe-favicon-16x16.png'); ?>">
   <link rel="shortcut icon" href="<?php echo esc_url(get_template_directory_uri() . '/favicon.ico'); ?>">

@@ -59,10 +59,7 @@
 
     <div class="footer-bottom">
       <div>
-        &copy; <?php echo date('Y'); ?> SFPE Australia Chapter. Affiliated with the Society of Fire Protection Engineers.
-      </div>
-      <div>
-        Advancing fire protection and safety engineering through international research and local practice.
+        &copy; <?php echo date('Y'); ?> SFPE Australia. Australian Chapter of <a href="https://www.sfpe.org/" target="_blank" rel="noopener" style="color: #60A5FA; text-decoration: underline;">The Society of Fire Protection Engineers (SFPE)</a>.
       </div>
     </div>
   </div>
