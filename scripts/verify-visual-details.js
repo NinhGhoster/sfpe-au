@@ -207,7 +207,7 @@ async function main() {
           totalCards: cards.length,
           titles: Array.from(new Set(cards.map(c => c.querySelector('.alliance-title')?.textContent.trim()))),
           hasFlare: cards.some(c => c.textContent.includes('FLARE')),
-          hasCorsica: cards.some(c => c.textContent.includes('CNRS') || c.textContent.includes('Corse'))
+          hasCorsica: cards.some(c => c.textContent.includes('CNRS') || c.textContent.includes('Corsica') || c.textContent.includes('Corse'))
         };
       })()`,
       returnByValue: true

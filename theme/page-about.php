@@ -274,7 +274,7 @@ get_header(); ?>
             <div class="contrib-details">
               <div class="contrib-header-text">
                 <strong class="contrib-name">Ninh Ghoster</strong>
-                <span class="contrib-org">Ph.D. Researcher &bull; Université de Corse (SPE Lab)</span>
+                <span class="contrib-org">Ph.D. Researcher &bull; Università di Corsica Pasquale Paoli (SPE Lab)</span>
               </div>
               <div class="contrib-links">
                 <a href="https://spe.universita.corsica/" target="_blank" rel="noopener" class="exec-link-item">&#127760; Profile</a>
@@ -325,11 +325,11 @@ get_header(); ?>
           'logo_h'   => '48px'
         ],
         [
-          'title'    => 'Université de Corse',
+          'title'    => 'Università di Corsica Pasquale Paoli',
           'subtitle' => 'CNRS SPE UMR 6134 Fire Dynamics Lab',
           'desc'     => 'Leading experimental and numerical research into wildfire propagation, physical fire models, and ember transport mechanisms.',
           'url'      => 'https://spe.universita.corsica/',
-          'label'    => 'Visit SPE Lab Corsica',
+          'label'    => 'Visit Università di Corsica',
           'logo'     => get_template_directory_uri() . '/images/spe-corsica-logo.png',
           'logo_h'   => '52px'
         ],
