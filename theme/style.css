@@ -4,7 +4,7 @@ Theme URI: https://sfpe.org.au
 Description: Official theme for the Australian Chapter of the Society of Fire Protection Engineers (SFPE).
  * Author: Ninh
  * Author URI: https://sfpe.org.au
- * Version: 5.4.2
+ * Version: 5.4.3
  * Text Domain: sfpe-australia
  */
 
@@ -1023,45 +1023,53 @@ a:hover {
   font-size: 12px;
 }
 
-/* Higher Education & Research Alliances - Continuous Motion Running Track */
+/* Higher Education & Research Alliances - Continuous Right-to-Left Motion Track */
 .alliance-marquee-wrap {
   width: 100%;
   overflow: hidden;
   position: relative;
-  padding: 10px 0 16px;
-  mask-image: linear-gradient(to right, transparent 0%, black 4%, black 96%, transparent 100%);
-  -webkit-mask-image: linear-gradient(to right, transparent 0%, black 4%, black 96%, transparent 100%);
+  padding: 8px 0 16px;
+  mask-image: linear-gradient(to right, transparent 0%, black 3%, black 97%, transparent 100%);
+  -webkit-mask-image: linear-gradient(to right, transparent 0%, black 3%, black 97%, transparent 100%);
 }
 
 .alliance-marquee-track {
   display: flex;
-  gap: 20px;
   width: max-content;
-  animation: marqueeScroll 60s linear infinite;
+  gap: 24px;
+}
+
+.alliance-marquee-group {
+  display: flex;
+  align-items: stretch;
+  gap: 24px;
+  flex-shrink: 0;
+  animation: marqueeRightToLeft 55s linear infinite;
   will-change: transform;
 }
 
-.alliance-marquee-track:hover {
+.alliance-marquee-wrap:hover .alliance-marquee-group {
   animation-play-state: paused;
 }
 
-@keyframes marqueeScroll {
+@keyframes marqueeRightToLeft {
   0% {
-    transform: translate3d(0, 0, 0);
+    transform: translateX(0);
   }
   100% {
-    transform: translate3d(-50%, 0, 0);
+    transform: translateX(calc(-100% - 24px));
   }
 }
 
 .alliance-card {
-  width: 360px;
-  min-width: 360px;
+  width: 320px;
+  min-width: 320px;
+  max-width: 320px;
   flex-shrink: 0;
   background-color: var(--color-surface);
   border: 1px solid var(--color-border);
   border-radius: var(--radius-lg);
-  padding: clamp(18px, 1.8vw, 24px);
+  padding: 24px 20px 20px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -1072,49 +1080,49 @@ a:hover {
 }
 
 .alliance-card:hover {
-  transform: translateY(-3px);
+  transform: translateY(-4px);
   border-color: var(--color-blue);
   box-shadow: var(--shadow-md);
 }
 
 .alliance-logo-wrap {
-  height: 68px;
+  height: 80px;
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-bottom: 12px;
+  margin-bottom: 14px;
   width: 100%;
-  padding: 6px 10px;
+  padding: 6px 12px;
 }
 
 .alliance-logo-img {
-  max-height: 56px;
+  max-height: 60px;
   max-width: 100%;
   object-fit: contain;
 }
 
 .alliance-title {
-  font-size: 18px;
+  font-size: 17px;
   font-weight: 700;
   color: var(--color-ink);
-  margin-bottom: 3px;
+  margin-bottom: 4px;
   line-height: 1.3;
 }
 
 .alliance-subtitle {
-  font-size: 12px;
+  font-size: 11.5px;
   color: var(--color-ink-subtle);
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 0.5px;
-  margin-bottom: 8px;
+  margin-bottom: 10px;
 }
 
 .alliance-desc {
-  font-size: 14px;
+  font-size: 13.5px;
   color: var(--color-ink-muted);
   line-height: 1.55;
-  margin-bottom: 12px;
+  margin-bottom: 16px;
   flex-grow: 1;
 }
 
@@ -1125,11 +1133,30 @@ a:hover {
   display: inline-flex;
   align-items: center;
   gap: 5px;
+  margin-top: auto;
 }
 
 .alliance-card:hover .alliance-link-label {
   color: var(--color-blue-hover);
   text-decoration: underline;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .alliance-marquee-group {
+    animation: none;
+  }
+  .alliance-marquee-track {
+    overflow-x: auto;
+  }
+}
+
+@media (max-width: 480px) {
+  .alliance-card {
+    width: 280px;
+    min-width: 280px;
+    max-width: 280px;
+    padding: 20px 16px 16px;
+  }
 }
 
 /* Calendar Embed & Controls */

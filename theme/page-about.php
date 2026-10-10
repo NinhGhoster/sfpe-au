@@ -410,7 +410,7 @@ get_header(); ?>
 
       <div class="alliance-marquee-wrap">
         <div class="alliance-marquee-track">
-          <?php for ($loop = 0; $loop < 2; $loop++): ?>
+          <div class="alliance-marquee-group">
             <?php foreach ($alliance_cards as $card): ?>
               <a href="<?php echo esc_url($card['url']); ?>" target="_blank" rel="noopener" class="alliance-card">
                 <div class="alliance-logo-wrap">
@@ -422,7 +422,20 @@ get_header(); ?>
                 <span class="alliance-link-label"><?php echo esc_html($card['label']); ?> &rarr;</span>
               </a>
             <?php endforeach; ?>
-          <?php endfor; ?>
+          </div>
+          <div class="alliance-marquee-group" aria-hidden="true">
+            <?php foreach ($alliance_cards as $card): ?>
+              <a href="<?php echo esc_url($card['url']); ?>" target="_blank" rel="noopener" class="alliance-card" tabindex="-1">
+                <div class="alliance-logo-wrap">
+                  <img src="<?php echo esc_url($card['logo']); ?>" alt="<?php echo esc_attr($card['title']); ?> Logo" class="alliance-logo-img" style="max-height: <?php echo esc_attr($card['logo_h']); ?>;">
+                </div>
+                <h3 class="alliance-title"><?php echo esc_html($card['title']); ?></h3>
+                <span class="alliance-subtitle"><?php echo esc_html($card['subtitle']); ?></span>
+                <p class="alliance-desc"><?php echo esc_html($card['desc']); ?></p>
+                <span class="alliance-link-label"><?php echo esc_html($card['label']); ?> &rarr;</span>
+              </a>
+            <?php endforeach; ?>
+          </div>
         </div>
       </div>
     </div>

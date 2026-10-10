@@ -174,7 +174,7 @@ async function main() {
     // Check count and names of alliance cards
     const allianceInfo = await callPage("Runtime.evaluate", {
       expression: `(() => {
-        const cards = Array.from(document.querySelectorAll('.alliance-card-marquee'));
+        const cards = Array.from(document.querySelectorAll('.alliance-card'));
         return {
           totalCards: cards.length,
           titles: Array.from(new Set(cards.map(c => c.querySelector('.alliance-title')?.textContent.trim()))),
