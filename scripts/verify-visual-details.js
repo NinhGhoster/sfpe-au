@@ -214,6 +214,31 @@ async function main() {
     });
     console.log("Alliances Section Details:", allianceInfo.result.value);
 
+    // Check Astrix logo dimensions and capture its card
+    const astrixDetails = await callPage("Runtime.evaluate", {
+      expression: `(() => {
+        const astrixCard = Array.from(document.querySelectorAll('.alliance-card')).find(c => c.textContent.includes('Astrix'));
+        if (!astrixCard) return null;
+        const groups = document.querySelectorAll('.alliance-marquee-group');
+        groups.forEach(g => g.style.animation = 'none');
+        astrixCard.scrollIntoView({ block: 'center', inline: 'center' });
+        const img = astrixCard.querySelector('.alliance-logo-img');
+        const imgRect = img ? img.getBoundingClientRect() : null;
+        return {
+          cardFound: true,
+          imgSrc: img ? img.src : null,
+          imgWidth: imgRect ? imgRect.width : 0,
+          imgHeight: imgRect ? imgRect.height : 0
+        };
+      })()`,
+      returnByValue: true
+    });
+    console.log("Astrix Logo Metrics:", astrixDetails.result.value);
+    await new Promise(r => setTimeout(r, 600));
+    const astrixShot = await callPage("Page.captureScreenshot", { format: "png" });
+    fs.writeFileSync(path.join(OUTPUT_DIR, "astrix_card_view.png"), Buffer.from(astrixShot.data, "base64"));
+    console.log("Saved: astrix_card_view.png");
+
     // 3. Footer on /about/
     await callPage("Runtime.evaluate", {
       expression: `(() => {

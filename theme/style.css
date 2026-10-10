@@ -4,7 +4,7 @@ Theme URI: https://sfpe.org.au
 Description: Official theme for the Australian Chapter of the Society of Fire Protection Engineers (SFPE).
  * Author: Ninh
  * Author URI: https://sfpe.org.au
- * Version: 5.4.8
+ * Version: 5.4.9
  * Text Domain: sfpe-australia
  */
 
@@ -1109,7 +1109,7 @@ a:hover {
   justify-content: center;
   margin-bottom: 14px;
   width: 100%;
-  padding: 6px 12px;
+  padding: 6px 8px;
 }
 
 .alliance-logo-img {

@@ -403,7 +403,7 @@ get_header(); ?>
           'url'      => 'https://astrixfiresafetycertification.com',
           'label'    => 'Visit Astrix Certification',
           'logo'     => get_template_directory_uri() . '/images/astrix-logo.png',
-          'logo_h'   => '32px'
+          'logo_h'   => '58px'
         ],
       ];
       ?>
