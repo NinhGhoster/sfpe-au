@@ -4,7 +4,7 @@ Theme URI: https://sfpe.org.au
 Description: Official theme for the Australian Chapter of the Society of Fire Protection Engineers (SFPE).
  * Author: Ninh
  * Author URI: https://sfpe.org.au
- * Version: 5.3.0
+ * Version: 5.3.1
  * Text Domain: sfpe-australia
  */
 
@@ -104,14 +104,14 @@ a:hover {
   width: 100%;
   max-width: var(--container-max);
   margin: 0 auto;
-  padding: 0 clamp(16px, 3vw, 48px);
+  padding: 0 clamp(20px, 3.2vw, 48px);
 }
 
 .container-narrow {
   width: 100%;
   max-width: 960px;
   margin: 0 auto;
-  padding: 0 clamp(16px, 3vw, 48px);
+  padding: 0 clamp(20px, 3.2vw, 48px);
 }
 
 /* Header & Top Bar */
@@ -184,7 +184,8 @@ a:hover {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: clamp(12px, 1.2vw, 18px) 0;
+  padding-top: clamp(12px, 1.2vw, 18px);
+  padding-bottom: clamp(12px, 1.2vw, 18px);
   position: relative;
   width: 100%;
 }
@@ -1527,7 +1528,21 @@ a:hover {
 }
 
 /* Responsive Media Queries */
-@media (max-width: 1080px) {
+@media (max-width: 1240px) {
+  .nav-links {
+    gap: 6px;
+  }
+  .nav-link {
+    font-size: 13.5px;
+    padding: 6px 8px;
+  }
+  .main-nav .btn {
+    padding: 10px 18px;
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 1100px) {
   .hero-grid {
     grid-template-columns: 1fr;
     gap: 44px;
@@ -1703,7 +1718,8 @@ a:hover {
   }
   .top-bar-content {
     justify-content: center;
-    padding: 4px 0;
+    padding-top: 4px;
+    padding-bottom: 4px;
   }
   .top-bar-tagline {
     justify-content: center;
@@ -1788,7 +1804,7 @@ a:hover {
 
 @media (max-width: 360px) {
   .container, .container-narrow {
-    padding: 0 12px;
+    padding: 0 16px;
   }
   .stat-grid {
     gap: 8px;

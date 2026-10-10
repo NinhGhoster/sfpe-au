@@ -47,14 +47,22 @@ async function main() {
   ]);
 
   try {
-    await new Promise(r => setTimeout(r, 1500));
-    const version = await new Promise((resolve, reject) => {
-      http.get(`http://127.0.0.1:${CDP_PORT}/json/version`, (res) => {
-        let d = "";
-        res.on("data", c => d += c);
-        res.on("end", () => resolve(JSON.parse(d)));
-      }).on("error", reject);
-    });
+    let version = null;
+    for (let i = 0; i < 15; i++) {
+      try {
+        version = await new Promise((resolve, reject) => {
+          http.get(`http://127.0.0.1:${CDP_PORT}/json/version`, (res) => {
+            let d = "";
+            res.on("data", c => d += c);
+            res.on("end", () => resolve(JSON.parse(d)));
+          }).on("error", reject);
+        });
+        if (version) break;
+      } catch (e) {
+        await new Promise(r => setTimeout(r, 500));
+      }
+    }
+    if (!version) throw new Error("Could not connect to Chrome CDP port");
 
     const browserWs = new WebSocket(version.webSocketDebuggerUrl);
     await new Promise(r => browserWs.addEventListener("open", r));

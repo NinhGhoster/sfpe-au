@@ -1,7 +1,7 @@
 # SFPE Australia - Official Chapter Platform
 
 [![Status: Active](https://img.shields.io/badge/Status-Active-success.svg)](#)
-[![Theme: v5.3.0](https://img.shields.io/badge/Theme-v5.3.0-0072BB.svg)](#)
+[![Theme: v5.3.1](https://img.shields.io/badge/Theme-v5.3.1-0072BB.svg)](#)
 [![Website: Live](https://img.shields.io/badge/Website-sfpe.org.au-0B132B.svg)](https://sfpe.org.au/)
 
 Official repository for **SFPE Australia**, the Australian Chapter of **The Society of Fire Protection Engineers (SFPE)**.
@@ -40,7 +40,7 @@ SFPE Australia bridges domestic fire safety engineering (under Australia's perfo
 
 ## Technology Stack
 
-- **Platform**: WordPress (Custom Theme: `sfpe-theme` v5.3.0)
+- **Platform**: WordPress (Custom Theme: `sfpe-theme` v5.3.1)
 - **Styling**: Vanilla CSS3 with fluid typography (`clamp()`), CSS Custom Properties, and responsive grid layouts (1400px maximum container width).
 - **Typography Stack**:
   - Headings: `Plus Jakarta Sans`
@@ -58,7 +58,7 @@ SFPE/
 ├── package.json            # NPM scripts for deployment, audit, and verification
 ├── .gitignore              # Version control ignore list
 ├── theme/                  # Standalone WordPress theme source files
-│   ├── style.css           # Responsive styles with fluid typography (v5.3.0)
+│   ├── style.css           # Responsive styles with fluid typography (v5.3.1)
 │   ├── functions.php       # Post types, enqueue scripts, custom meta
 │   ├── header.php          # Header, brand mark, and mobile navigation
 │   ├── footer.php          # Global footer and directory links
