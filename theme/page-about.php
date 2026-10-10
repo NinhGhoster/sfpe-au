@@ -408,6 +408,35 @@ get_header(); ?>
       ];
       ?>
 
+      <style>
+        .alliance-marquee-track {
+          display: flex;
+          width: max-content;
+          gap: 18px;
+        }
+        .alliance-marquee-group {
+          display: flex;
+          align-items: stretch;
+          gap: 18px;
+          flex-shrink: 0;
+          -webkit-animation: marqueeRightToLeft 35s linear infinite !important;
+          animation: marqueeRightToLeft 35s linear infinite !important;
+          will-change: transform;
+        }
+        .alliance-marquee-wrap:hover .alliance-marquee-group {
+          -webkit-animation-play-state: paused;
+          animation-play-state: paused;
+        }
+        @-webkit-keyframes marqueeRightToLeft {
+          0% { -webkit-transform: translateX(0); transform: translateX(0); }
+          100% { -webkit-transform: translateX(calc(-100% - 18px)); transform: translateX(calc(-100% - 18px)); }
+        }
+        @keyframes marqueeRightToLeft {
+          0% { -webkit-transform: translateX(0); transform: translateX(0); }
+          100% { -webkit-transform: translateX(calc(-100% - 18px)); transform: translateX(calc(-100% - 18px)); }
+        }
+      </style>
+
       <div class="alliance-marquee-wrap">
         <div class="alliance-marquee-track">
           <div class="alliance-marquee-group">

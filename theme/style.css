@@ -4,7 +4,7 @@ Theme URI: https://sfpe.org.au
 Description: Official theme for the Australian Chapter of the Society of Fire Protection Engineers (SFPE).
  * Author: Ha-Ninh Nguyen
  * Author URI: https://sfpe.org.au
- * Version: 5.4.15
+ * Version: 5.4.16
  * Text Domain: sfpe-australia
  */
 
@@ -1061,19 +1061,34 @@ a:hover {
   align-items: stretch;
   gap: 18px;
   flex-shrink: 0;
-  animation: marqueeRightToLeft 50s linear infinite;
+  -webkit-animation: marqueeRightToLeft 35s linear infinite;
+  animation: marqueeRightToLeft 35s linear infinite;
   will-change: transform;
 }
 
 .alliance-marquee-wrap:hover .alliance-marquee-group {
+  -webkit-animation-play-state: paused;
   animation-play-state: paused;
+}
+
+@-webkit-keyframes marqueeRightToLeft {
+  0% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+  100% {
+    -webkit-transform: translateX(calc(-100% - 18px));
+    transform: translateX(calc(-100% - 18px));
+  }
 }
 
 @keyframes marqueeRightToLeft {
   0% {
+    -webkit-transform: translateX(0);
     transform: translateX(0);
   }
   100% {
+    -webkit-transform: translateX(calc(-100% - 18px));
     transform: translateX(calc(-100% - 18px));
   }
 }
@@ -1158,14 +1173,7 @@ a:hover {
   text-decoration: underline;
 }
 
-@media (prefers-reduced-motion: reduce) {
-  .alliance-marquee-group {
-    animation: none;
-  }
-  .alliance-marquee-track {
-    overflow-x: auto;
-  }
-}
+
 
 @media (max-width: 480px) {
   .alliance-card {
