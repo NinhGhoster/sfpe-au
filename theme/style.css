@@ -4,7 +4,7 @@ Theme URI: https://sfpe.org.au
 Description: Official theme for the Australian Chapter of the Society of Fire Protection Engineers (SFPE).
  * Author: Ninh
  * Author URI: https://sfpe.org.au
- * Version: 5.4.9
+ * Version: 5.4.10
  * Text Domain: sfpe-australia
  */
 
@@ -1630,21 +1630,23 @@ a:hover {
 .site-footer {
   background-color: var(--color-navy);
   color: #94A3B8;
-  padding: clamp(22px, 2.5vw, 34px) 0 16px;
+  padding: clamp(20px, 2.2vw, 30px) 0 16px;
   border-top: 1px solid rgba(255, 255, 255, 0.08);
 }
 
 .footer-grid {
   display: grid;
   grid-template-columns: 1.4fr 1fr 1fr 1fr;
-  gap: clamp(18px, 2.2vw, 32px);
-  margin-bottom: 18px;
+  gap: clamp(16px, 2vw, 28px);
+  margin-bottom: 16px;
 }
 
 .footer-col-title {
   color: #FFFFFF;
-  font-size: 15px;
+  font-size: 13px;
   font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
   margin-bottom: 8px;
 }
 
@@ -1652,13 +1654,13 @@ a:hover {
   list-style: none;
   display: flex;
   flex-direction: column;
-  gap: 6px;
-  font-size: 13.5px;
+  gap: 5px;
+  font-size: 12.5px;
 }
 
 .footer-links a {
   color: #94A3B8;
-  padding: 2px 0;
+  padding: 1px 0;
   display: inline-block;
 }
 
@@ -1667,12 +1669,12 @@ a:hover {
 }
 
 .footer-bottom {
-  padding-top: 14px;
+  padding-top: 12px;
   border-top: 1px solid rgba(255, 255, 255, 0.08);
   display: flex;
   justify-content: space-between;
   align-items: center;
-  font-size: 13px;
+  font-size: 12px;
 }
 
 /* Responsive Media Queries */
