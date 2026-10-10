@@ -325,11 +325,11 @@ get_header(); ?>
           'logo_h'   => '42px'
         ],
         [
-          'title'    => 'Università di Corsica Pasquale Paoli',
+          'title'    => 'Università di Corsica',
           'subtitle' => 'CNRS SPE UMR 6134 Fire Dynamics Lab',
           'desc'     => 'Leading experimental and numerical research into wildfire propagation, physical fire models, and ember transport mechanisms.',
           'url'      => 'https://spe.universita.corsica/',
-          'label'    => 'Visit Università di Corsica Pasquale Paoli',
+          'label'    => 'Visit Università di Corsica',
           'logo'     => get_template_directory_uri() . '/images/spe-corsica-logo.png',
           'logo_h'   => '46px'
         ],
