@@ -304,7 +304,7 @@ get_header(); ?>
           'url'      => 'https://civil.uq.edu.au/fire',
           'label'    => 'Visit UQ Fire Engineering',
           'logo'     => get_template_directory_uri() . '/images/uq-logo.svg',
-          'logo_h'   => '58px'
+          'logo_h'   => '50px'
         ],
         [
           'title'    => 'RMIT University',
@@ -313,7 +313,7 @@ get_header(); ?>
           'url'      => 'https://www.rmit.edu.au/',
           'label'    => 'Visit RMIT University',
           'logo'     => get_template_directory_uri() . '/images/rmit-logo.svg',
-          'logo_h'   => '52px'
+          'logo_h'   => '46px'
         ],
         [
           'title'    => 'SFPE Foundation',
@@ -322,7 +322,7 @@ get_header(); ?>
           'url'      => 'https://www.sfpe.org/foundation/home',
           'label'    => 'Visit SFPE Foundation',
           'logo'     => get_template_directory_uri() . '/images/sfpe-foundation-logo.png',
-          'logo_h'   => '48px'
+          'logo_h'   => '42px'
         ],
         [
           'title'    => 'Università di Corsica',
@@ -331,7 +331,7 @@ get_header(); ?>
           'url'      => 'https://spe.universita.corsica/',
           'label'    => 'Visit Università di Corsica',
           'logo'     => get_template_directory_uri() . '/images/spe-corsica-logo.png',
-          'logo_h'   => '52px'
+          'logo_h'   => '46px'
         ],
         [
           'title'    => 'FLARE Wildfire Research',
@@ -340,7 +340,7 @@ get_header(); ?>
           'url'      => 'https://www.flarewildfire.com/',
           'label'    => 'Visit FLARE Research',
           'logo'     => get_template_directory_uri() . '/images/flare-logo.svg',
-          'logo_h'   => '44px'
+          'logo_h'   => '38px'
         ],
         [
           'title'    => 'BASIC Expert',
@@ -349,7 +349,7 @@ get_header(); ?>
           'url'      => 'https://basic.expert',
           'label'    => 'Visit Basic Expert',
           'logo'     => get_template_directory_uri() . '/images/basic-expert-logo.png',
-          'logo_h'   => '40px'
+          'logo_h'   => '36px'
         ],
         [
           'title'    => 'Mendham Consultants',
@@ -358,7 +358,7 @@ get_header(); ?>
           'url'      => 'https://mendhamconsult.com',
           'label'    => 'Visit Mendham Consultants',
           'logo'     => get_template_directory_uri() . '/images/mendham-logo.png',
-          'logo_h'   => '42px'
+          'logo_h'   => '36px'
         ],
         [
           'title'    => 'Arup',
@@ -367,7 +367,7 @@ get_header(); ?>
           'url'      => 'https://www.arup.com',
           'label'    => 'Visit Arup Fire Practice',
           'logo'     => get_template_directory_uri() . '/images/arup-logo.svg',
-          'logo_h'   => '34px'
+          'logo_h'   => '30px'
         ],
         [
           'title'    => 'Lote Consulting',
@@ -376,7 +376,7 @@ get_header(); ?>
           'url'      => 'https://loteconsulting.com',
           'label'    => 'Visit Lote Consulting',
           'logo'     => get_template_directory_uri() . '/images/lote-logo.png',
-          'logo_h'   => '38px'
+          'logo_h'   => '34px'
         ],
         [
           'title'    => 'RED Fire Engineers',
@@ -385,7 +385,7 @@ get_header(); ?>
           'url'      => 'https://redfireengineers.com.au',
           'label'    => 'Visit RED Fire Engineers',
           'logo'     => get_template_directory_uri() . '/images/red-logo.png',
-          'logo_h'   => '44px'
+          'logo_h'   => '38px'
         ],
         [
           'title'    => 'KBR',
@@ -394,7 +394,7 @@ get_header(); ?>
           'url'      => 'https://www.kbr.com',
           'label'    => 'Visit KBR',
           'logo'     => get_template_directory_uri() . '/images/kbr-logo.svg',
-          'logo_h'   => '38px'
+          'logo_h'   => '34px'
         ],
         [
           'title'    => 'Astrix Fire Safety Certification',
@@ -403,7 +403,7 @@ get_header(); ?>
           'url'      => 'https://astrixfiresafetycertification.com',
           'label'    => 'Visit Astrix Certification',
           'logo'     => get_template_directory_uri() . '/images/astrix-logo.png',
-          'logo_h'   => '58px'
+          'logo_h'   => '50px'
         ],
       ];
       ?>
