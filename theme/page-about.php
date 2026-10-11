@@ -91,7 +91,7 @@ get_header(); ?>
               <span class="exec-role">Vice President &bull; Mendham Consultants</span>
             </div>
             <div class="exec-links">
-              <a href="https://mendhamconsult.com/about-us/" target="_blank" rel="noopener" class="exec-link-item" title="Personal Profile">&#127760; Profile</a>
+              <a href="https://mendhamconsult.com/about-us.php" target="_blank" rel="noopener" class="exec-link-item" title="Personal Profile">&#127760; Profile</a>
               <a href="mailto:frank@mendhamconsult.com" class="exec-link-item" title="Email">&#9993; Email</a>
               <a href="https://www.linkedin.com/in/frank-mendham-phd-43940120/" target="_blank" rel="noopener" class="exec-link-item" title="LinkedIn">&#128279; LinkedIn</a>
             </div>
@@ -108,7 +108,6 @@ get_header(); ?>
               <span class="exec-role">Technical Program Chair &bull; Arup</span>
             </div>
             <div class="exec-links">
-              <a href="https://www.linkedin.com/in/dan-rathnayaka-2b22572a/" target="_blank" rel="noopener" class="exec-link-item" title="Personal Profile">&#127760; Profile</a>
               <a href="mailto:dan.rathnayaka@arup.com" class="exec-link-item" title="Email">&#9993; Email</a>
               <a href="https://www.linkedin.com/in/dan-rathnayaka-2b22572a/" target="_blank" rel="noopener" class="exec-link-item" title="LinkedIn">&#128279; LinkedIn</a>
             </div>
@@ -125,7 +124,6 @@ get_header(); ?>
               <span class="exec-role">Partnerships &amp; Industry Liaison Chair</span>
             </div>
             <div class="exec-links">
-              <a href="https://www.linkedin.com/in/michael-beecroft-7a288636/" target="_blank" rel="noopener" class="exec-link-item" title="Personal Profile">&#127760; Profile</a>
               <a href="mailto:michael.beecroft@bigpond.com" class="exec-link-item" title="Email">&#9993; Email</a>
               <a href="https://www.linkedin.com/in/michael-beecroft-7a288636/" target="_blank" rel="noopener" class="exec-link-item" title="LinkedIn">&#128279; LinkedIn</a>
             </div>
@@ -142,7 +140,7 @@ get_header(); ?>
               <span class="exec-role">Digital &amp; Membership Chair &bull; Lote Consulting</span>
             </div>
             <div class="exec-links">
-              <a href="https://loteconsulting.com/team/amer-magrabi/" target="_blank" rel="noopener" class="exec-link-item" title="Personal Profile">&#127760; Profile</a>
+              <a href="https://loteconsulting.com/about" target="_blank" rel="noopener" class="exec-link-item" title="Personal Profile">&#127760; Profile</a>
               <a href="mailto:amer@loteconsulting.com" class="exec-link-item" title="Email">&#9993; Email</a>
               <a href="https://www.linkedin.com/in/amermagrabi/" target="_blank" rel="noopener" class="exec-link-item" title="LinkedIn">&#128279; LinkedIn</a>
             </div>
@@ -159,7 +157,7 @@ get_header(); ?>
               <span class="exec-role">Secretary &bull; The University of Queensland (UQ)</span>
             </div>
             <div class="exec-links">
-              <a href="https://civil.uq.edu.au/profile/1725/david-lange" target="_blank" rel="noopener" class="exec-link-item" title="Academic Profile">&#127760; Profile</a>
+              <a href="https://about.uq.edu.au/experts/20572" target="_blank" rel="noopener" class="exec-link-item" title="Academic Profile">&#127760; Profile</a>
               <a href="mailto:d.lange@uq.edu.au" class="exec-link-item" title="Email">&#9993; Email</a>
               <a href="https://www.linkedin.com/in/david-lange-38a49015/" target="_blank" rel="noopener" class="exec-link-item" title="LinkedIn">&#128279; LinkedIn</a>
             </div>
@@ -180,8 +178,8 @@ get_header(); ?>
                 <span class="contrib-org">Senior Fire Engineer &bull; KBR</span>
               </div>
               <div class="contrib-links">
-                <a href="https://www.linkedin.com/in/pellezetterstrom/" target="_blank" rel="noopener" class="exec-link-item">&#127760; Profile</a>
-                <a href="mailto:pelle.zetterstrom@kbr.com" class="exec-link-item">&#9993; Email</a>
+                <a href="mailto:pelle.zetterstrom@kbr.com" class="exec-link-item" title="Email">&#9993; Email</a>
+                <a href="https://www.linkedin.com/in/pellezetterstrom/" target="_blank" rel="noopener" class="exec-link-item" title="LinkedIn">&#128279; LinkedIn</a>
               </div>
             </div>
           </div>
@@ -196,9 +194,9 @@ get_header(); ?>
                 <span class="contrib-org">Technical Director &bull; RED Fire Engineers</span>
               </div>
               <div class="contrib-links">
-                <a href="https://redfireengineers.com.au/team/" target="_blank" rel="noopener" class="exec-link-item">&#127760; Profile</a>
-                <a href="mailto:mc@redfireengineers.com.au" class="exec-link-item">&#9993; Email</a>
-                <a href="https://www.linkedin.com/in/mc-hui-a9217036/" target="_blank" rel="noopener" class="exec-link-item">&#128279; LinkedIn</a>
+                <a href="https://redfireengineers.com.au/team/" target="_blank" rel="noopener" class="exec-link-item" title="Company Profile">&#127760; Profile</a>
+                <a href="mailto:mc@redfireengineers.com.au" class="exec-link-item" title="Email">&#9993; Email</a>
+                <a href="https://www.linkedin.com/in/mc-hui-a9217036/" target="_blank" rel="noopener" class="exec-link-item" title="LinkedIn">&#128279; LinkedIn</a>
               </div>
             </div>
           </div>
@@ -213,8 +211,8 @@ get_header(); ?>
                 <span class="contrib-org">Director &bull; RED Fire Engineers</span>
               </div>
               <div class="contrib-links">
-                <a href="https://www.linkedin.com/in/aaron-nicholson-red/" target="_blank" rel="noopener" class="exec-link-item">&#127760; Profile</a>
-                <a href="mailto:aaron.nicholson@redfireengineers.com.au" class="exec-link-item">&#9993; Email</a>
+                <a href="mailto:aaron.nicholson@redfireengineers.com.au" class="exec-link-item" title="Email">&#9993; Email</a>
+                <a href="https://www.linkedin.com/in/aaron-nicholson-red/" target="_blank" rel="noopener" class="exec-link-item" title="LinkedIn">&#128279; LinkedIn</a>
               </div>
             </div>
           </div>
@@ -229,8 +227,8 @@ get_header(); ?>
                 <span class="contrib-org">Senior Fire Engineer &bull; RED Fire Engineers</span>
               </div>
               <div class="contrib-links">
-                <a href="https://www.linkedin.com/in/tobias-salomonsson/" target="_blank" rel="noopener" class="exec-link-item">&#127760; Profile</a>
-                <a href="mailto:tobias@redfireengineers.com.au" class="exec-link-item">&#9993; Email</a>
+                <a href="mailto:tobias@redfireengineers.com.au" class="exec-link-item" title="Email">&#9993; Email</a>
+                <a href="https://www.linkedin.com/in/tobias-salomonsson/" target="_blank" rel="noopener" class="exec-link-item" title="LinkedIn">&#128279; LinkedIn</a>
               </div>
             </div>
           </div>
@@ -245,8 +243,8 @@ get_header(); ?>
                 <span class="contrib-org">Director &bull; Astrix Fire Safety Certification</span>
               </div>
               <div class="contrib-links">
-                <a href="https://www.linkedin.com/in/simon-krishnan/" target="_blank" rel="noopener" class="exec-link-item">&#127760; Profile</a>
-                <a href="mailto:simonk@astrixfiresafetycertification.com" class="exec-link-item">&#9993; Email</a>
+                <a href="mailto:simonk@astrixfiresafetycertification.com" class="exec-link-item" title="Email">&#9993; Email</a>
+                <a href="https://www.linkedin.com/in/simon-krishnan/" target="_blank" rel="noopener" class="exec-link-item" title="LinkedIn">&#128279; LinkedIn</a>
               </div>
             </div>
           </div>
@@ -261,8 +259,8 @@ get_header(); ?>
                 <span class="contrib-org">Director &bull; SciFire</span>
               </div>
               <div class="contrib-links">
-                <a href="https://www.linkedin.com/in/derya-horasan/" target="_blank" rel="noopener" class="exec-link-item">&#127760; Profile</a>
-                <a href="mailto:derya.horasan@scifire.com.au" class="exec-link-item">&#9993; Email</a>
+                <a href="mailto:derya.horasan@scifire.com.au" class="exec-link-item" title="Email">&#9993; Email</a>
+                <a href="https://www.linkedin.com/in/derya-horasan/" target="_blank" rel="noopener" class="exec-link-item" title="LinkedIn">&#128279; LinkedIn</a>
               </div>
             </div>
           </div>
@@ -277,8 +275,8 @@ get_header(); ?>
                 <span class="contrib-org">PhD Candidate &bull; The University of Melbourne</span>
               </div>
               <div class="contrib-links">
-                <a href="https://www.flarewildfire.com/our_team/ha-ninh-nguyen/" target="_blank" rel="noopener" class="exec-link-item">&#127760; Profile</a>
-                <a href="mailto:haninh.nguyen@student.unimelb.edu.au" class="exec-link-item">&#9993; Email</a>
+                <a href="https://www.flarewildfire.com/our_team/ha-ninh-nguyen/" target="_blank" rel="noopener" class="exec-link-item" title="Research Profile">&#127760; Profile</a>
+                <a href="mailto:haninh.nguyen@student.unimelb.edu.au" class="exec-link-item" title="Email">&#9993; Email</a>
               </div>
             </div>
           </div>
